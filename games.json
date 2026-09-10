@@ -3,61 +3,2209 @@
     "name": "AnkerGames",
     "url": "https://ankergames.net",
     "catalog_url": "https://ankergames.net/games-list",
-    "updated_at": "2026-09-10T23:02:45.443593+00:00"
+    "updated_at": "2026-09-10T23:09:03.195662+00:00"
   },
-  "total": 42,
+  "total": 1428,
   "games": [
+    {
+      "title": "#DRIVE Rally",
+      "url": "https://ankergames.net/game/drive-rally"
+    },
+    {
+      "title": "007 First Light",
+      "url": "https://ankergames.net/game/007-first-light"
+    },
+    {
+      "title": "1000xRESIST",
+      "url": "https://ankergames.net/game/1000xresist"
+    },
+    {
+      "title": "1666: Amsterdam",
+      "url": "https://ankergames.net/game/1666-amsterdam"
+    },
+    {
+      "title": "20 Minutes Till Dawn",
+      "url": "https://ankergames.net/game/20-minutes-till-dawn"
+    },
+    {
+      "title": "33 Immortals",
+      "url": "https://ankergames.net/game/33-immortals"
+    },
+    {
+      "title": "60 Parsecs!",
+      "url": "https://ankergames.net/game/60-parsecs"
+    },
+    {
+      "title": "60 Seconds! Reatomized",
+      "url": "https://ankergames.net/game/60-seconds-reatomized"
+    },
+    {
+      "title": "9 Days",
+      "url": "https://ankergames.net/game/9-days"
+    },
+    {
+      "title": "9 Kings",
+      "url": "https://ankergames.net/game/9-kings"
+    },
+    {
+      "title": "911 Operator",
+      "url": "https://ankergames.net/game/911-operator"
+    },
+    {
+      "title": "A Game About Chopping Trees",
+      "url": "https://ankergames.net/game/a-game-about-chopping-trees"
+    },
+    {
+      "title": "A Game About Digging A Hole",
+      "url": "https://ankergames.net/game/a-game-about-digging-a-hole"
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "url": "https://ankergames.net/game/a-plague-tale-innocence"
+    },
+    {
+      "title": "A Way Out",
+      "url": "https://ankergames.net/game/a-way-out"
+    },
+    {
+      "title": "Absolum",
+      "url": "https://ankergames.net/game/absolum"
+    },
+    {
+      "title": "Abyssus",
+      "url": "https://ankergames.net/game/abyssus"
+    },
+    {
+      "title": "Ace Combat Assault Horizon - Enhanced Edition",
+      "url": "https://ankergames.net/game/ace-combat-assault-horizon-enhanced-edition"
+    },
+    {
+      "title": "After Inc: Revival",
+      "url": "https://ankergames.net/game/after-inc-revival"
+    },
+    {
+      "title": "Afterimage",
+      "url": "https://ankergames.net/game/afterimage"
+    },
+    {
+      "title": "Afterlove EP",
+      "url": "https://ankergames.net/game/afterlove-ep"
+    },
+    {
+      "title": "Against the Storm",
+      "url": "https://ankergames.net/game/against-the-storm"
+    },
+    {
+      "title": "Age of Empires II: Definitive Edition",
+      "url": "https://ankergames.net/game/age-of-empires-ii-definitive-edition"
+    },
+    {
+      "title": "Age of Empires III: Definitive Edition",
+      "url": "https://ankergames.net/game/age-of-empires-iii-definitive-edition"
+    },
+    {
+      "title": "Age of Empires IV",
+      "url": "https://ankergames.net/game/age-of-empires-iv"
+    },
+    {
+      "title": "Age of History 2",
+      "url": "https://ankergames.net/game/age-of-history-2"
+    },
+    {
+      "title": "Age of Wonders 4",
+      "url": "https://ankergames.net/game/age-of-wonders-4"
+    },
+    {
+      "title": "Agefield High: Rock the School",
+      "url": "https://ankergames.net/game/agefield-high-rock-the-school"
+    },
+    {
+      "title": "Agent 64: Spies Never Die",
+      "url": "https://ankergames.net/game/agent-64-spies-never-die"
+    },
+    {
+      "title": "AI Limit",
+      "url": "https://ankergames.net/game/ai-limit"
+    },
+    {
+      "title": "AI2U: With You Til The End",
+      "url": "https://ankergames.net/game/ai2u-with-you-til-the-end"
+    },
+    {
+      "title": "Alabaster Dawn",
+      "url": "https://ankergames.net/game/alabaster-dawn"
+    },
+    {
+      "title": "Alan Wake",
+      "url": "https://ankergames.net/game/alan-wake"
+    },
+    {
+      "title": "Alchemy Factory",
+      "url": "https://ankergames.net/game/alchemy-factory"
+    },
+    {
+      "title": "Alice Madness Returns",
+      "url": "https://ankergames.net/game/alice-madness-returns"
+    },
+    {
+      "title": "Alien Isolation",
+      "url": "https://ankergames.net/game/alien-isolation"
+    },
+    {
+      "title": "Aliens: Dark Descent",
+      "url": "https://ankergames.net/game/aliens-dark-descent"
+    },
+    {
+      "title": "Aliens: Fireteam Elite",
+      "url": "https://ankergames.net/game/aliens-fireteam-elite"
+    },
+    {
+      "title": "Aliens: Fireteam Elite 2",
+      "url": "https://ankergames.net/game/aliens-fireteam-elite-2"
+    },
+    {
+      "title": "ALL WILL FALL",
+      "url": "https://ankergames.net/game/all-will-fall"
+    },
+    {
+      "title": "Among the Sleep",
+      "url": "https://ankergames.net/game/among-the-sleep"
+    },
+    {
+      "title": "and Roger",
+      "url": "https://ankergames.net/game/and-roger"
+    },
+    {
+      "title": "ANEURISM IV",
+      "url": "https://ankergames.net/game/aneurism-iv"
+    },
+    {
+      "title": "Animal Revolt Battle Simulator",
+      "url": "https://ankergames.net/game/animal-revolt-battle-simulator"
+    },
+    {
+      "title": "Anno 1800",
+      "url": "https://ankergames.net/game/anno-1800"
+    },
+    {
+      "title": "ANTONBLAST",
+      "url": "https://ankergames.net/game/antonblast"
+    },
+    {
+      "title": "Apollo Justice: Ace Attorney Trilogy",
+      "url": "https://ankergames.net/game/apollo-justice-ace-attorney-trilogy"
+    },
+    {
+      "title": "Aragami 2",
+      "url": "https://ankergames.net/game/aragami-2"
+    },
+    {
+      "title": "ARK Survival Ascended",
+      "url": "https://ankergames.net/game/ark-survival-ascended"
+    },
+    {
+      "title": "ARK Survival Evolved",
+      "url": "https://ankergames.net/game/ark-survival-evolved"
+    },
+    {
+      "title": "Arma 3",
+      "url": "https://ankergames.net/game/arma-3"
+    },
+    {
+      "title": "Arma Reforger",
+      "url": "https://ankergames.net/game/arma-reforger"
+    },
+    {
+      "title": "ARMORED CORE VI FIRES OF RUBICON",
+      "url": "https://ankergames.net/game/armored-core-vi-fires-of-rubicon"
+    },
+    {
+      "title": "Ascend to ZERO",
+      "url": "https://ankergames.net/game/ascend-to-zero"
+    },
+    {
+      "title": "Asgard's Fall Viking Survivors",
+      "url": "https://ankergames.net/game/asgards-fall-viking-survivors"
+    },
+    {
+      "title": "Assassin's Creed Black Flag Resynced",
+      "url": "https://ankergames.net/game/assassins-creed-black-flag-resynced"
+    },
+    {
+      "title": "Assassin's Creed Mirage",
+      "url": "https://ankergames.net/game/assassins-creed-mirage"
+    },
+    {
+      "title": "Assassin’s Creed Shadows",
+      "url": "https://ankergames.net/game/assassins-creed-shadows"
+    },
+    {
+      "title": "Assetto Corsa Competizione",
+      "url": "https://ankergames.net/game/assetto-corsa-competizione"
+    },
+    {
+      "title": "Assetto Corsa EVO",
+      "url": "https://ankergames.net/game/assetto-corsa-evo"
+    },
+    {
+      "title": "Assetto Corsa Rally",
+      "url": "https://ankergames.net/game/assetto-corsa-rally"
+    },
+    {
+      "title": "Astral Ascent",
+      "url": "https://ankergames.net/game/astral-ascent"
+    },
+    {
+      "title": "Atelier Yumia The Alchemist of Memories & the Envisioned Land",
+      "url": "https://ankergames.net/game/atelier-yumia-the-alchemist-of-memories-the-envisioned-land"
+    },
+    {
+      "title": "Atlas Fallen: Reign Of Sand",
+      "url": "https://ankergames.net/game/atlas-fallen-reign-of-sand"
+    },
+    {
+      "title": "ATLYSS",
+      "url": "https://ankergames.net/game/atlyss"
+    },
+    {
+      "title": "Atomic Heart",
+      "url": "https://ankergames.net/game/atomic-heart"
+    },
+    {
+      "title": "Attack On Titan 2 Final Battle",
+      "url": "https://ankergames.net/game/attack-on-titan-2"
+    },
+    {
+      "title": "AV Director Life!",
+      "url": "https://ankergames.net/game/av-director-life"
+    },
+    {
+      "title": "Avatar Legends: The Fighting Game",
+      "url": "https://ankergames.net/game/avatar-legends-the-fighting-game"
+    },
+    {
+      "title": "Avatar: Frontiers of Pandora",
+      "url": "https://ankergames.net/game/avatar-frontiers-of-pandora"
+    },
+    {
+      "title": "Aviassembly",
+      "url": "https://ankergames.net/game/aviassembly"
+    },
+    {
+      "title": "Avowed",
+      "url": "https://ankergames.net/game/avowed"
+    },
+    {
+      "title": "Baba Is You",
+      "url": "https://ankergames.net/game/baba-is-you"
+    },
+    {
+      "title": "Baby Steps",
+      "url": "https://ankergames.net/game/baby-steps"
+    },
+    {
+      "title": "Back 4 Blood",
+      "url": "https://ankergames.net/game/back-4-blood"
+    },
+    {
+      "title": "Back to the Dawn",
+      "url": "https://ankergames.net/game/back-to-the-dawn"
+    },
+    {
+      "title": "Backpack Battles",
+      "url": "https://ankergames.net/game/backpack-battles"
+    },
+    {
+      "title": "Backrooms Escape Together",
+      "url": "https://ankergames.net/game/backrooms-escape-together"
+    },
+    {
+      "title": "Backyard Baseball",
+      "url": "https://ankergames.net/game/backyard-baseball"
+    },
+    {
+      "title": "Badlands Crew",
+      "url": "https://ankergames.net/game/badlands-crew"
+    },
+    {
+      "title": "Baldur's Gate II: Enhanced Edition",
+      "url": "https://ankergames.net/game/baldur-s-gate-ii"
+    },
+    {
+      "title": "BALL x PIT",
+      "url": "https://ankergames.net/game/ball-x-pit"
+    },
+    {
+      "title": "Banished",
+      "url": "https://ankergames.net/game/banished"
+    },
     {
       "title": "Banishers: Ghosts of New Eden",
       "url": "https://ankergames.net/game/banishers-ghosts-of-new-eden"
+    },
+    {
+      "title": "Barotrauma",
+      "url": "https://ankergames.net/game/barotrauma"
+    },
+    {
+      "title": "Bastion",
+      "url": "https://ankergames.net/game/bastion"
+    },
+    {
+      "title": "Batman - The Telltale Series",
+      "url": "https://ankergames.net/game/batman-the-telltale-series"
+    },
+    {
+      "title": "Battle Brothers",
+      "url": "https://ankergames.net/game/battle-brothers"
+    },
+    {
+      "title": "BattleBlock Theater",
+      "url": "https://ankergames.net/game/battleblock-theater"
+    },
+    {
+      "title": "Battlefield 1",
+      "url": "https://ankergames.net/game/battlefield-1"
+    },
+    {
+      "title": "Battlefield 4",
+      "url": "https://ankergames.net/game/battlefield-4-2"
+    },
+    {
+      "title": "Battlefield 6",
+      "url": "https://ankergames.net/game/battlefield-6"
+    },
+    {
+      "title": "Battlefield: Bad Company 2",
+      "url": "https://ankergames.net/game/battlefield-bad-company-2"
+    },
+    {
+      "title": "Bayonetta",
+      "url": "https://ankergames.net/game/bayonetta"
+    },
+    {
+      "title": "Beast of Reincarnation",
+      "url": "https://ankergames.net/game/beast-of-reincarnation"
+    },
+    {
+      "title": "Beat Saber",
+      "url": "https://ankergames.net/game/beat-saber"
+    },
+    {
+      "title": "Beholder",
+      "url": "https://ankergames.net/game/beholder"
+    },
+    {
+      "title": "Beholder 2",
+      "url": "https://ankergames.net/game/beholder-2"
     },
     {
       "title": "Beholder 3",
       "url": "https://ankergames.net/game/beholder-3"
     },
     {
+      "title": "Beholder: Conductor",
+      "url": "https://ankergames.net/game/beholder-conductor"
+    },
+    {
       "title": "Being a DIK",
       "url": "https://ankergames.net/game/being-a-dik"
+    },
+    {
+      "title": "Bellwright",
+      "url": "https://ankergames.net/game/bellwright"
+    },
+    {
+      "title": "Bendy and the Dark Revival",
+      "url": "https://ankergames.net/game/bendy-and-the-dark-revival"
+    },
+    {
+      "title": "Berry Bury Berry",
+      "url": "https://ankergames.net/game/berry-bury-berry"
+    },
+    {
+      "title": "Besiege",
+      "url": "https://ankergames.net/game/besiege"
+    },
+    {
+      "title": "Beyond Citadel",
+      "url": "https://ankergames.net/game/beyond-citadel"
+    },
+    {
+      "title": "Beyond Sandbox",
+      "url": "https://ankergames.net/game/beyond-sandbox"
+    },
+    {
+      "title": "Beyond: Two Souls",
+      "url": "https://ankergames.net/game/beyond-two-souls"
+    },
+    {
+      "title": "Big Ambitions",
+      "url": "https://ankergames.net/game/big-ambitions"
+    },
+    {
+      "title": "Big Walk",
+      "url": "https://ankergames.net/game/big-walk"
+    },
+    {
+      "title": "Bills Must Be Paid",
+      "url": "https://ankergames.net/game/bills-must-be-paid"
     },
     {
       "title": "BIOMUTANT",
       "url": "https://ankergames.net/game/biomutant"
     },
     {
+      "title": "Bionic Bay",
+      "url": "https://ankergames.net/game/bionic-bay"
+    },
+    {
+      "title": "BioShock 2 Remastered",
+      "url": "https://ankergames.net/game/bioshock-2-remastered"
+    },
+    {
+      "title": "Bioshock Remastered",
+      "url": "https://ankergames.net/game/bioshock-remastered"
+    },
+    {
+      "title": "Biped",
+      "url": "https://ankergames.net/game/biped"
+    },
+    {
+      "title": "Black Jacket",
+      "url": "https://ankergames.net/game/black-jacket"
+    },
+    {
+      "title": "Black Mesa",
+      "url": "https://ankergames.net/game/black-mesa"
+    },
+    {
+      "title": "Black Myth: Wukong",
+      "url": "https://ankergames.net/game/black-myth-wukong"
+    },
+    {
+      "title": "BLACK SOULS",
+      "url": "https://ankergames.net/game/black-souls"
+    },
+    {
+      "title": "Blasphemous",
+      "url": "https://ankergames.net/game/blasphemous"
+    },
+    {
+      "title": "Blasphemous 2",
+      "url": "https://ankergames.net/game/blasphemous-2"
+    },
+    {
+      "title": "BlazBlue Entropy Effect",
+      "url": "https://ankergames.net/game/blazblue-entropy-effect"
+    },
+    {
+      "title": "BLEACH Rebirth of Souls",
+      "url": "https://ankergames.net/game/bleach-rebirth-of-souls"
+    },
+    {
+      "title": "Blood and Bacon",
+      "url": "https://ankergames.net/game/blood-and-bacon"
+    },
+    {
+      "title": "Bloodstained: Ritual of the Night",
+      "url": "https://ankergames.net/game/bloodstained-ritual-of-the-night"
+    },
+    {
+      "title": "Blue Prince",
+      "url": "https://ankergames.net/game/blue-prince"
+    },
+    {
+      "title": "Boba Cafe Simulator",
+      "url": "https://ankergames.net/game/boba-cafe-simulator"
+    },
+    {
+      "title": "Bogos Binted?",
+      "url": "https://ankergames.net/game/bogos-binted"
+    },
+    {
+      "title": "Bomb Rush Cyberfunk",
+      "url": "https://ankergames.net/game/bomb-rush-cyberfunk"
+    },
+    {
       "title": "BOMBANANA!",
       "url": "https://ankergames.net/game/bombanana"
+    },
+    {
+      "title": "Bookshop Simulator",
+      "url": "https://ankergames.net/game/bookshop-simulator"
+    },
+    {
+      "title": "Bootstrap Island",
+      "url": "https://ankergames.net/game/bootstrap-island"
+    },
+    {
+      "title": "Bopl Battle",
+      "url": "https://ankergames.net/game/bopl-battle"
+    },
+    {
+      "title": "Borderlands 2",
+      "url": "https://ankergames.net/game/borderlands-2"
+    },
+    {
+      "title": "Borderlands 3",
+      "url": "https://ankergames.net/game/borderlands-3"
+    },
+    {
+      "title": "Borderlands Game of the Year Enhanced",
+      "url": "https://ankergames.net/game/borderlands-game-of-the-year-enhanced"
+    },
+    {
+      "title": "Bounty of One",
+      "url": "https://ankergames.net/game/bounty-of-one"
     },
     {
       "title": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
       "url": "https://ankergames.net/game/bravely-default-flying-fairy-hd-remaster"
     },
     {
+      "title": "Breathedge",
+      "url": "https://ankergames.net/game/breathedge"
+    },
+    {
+      "title": "Breathedge 2",
+      "url": "https://ankergames.net/game/breathedge-2"
+    },
+    {
+      "title": "Brick Rigs",
+      "url": "https://ankergames.net/game/brick-rigs"
+    },
+    {
+      "title": "Bright Memory: Infinite",
+      "url": "https://ankergames.net/game/bright-memory-infinite"
+    },
+    {
+      "title": "Broken Arrow",
+      "url": "https://ankergames.net/game/broken-arrow"
+    },
+    {
+      "title": "Brothers - A Tale of Two Sons",
+      "url": "https://ankergames.net/game/brothers-a-tale-of-two-sons"
+    },
+    {
+      "title": "Buckshot Roulette",
+      "url": "https://ankergames.net/game/buckshot-roulette"
+    },
+    {
+      "title": "Bugaboo Pocket",
+      "url": "https://ankergames.net/game/bugaboo-pocket"
+    },
+    {
+      "title": "Bulletstorm: Full Clip Edition",
+      "url": "https://ankergames.net/game/bulletstorm-full-clip-edition"
+    },
+    {
+      "title": "Bully Scholarship Edition",
+      "url": "https://ankergames.net/game/bully-scholarship-edition"
+    },
+    {
+      "title": "Burglin' Gnomes",
+      "url": "https://ankergames.net/game/burglin-gnomes"
+    },
+    {
+      "title": "Bus Bound",
+      "url": "https://ankergames.net/game/bus-bound"
+    },
+    {
+      "title": "Cairn",
+      "url": "https://ankergames.net/game/cairn"
+    },
+    {
+      "title": "Call of Duty (2003)",
+      "url": "https://ankergames.net/game/call-of-duty-2003"
+    },
+    {
+      "title": "Call of Duty 2",
+      "url": "https://ankergames.net/game/call-of-duty-2"
+    },
+    {
+      "title": "Call Of Duty Modern Warfare",
+      "url": "https://ankergames.net/game/call-of-duty-modern-warfare"
+    },
+    {
+      "title": "Call of Duty Modern Warfare Remastered 2017",
+      "url": "https://ankergames.net/game/call-of-duty-modern-warfare-remastered-2017"
+    },
+    {
+      "title": "Call of Duty: Black Ops 6",
+      "url": "https://ankergames.net/game/call-of-duty-black-ops-6"
+    },
+    {
+      "title": "Call of Duty: Black Ops Cold War",
+      "url": "https://ankergames.net/game/call-of-duty-black-ops-cold-war"
+    },
+    {
+      "title": "Call of Duty: Infinite Warfare",
+      "url": "https://ankergames.net/game/call-of-duty-infinite-warfare"
+    },
+    {
+      "title": "Call of Duty: Modern Warfare II",
+      "url": "https://ankergames.net/game/call-of-duty-modern-warfare-ii"
+    },
+    {
+      "title": "Call of Duty: Modern Warfare III",
+      "url": "https://ankergames.net/game/call-of-duty-modern-warfare-iii"
+    },
+    {
+      "title": "Call of Duty: Vanguard",
+      "url": "https://ankergames.net/game/call-of-duty-vanguard-2"
+    },
+    {
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "url": "https://ankergames.net/game/call-to-arms-gates-of-hell-ostfront"
+    },
+    {
+      "title": "Captain of Industry",
+      "url": "https://ankergames.net/game/captain-of-industry"
+    },
+    {
       "title": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
       "url": "https://ankergames.net/game/captain-tsubasa-2-world-fighters"
+    },
+    {
+      "title": "Car Dealer Simulator",
+      "url": "https://ankergames.net/game/car-dealer-simulator"
+    },
+    {
+      "title": "Car Dealership Simulator 2",
+      "url": "https://ankergames.net/game/car-dealership-simulator-2"
+    },
+    {
+      "title": "Car Service Together",
+      "url": "https://ankergames.net/game/car-service-together"
+    },
+    {
+      "title": "Carrion",
+      "url": "https://ankergames.net/game/carrion"
+    },
+    {
+      "title": "Carry The Glass",
+      "url": "https://ankergames.net/game/carry-the-glass"
+    },
+    {
+      "title": "CarX Drift Racing Online",
+      "url": "https://ankergames.net/game/carx-drift-racing-online"
+    },
+    {
+      "title": "CarX Drift Racing Online 2",
+      "url": "https://ankergames.net/game/carx-drift-racing-online-2"
+    },
+    {
+      "title": "Cash Cleaner Simulator",
+      "url": "https://ankergames.net/game/cash-cleaner-simulator"
+    },
+    {
+      "title": "Cast n Chill",
+      "url": "https://ankergames.net/game/cast-n-chill"
+    },
+    {
+      "title": "Castlevania: Lords of Shadow 2",
+      "url": "https://ankergames.net/game/castlevania-lords-of-shadow-2"
+    },
+    {
+      "title": "Cat Goes Fishing",
+      "url": "https://ankergames.net/game/cat-goes-fishing"
+    },
+    {
+      "title": "Cat Mail Co.",
+      "url": "https://ankergames.net/game/cat-mail-co"
+    },
+    {
+      "title": "Cat Quest",
+      "url": "https://ankergames.net/game/cat-quest"
+    },
+    {
+      "title": "Cat Quest II",
+      "url": "https://ankergames.net/game/cat-quest-ii"
+    },
+    {
+      "title": "Cat Quest III",
+      "url": "https://ankergames.net/game/cat-quest-iii"
+    },
+    {
+      "title": "Cataclismo",
+      "url": "https://ankergames.net/game/cataclismo"
+    },
+    {
+      "title": "Cellar Keeper",
+      "url": "https://ankergames.net/game/cellar-keeper"
+    },
+    {
+      "title": "Chants of Sennaar",
+      "url": "https://ankergames.net/game/chants-of-sennaar"
+    },
+    {
+      "title": "Cheap Car Repair",
+      "url": "https://ankergames.net/game/cheap-car-repair"
+    },
+    {
+      "title": "Chicken Invaders 2",
+      "url": "https://ankergames.net/game/chicken-invaders-2"
+    },
+    {
+      "title": "Child of Light",
+      "url": "https://ankergames.net/game/child-of-light"
+    },
+    {
+      "title": "Chill with You : Lo-Fi Story",
+      "url": "https://ankergames.net/game/chill-with-you-lo-fi-story"
+    },
+    {
+      "title": "Chivalry 2",
+      "url": "https://ankergames.net/game/chivalry-2"
+    },
+    {
+      "title": "Chop Chop Inc.",
+      "url": "https://ankergames.net/game/chop-chop-inc"
+    },
+    {
+      "title": "Chrono Gear: Warden of Time",
+      "url": "https://ankergames.net/game/chrono-gear-warden-of-time"
+    },
+    {
+      "title": "CHRONO TRIGGER",
+      "url": "https://ankergames.net/game/chrono-trigger"
+    },
+    {
+      "title": "Cinderia",
+      "url": "https://ankergames.net/game/cinderia"
+    },
+    {
+      "title": "Circuit Superstars",
+      "url": "https://ankergames.net/game/circuit-superstars"
+    },
+    {
+      "title": "Citizen Sleeper 2 Starward Vector",
+      "url": "https://ankergames.net/game/citizen-sleeper-2-starward-vector"
+    },
+    {
+      "title": "City Car Driving",
+      "url": "https://ankergames.net/game/city-car-driving"
+    },
+    {
+      "title": "City Car Driving 2.0",
+      "url": "https://ankergames.net/game/city-car-driving-2-0"
+    },
+    {
+      "title": "Clair Obscur: Expedition 33",
+      "url": "https://ankergames.net/game/clair-obscur-expedition-33"
+    },
+    {
+      "title": "Class of '09",
+      "url": "https://ankergames.net/game/class-of-09"
+    },
+    {
+      "title": "Class of '09: The Flip Side",
+      "url": "https://ankergames.net/game/class-of-09-the-flip-side"
+    },
+    {
+      "title": "Class of '09: The Re-Up",
+      "url": "https://ankergames.net/game/class-of-09-the-re-up"
+    },
+    {
+      "title": "Cleaning Up The Puzzle Gallery",
+      "url": "https://ankergames.net/game/cleaning-up-the-puzzle-gallery"
+    },
+    {
+      "title": "Cleared Hot",
+      "url": "https://ankergames.net/game/cleared-hot"
+    },
+    {
+      "title": "Click the Button",
+      "url": "https://ankergames.net/game/click-the-button"
+    },
+    {
+      "title": "Cloudheim",
+      "url": "https://ankergames.net/game/cloudheim"
+    },
+    {
+      "title": "Cloudpunk",
+      "url": "https://ankergames.net/game/cloudpunk"
+    },
+    {
+      "title": "CloverPit",
+      "url": "https://ankergames.net/game/cloverpit"
+    },
+    {
+      "title": "COCOON",
+      "url": "https://ankergames.net/game/cocoon"
     },
     {
       "title": "CODE VEIN II",
       "url": "https://ankergames.net/game/code-vein-ii"
     },
     {
+      "title": "Colony Survival",
+      "url": "https://ankergames.net/game/colony-survival"
+    },
+    {
+      "title": "Command & Conquer Generals",
+      "url": "https://ankergames.net/game/command-conquer-generals"
+    },
+    {
+      "title": "Command & Conquer Generals Zero Hour",
+      "url": "https://ankergames.net/game/command-conquer-generals-zero-hour"
+    },
+    {
+      "title": "Commander Quest",
+      "url": "https://ankergames.net/game/commander-quest"
+    },
+    {
+      "title": "Commandos Origins",
+      "url": "https://ankergames.net/game/commandos-origins"
+    },
+    {
+      "title": "Conan Exiles Enhanced",
+      "url": "https://ankergames.net/game/conan-exiles"
+    },
+    {
+      "title": "Conquest Dark",
+      "url": "https://ankergames.net/game/conquest-dark"
+    },
+    {
+      "title": "Conquest of Elysium 5",
+      "url": "https://ankergames.net/game/conquest-of-elysium-5"
+    },
+    {
+      "title": "Constance",
+      "url": "https://ankergames.net/game/constance"
+    },
+    {
+      "title": "Content Warning",
+      "url": "https://ankergames.net/game/content-warning"
+    },
+    {
+      "title": "Control Ultimate Edition",
+      "url": "https://ankergames.net/game/control-ultimate-edition"
+    },
+    {
+      "title": "Coral Island",
+      "url": "https://ankergames.net/game/coral-island"
+    },
+    {
+      "title": "Coridden",
+      "url": "https://ankergames.net/game/coridden"
+    },
+    {
+      "title": "Corsair Cove",
+      "url": "https://ankergames.net/game/corsair-cove"
+    },
+    {
+      "title": "Cosmoteer Starship Architect & Commander",
+      "url": "https://ankergames.net/game/cosmoteer-starship-architect-commander"
+    },
+    {
+      "title": "Counter-Strike: Source",
+      "url": "https://ankergames.net/game/counter-strike-source"
+    },
+    {
+      "title": "Cowboy Life Simulator",
+      "url": "https://ankergames.net/game/cowboy-life-simulator"
+    },
+    {
+      "title": "Cozy Cleaner",
+      "url": "https://ankergames.net/game/cozy-cleaner"
+    },
+    {
+      "title": "Crash Bandicoot N Sane Trilogy",
+      "url": "https://ankergames.net/game/crash-bandicoot-n-sane-trilogy"
+    },
+    {
+      "title": "Crashlands 2",
+      "url": "https://ankergames.net/game/crashlands-2"
+    },
+    {
+      "title": "Crime Simulator",
+      "url": "https://ankergames.net/game/crime-simulator"
+    },
+    {
+      "title": "Crimson Desert",
+      "url": "https://ankergames.net/game/crimson-desert"
+    },
+    {
       "title": "Crimson Moon",
       "url": "https://ankergames.net/game/crimson-moon"
+    },
+    {
+      "title": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "url": "https://ankergames.net/game/crisis-core-final-fantasy-vii-reunion"
+    },
+    {
+      "title": "Crisol: Theater of Idols",
+      "url": "https://ankergames.net/game/crisol-theater-of-idols"
+    },
+    {
+      "title": "Cronos The New Dawn",
+      "url": "https://ankergames.net/game/cronos-the-new-dawn"
+    },
+    {
+      "title": "CrossCode",
+      "url": "https://ankergames.net/game/crosscode"
+    },
+    {
+      "title": "Crow Country",
+      "url": "https://ankergames.net/game/crow-country"
+    },
+    {
+      "title": "Cruelty Squad",
+      "url": "https://ankergames.net/game/cruelty-squad"
+    },
+    {
+      "title": "Crusaders Quest : Hero Town",
+      "url": "https://ankergames.net/game/crusaders-quest-hero-town"
+    },
+    {
+      "title": "Crushed In Time",
+      "url": "https://ankergames.net/game/crushed-in-time"
+    },
+    {
+      "title": "Cry of Fear",
+      "url": "https://ankergames.net/game/cry-of-fear"
+    },
+    {
+      "title": "Crypt of the NecroDancer",
+      "url": "https://ankergames.net/game/crypt-of-the-necrodancer"
+    },
+    {
+      "title": "Crysis 2 Remastered",
+      "url": "https://ankergames.net/game/crysis-2"
+    },
+    {
+      "title": "Crysis 3 Remastered",
+      "url": "https://ankergames.net/game/crysis-3"
+    },
+    {
+      "title": "Crysis Warhead",
+      "url": "https://ankergames.net/game/crysis-warhead"
+    },
+    {
+      "title": "Cubic Odyssey",
+      "url": "https://ankergames.net/game/cubic-odyssey"
+    },
+    {
+      "title": "Cult of the Lamb",
+      "url": "https://ankergames.net/game/cult-of-the-lamb-2"
+    },
+    {
+      "title": "CULTIC",
+      "url": "https://ankergames.net/game/cultic"
+    },
+    {
+      "title": "Daemon X Machina: Titanic Scion",
+      "url": "https://ankergames.net/game/daemon-x-machina-titanic-scion"
+    },
+    {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "url": "https://ankergames.net/game/danganronpa-2-goodbye-despair"
+    },
+    {
+      "title": "Danganronpa Another Episode: Ultra Despair Girls",
+      "url": "https://ankergames.net/game/danganronpa-another-episode-ultra-despair-girls"
+    },
+    {
+      "title": "Danganronpa V3: Killing Harmony",
+      "url": "https://ankergames.net/game/danganronpa-v3-killing-harmony"
+    },
+    {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "url": "https://ankergames.net/game/danganronpa-trigger-happy-havoc"
+    },
+    {
+      "title": "Dark Souls II",
+      "url": "https://ankergames.net/game/dark-souls-ii"
+    },
+    {
+      "title": "DARK SOULS II: Scholar of the First Sin",
+      "url": "https://ankergames.net/game/dark-souls-ii-scholar-of-the-first-sin"
+    },
+    {
+      "title": "Darkest Dungeon",
+      "url": "https://ankergames.net/game/darkest-dungeon"
+    },
+    {
+      "title": "Darkest Dungeon 2",
+      "url": "https://ankergames.net/game/darkest-dungeon-2"
+    },
+    {
+      "title": "Darksiders",
+      "url": "https://ankergames.net/game/darksiders"
+    },
+    {
+      "title": "Darksiders II Deathinitive Edition",
+      "url": "https://ankergames.net/game/darksiders-ii-deathinitive-edition"
+    },
+    {
+      "title": "Darksiders III",
+      "url": "https://ankergames.net/game/darksiders-iii"
+    },
+    {
+      "title": "Darwin's Paradox!",
+      "url": "https://ankergames.net/game/darwin-s-paradox"
+    },
+    {
+      "title": "Database Detective: Minor Crimes Division",
+      "url": "https://ankergames.net/game/database-detective-minor-crimes-division"
+    },
+    {
+      "title": "Date Everything",
+      "url": "https://ankergames.net/game/date-everything"
+    },
+    {
+      "title": "Dead as Disco",
+      "url": "https://ankergames.net/game/dead-as-disco"
+    },
+    {
+      "title": "Dead Island",
+      "url": "https://ankergames.net/game/dead-island"
+    },
+    {
+      "title": "DEAD OR ALIVE 6",
+      "url": "https://ankergames.net/game/dead-or-alive-6"
+    },
+    {
+      "title": "Dead Rising 2",
+      "url": "https://ankergames.net/game/dead-rising-2"
+    },
+    {
+      "title": "Dead Rising 3 Apocalypse Edition",
+      "url": "https://ankergames.net/game/dead-rising-3-apocalypse-edition"
+    },
+    {
+      "title": "Dead Rising Deluxe Remaster",
+      "url": "https://ankergames.net/game/dead-rising-deluxe-remaster"
+    },
+    {
+      "title": "Dead Space",
+      "url": "https://ankergames.net/game/dead-space"
+    },
+    {
+      "title": "Dead Space (2008)",
+      "url": "https://ankergames.net/game/dead-space-2008"
+    },
+    {
+      "title": "Dead Space 3",
+      "url": "https://ankergames.net/game/dead-space-3"
+    },
+    {
+      "title": "Deadzone: Rogue",
+      "url": "https://ankergames.net/game/deadzone-rogue"
+    },
+    {
+      "title": "Death Must Die",
+      "url": "https://ankergames.net/game/death-must-die"
+    },
+    {
+      "title": "Death Road to Canada",
+      "url": "https://ankergames.net/game/death-road-to-canada"
+    },
+    {
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "url": "https://ankergames.net/game/death-stranding-2-on-the-beach"
+    },
+    {
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "url": "https://ankergames.net/game/death-stranding-director-s-cut"
+    },
+    {
+      "title": "Death's Gambit: Afterlife",
+      "url": "https://ankergames.net/game/death-s-gambit-afterlife"
+    },
+    {
+      "title": "DEATHLOOP",
+      "url": "https://ankergames.net/game/deathloop"
+    },
+    {
+      "title": "DEEEER Simulator Your Average Everyday Deer Game",
+      "url": "https://ankergames.net/game/deeeer-simulator-your-average-everyday-deer-game"
+    },
+    {
+      "title": "Deep Rock Galactic: Rogue Core",
+      "url": "https://ankergames.net/game/deep-rock-galactic-rogue-core"
+    },
+    {
+      "title": "Deep Rock Galactic: Survivor",
+      "url": "https://ankergames.net/game/deep-rock-galactic-survivor"
+    },
+    {
+      "title": "Definitely Not Fried Chicken",
+      "url": "https://ankergames.net/game/definitely-not-fried-chicken"
+    },
+    {
+      "title": "Deliver At All Costs",
+      "url": "https://ankergames.net/game/deliver-at-all-costs"
+    },
+    {
+      "title": "DELTARUNE",
+      "url": "https://ankergames.net/game/deltarune"
+    },
+    {
+      "title": "Demon Lord: Just a Block",
+      "url": "https://ankergames.net/game/demon-lord-just-a-block"
+    },
+    {
+      "title": "Demonologist",
+      "url": "https://ankergames.net/game/demonologist"
+    },
+    {
+      "title": "Denshattack!",
+      "url": "https://ankergames.net/game/denshattack"
+    },
+    {
+      "title": "Derail Valley",
+      "url": "https://ankergames.net/game/derail-valley"
+    },
+    {
+      "title": "Desktop Explorer",
+      "url": "https://ankergames.net/game/desktop-explorer"
+    },
+    {
+      "title": "Destroy All Humans!",
+      "url": "https://ankergames.net/game/destroy-all-humans"
+    },
+    {
+      "title": "Destroy All Humans! 2 Reprobed",
+      "url": "https://ankergames.net/game/destroy-all-humans-2-reprobed"
+    },
+    {
+      "title": "Detention",
+      "url": "https://ankergames.net/game/detention"
+    },
+    {
+      "title": "Deus Ex: Human Revolution",
+      "url": "https://ankergames.net/game/deus-ex-human-revolution"
+    },
+    {
+      "title": "Deus Ex: Mankind Divided",
+      "url": "https://ankergames.net/game/deus-ex-mankind-divided"
+    },
+    {
+      "title": "Devil May Cry HD Collection",
+      "url": "https://ankergames.net/game/devil-may-cry-hd-collection"
+    },
+    {
+      "title": "DEVOUR",
+      "url": "https://ankergames.net/game/devour"
+    },
+    {
+      "title": "Diablo II: Resurrected – Infernal Edition",
+      "url": "https://ankergames.net/game/diablo-ii-resurrected-infernal-edition"
+    },
+    {
+      "title": "Die in the Dungeon",
+      "url": "https://ankergames.net/game/die-in-the-dungeon"
+    },
+    {
+      "title": "Digimon Story Time Stranger",
+      "url": "https://ankergames.net/game/digimon-story-time-stranger"
+    },
+    {
+      "title": "Dinkum",
+      "url": "https://ankergames.net/game/dinkum"
+    },
+    {
+      "title": "Dinoblade",
+      "url": "https://ankergames.net/game/dinoblade"
+    },
+    {
+      "title": "Directive 8020",
+      "url": "https://ankergames.net/game/directive-8020"
+    },
+    {
+      "title": "DiRT Rally 2.0",
+      "url": "https://ankergames.net/game/dirt-rally-2-0"
+    },
+    {
+      "title": "Dirty Business",
+      "url": "https://ankergames.net/game/dirty-business"
+    },
+    {
+      "title": "Disco Elysium – The Final Cut",
+      "url": "https://ankergames.net/game/disco-elysium-the-final-cut"
+    },
+    {
+      "title": "Discounty",
+      "url": "https://ankergames.net/game/discounty"
+    },
+    {
+      "title": "Dishonored: Death of the Outsider",
+      "url": "https://ankergames.net/game/dishonored-death-of-the-outsider"
+    },
+    {
+      "title": "Disney Dreamlight Valley",
+      "url": "https://ankergames.net/game/disney-dreamlight-valley"
+    },
+    {
+      "title": "Dispatch",
+      "url": "https://ankergames.net/game/dispatch"
+    },
+    {
+      "title": "Doloc Town",
+      "url": "https://ankergames.net/game/doloc-town"
+    },
+    {
+      "title": "Dome Keeper",
+      "url": "https://ankergames.net/game/dome-keeper"
+    },
+    {
+      "title": "Don't FOOL ME, Beauties!",
+      "url": "https://ankergames.net/game/don-t-fool-me-beauties"
+    },
+    {
+      "title": "Donut County",
+      "url": "https://ankergames.net/game/donut-county"
+    },
+    {
+      "title": "DOOM",
+      "url": "https://ankergames.net/game/doom"
+    },
+    {
+      "title": "DOOM + DOOM II",
+      "url": "https://ankergames.net/game/doom-doom-ii"
+    },
+    {
+      "title": "DOOM 3",
+      "url": "https://ankergames.net/game/doom-3"
+    },
+    {
+      "title": "DOOM 64",
+      "url": "https://ankergames.net/game/doom-64"
+    },
+    {
+      "title": "DOOM: The Dark Ages",
+      "url": "https://ankergames.net/game/doom-the-dark-ages"
+    },
+    {
+      "title": "Door Kickers 2 Task Force North",
+      "url": "https://ankergames.net/game/door-kickers-2-task-force-north"
+    },
+    {
+      "title": "Dragon Age II: Ultimate Edition",
+      "url": "https://ankergames.net/game/dragon-age-ii-ultimate-edition"
+    },
+    {
+      "title": "Dragon Age Inquisition",
+      "url": "https://ankergames.net/game/dragon-age-inquisition"
+    },
+    {
+      "title": "Dragon Age: Origins - Ultimate Edition",
+      "url": "https://ankergames.net/game/dragon-age-origins-ultimate-edition"
+    },
+    {
+      "title": "Dragon Ball XenoVerse",
+      "url": "https://ankergames.net/game/dragon-ball-xenoverse"
+    },
+    {
+      "title": "DRAGON QUEST BUILDERS",
+      "url": "https://ankergames.net/game/dragon-quest-builders"
+    },
+    {
+      "title": "DRAGON QUEST BUILDERS 2",
+      "url": "https://ankergames.net/game/dragon-quest-builders-2"
+    },
+    {
+      "title": "DRAGON QUEST I & II HD-2D Remake",
+      "url": "https://ankergames.net/game/dragon-quest-i-ii-hd-2d-remake"
+    },
+    {
+      "title": "DRAGON QUEST III HD-2D Remake",
+      "url": "https://ankergames.net/game/dragon-quest-iii-hd-2d-remake"
+    },
+    {
+      "title": "DRAGON QUEST VII Reimagined",
+      "url": "https://ankergames.net/game/dragon-quest-vii-reimagined"
+    },
+    {
+      "title": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
+      "url": "https://ankergames.net/game/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition"
+    },
+    {
+      "title": "Dragon's Dogma 2",
+      "url": "https://ankergames.net/game/dragons-dogma-2"
+    },
+    {
+      "title": "Dragon's Dogma: Dark Arisen",
+      "url": "https://ankergames.net/game/dragon-s-dogma-dark-arisen"
+    },
+    {
+      "title": "Dragonkin: The Banished",
+      "url": "https://ankergames.net/game/dragonkin-the-banished"
+    },
+    {
+      "title": "DragonSword : Awakening",
+      "url": "https://ankergames.net/game/dragonsword-awakening"
+    },
+    {
+      "title": "DrainSim",
+      "url": "https://ankergames.net/game/drainsim"
+    },
+    {
+      "title": "Dread Delusion",
+      "url": "https://ankergames.net/game/dread-delusion"
+    },
+    {
+      "title": "Dreamcore",
+      "url": "https://ankergames.net/game/dreamcore"
+    },
+    {
+      "title": "DREDGE",
+      "url": "https://ankergames.net/game/dredge"
+    },
+    {
+      "title": "Drive Beyond Horizons",
+      "url": "https://ankergames.net/game/drive-beyond-horizons"
+    },
+    {
+      "title": "Driver San Francisco",
+      "url": "https://ankergames.net/game/driver-san-francisco"
+    },
+    {
+      "title": "Drone Sector",
+      "url": "https://ankergames.net/game/drone-sector"
+    },
+    {
+      "title": "Drug Dealer Simulator",
+      "url": "https://ankergames.net/game/drug-dealer-simulator"
+    },
+    {
+      "title": "Drug Lord Tycoon",
+      "url": "https://ankergames.net/game/drug-lord-tycoon"
+    },
+    {
+      "title": "Duskfade",
+      "url": "https://ankergames.net/game/duskfade"
+    },
+    {
+      "title": "Dwarf Eats Mountain",
+      "url": "https://ankergames.net/game/dwarf-eats-mountain"
+    },
+    {
+      "title": "Dying light",
+      "url": "https://ankergames.net/game/dying-light"
+    },
+    {
+      "title": "Dying Light: The Beast",
+      "url": "https://ankergames.net/game/dying-light-the-beast"
+    },
+    {
+      "title": "DYNASTY WARRIORS: ORIGINS",
+      "url": "https://ankergames.net/game/dynasty-warriors-origins"
+    },
+    {
+      "title": "DYSMANTLE",
+      "url": "https://ankergames.net/game/dysmantle"
+    },
+    {
+      "title": "E-Shop Tycoon",
+      "url": "https://ankergames.net/game/e-shop-tycoon"
+    },
+    {
+      "title": "EA SPORTS College Football 27",
+      "url": "https://ankergames.net/game/ea-sports-college-football-27"
+    },
+    {
+      "title": "EA SPORTS FIFA 21",
+      "url": "https://ankergames.net/game/ea-sports-fifa-21"
+    },
+    {
+      "title": "Easy Delivery Co.",
+      "url": "https://ankergames.net/game/easy-delivery-co"
+    },
+    {
+      "title": "Echoes of the End",
+      "url": "https://ankergames.net/game/echoes-of-the-end"
+    },
+    {
+      "title": "Ecosystem",
+      "url": "https://ankergames.net/game/ecosystem"
+    },
+    {
+      "title": "Egging On",
+      "url": "https://ankergames.net/game/egging-on"
+    },
+    {
+      "title": "ELDEN RING NIGHTREIGN",
+      "url": "https://ankergames.net/game/elden-ring-nightreign"
+    },
+    {
+      "title": "ELEX",
+      "url": "https://ankergames.net/game/elex"
+    },
+    {
+      "title": "Elin",
+      "url": "https://ankergames.net/game/elin"
+    },
+    {
+      "title": "Emergency Call 112 – The Fire Fighting Simulation 2",
+      "url": "https://ankergames.net/game/emergency-call-112-the-fire-fighting-simulation-2"
+    },
+    {
+      "title": "Emissary Zero",
+      "url": "https://ankergames.net/game/emissary-zero"
+    },
+    {
+      "title": "Endacopia",
+      "url": "https://ankergames.net/game/endacopia"
+    },
+    {
+      "title": "ENDER LILIES Quietus of the Knights",
+      "url": "https://ankergames.net/game/ender-lilies-quietus-of-the-knights"
+    },
+    {
+      "title": "ENDLESS Legend 2",
+      "url": "https://ankergames.net/game/endless-legend-2"
     },
     {
       "title": "Endoparasitic",
       "url": "https://ankergames.net/game/endoparasitic"
     },
     {
+      "title": "Endzone 2",
+      "url": "https://ankergames.net/game/endzone-2"
+    },
+    {
+      "title": "Enshrouded",
+      "url": "https://ankergames.net/game/enshrouded"
+    },
+    {
+      "title": "Erenshor",
+      "url": "https://ankergames.net/game/erenshor"
+    },
+    {
+      "title": "Escape from Duckov",
+      "url": "https://ankergames.net/game/escape-from-duckov"
+    },
+    {
+      "title": "Escape from Ever After",
+      "url": "https://ankergames.net/game/escape-from-ever-after"
+    },
+    {
+      "title": "Escape from Tarkov",
+      "url": "https://ankergames.net/game/escape-from-tarkov"
+    },
+    {
+      "title": "Escape Simulator",
+      "url": "https://ankergames.net/game/escape-simulator"
+    },
+    {
+      "title": "Escape Simulator 2",
+      "url": "https://ankergames.net/game/escape-simulator-2"
+    },
+    {
+      "title": "Escape the Ayuwoki",
+      "url": "https://ankergames.net/game/escape-the-ayuwoki"
+    },
+    {
+      "title": "Esoteric Ebb",
+      "url": "https://ankergames.net/game/esoteric-ebb"
+    },
+    {
+      "title": "Esports Manager 2026",
+      "url": "https://ankergames.net/game/esports-manager-2026"
+    },
+    {
+      "title": "Eternal Evil",
+      "url": "https://ankergames.net/game/eternal-evil"
+    },
+    {
+      "title": "Europa Universalis V",
+      "url": "https://ankergames.net/game/europa-universalis-v"
+    },
+    {
+      "title": "EverSiege: Untold Ages",
+      "url": "https://ankergames.net/game/eversiege-untold-ages"
+    },
+    {
+      "title": "Everwind",
+      "url": "https://ankergames.net/game/everwind"
+    },
+    {
+      "title": "Everything is Crab: The Animal Evolution Roguelite",
+      "url": "https://ankergames.net/game/everything-is-crab-the-animal-evolution-roguelite"
+    },
+    {
+      "title": "Evil West",
+      "url": "https://ankergames.net/game/evil-west"
+    },
+    {
+      "title": "F.E.A.R.",
+      "url": "https://ankergames.net/game/fear"
+    },
+    {
+      "title": "F1 2021",
+      "url": "https://ankergames.net/game/f1-2021"
+    },
+    {
+      "title": "Fable III",
+      "url": "https://ankergames.net/game/fable-iii"
+    },
+    {
+      "title": "FAITH: The Unholy Trinity",
+      "url": "https://ankergames.net/game/faith-the-unholy-trinity"
+    },
+    {
+      "title": "Fallen Aces",
+      "url": "https://ankergames.net/game/fallen-aces"
+    },
+    {
+      "title": "Fallout 3 Game of the Year Edition",
+      "url": "https://ankergames.net/game/fallout-3-game-of-the-year-edition"
+    },
+    {
+      "title": "FANTASY LIFE i: The Girl Who Steals Time",
+      "url": "https://ankergames.net/game/fantasy-life-i-the-girl-who-steals-time"
+    },
+    {
+      "title": "Far Cry 2",
+      "url": "https://ankergames.net/game/far-cry-2"
+    },
+    {
+      "title": "Far Cry 3 - Blood Dragon",
+      "url": "https://ankergames.net/game/far-cry-3-blood-dragon"
+    },
+    {
+      "title": "Far Cry New Dawn",
+      "url": "https://ankergames.net/game/far-cry-new-dawn"
+    },
+    {
+      "title": "Far Cry Primal",
+      "url": "https://ankergames.net/game/far-cry-primal"
+    },
+    {
+      "title": "Far Far West",
+      "url": "https://ankergames.net/game/far-far-west"
+    },
+    {
+      "title": "Farever",
+      "url": "https://ankergames.net/game/farever"
+    },
+    {
+      "title": "Farmer's Dynasty 2",
+      "url": "https://ankergames.net/game/farmer-s-dynasty-2"
+    },
+    {
+      "title": "Farming & Supermarket Simulator",
+      "url": "https://ankergames.net/game/farming-supermarket-simulator"
+    },
+    {
+      "title": "Farming Simulator 25",
+      "url": "https://ankergames.net/game/farming-simulator-25"
+    },
+    {
+      "title": "Farthest Frontier",
+      "url": "https://ankergames.net/game/farthest-frontier"
+    },
+    {
+      "title": "Fast Food Simulator",
+      "url": "https://ankergames.net/game/fast-food-simulator"
+    },
+    {
+      "title": "FATAL FRAME / PROJECT ZERO: Maiden of Black Water",
+      "url": "https://ankergames.net/game/fatal-frame-project-zero-maiden-of-black-water"
+    },
+    {
+      "title": "FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse",
+      "url": "https://ankergames.net/game/fatal-frame-project-zero-mask-of-the-lunar-eclipse"
+    },
+    {
+      "title": "FATAL FRAME II: Crimson Butterfly REMAKE",
+      "url": "https://ankergames.net/game/fatal-frame-ii-crimson-butterfly-remake"
+    },
+    {
+      "title": "FATAL FURY: City of the Wolves",
+      "url": "https://ankergames.net/game/fatal-fury-city-of-the-wolves"
+    },
+    {
+      "title": "Fate/Samurai Remnant",
+      "url": "https://ankergames.net/game/fate-samurai-remnant"
+    },
+    {
+      "title": "Fatekeeper",
+      "url": "https://ankergames.net/game/fatekeeper"
+    },
+    {
+      "title": "Fear & Hunger",
+      "url": "https://ankergames.net/game/fear-hunger"
+    },
+    {
+      "title": "Fear & Hunger 2: Termina",
+      "url": "https://ankergames.net/game/fear-hunger-2-termina"
+    },
+    {
+      "title": "Fears to Fathom - Carson House",
+      "url": "https://ankergames.net/game/fears-to-fathom-carson-house"
+    },
+    {
+      "title": "Fears to Fathom - Ironbark Lookout",
+      "url": "https://ankergames.net/game/fears-to-fathom-ironbark-lookout"
+    },
+    {
+      "title": "Fears to Fathom - Norwood Hitchhike",
+      "url": "https://ankergames.net/game/fears-to-fathom-norwood-hitchhike"
+    },
+    {
+      "title": "Fears to Fathom - Scratch Creek",
+      "url": "https://ankergames.net/game/fears-to-fathom-scratch-creek"
+    },
+    {
+      "title": "Fears to Fathom - Woodbury Getaway",
+      "url": "https://ankergames.net/game/fears-to-fathom-woodbury-getaway"
+    },
+    {
+      "title": "FEMBOY FUTA HOUSE",
+      "url": "https://ankergames.net/game/femboy-futa-house"
+    },
+    {
+      "title": "FEROCIOUS",
+      "url": "https://ankergames.net/game/ferocious"
+    },
+    {
+      "title": "FIFA 17",
+      "url": "https://ankergames.net/game/fifa-17"
+    },
+    {
+      "title": "FIFA 19",
+      "url": "https://ankergames.net/game/fifa-19"
+    },
+    {
+      "title": "FIFA 20",
+      "url": "https://ankergames.net/game/fifa-20"
+    },
+    {
+      "title": "FIFA 22",
+      "url": "https://ankergames.net/game/fifa-22"
+    },
+    {
+      "title": "FIFA 23",
+      "url": "https://ankergames.net/game/fifa-23"
+    },
+    {
+      "title": "FINAL FANTASY",
+      "url": "https://ankergames.net/game/final-fantasy"
+    },
+    {
+      "title": "FINAL FANTASY II",
+      "url": "https://ankergames.net/game/final-fantasy-ii"
+    },
+    {
+      "title": "FINAL FANTASY III",
+      "url": "https://ankergames.net/game/final-fantasy-iii"
+    },
+    {
+      "title": "FINAL FANTASY IV",
+      "url": "https://ankergames.net/game/final-fantasy-iv"
+    },
+    {
+      "title": "FINAL FANTASY IX",
+      "url": "https://ankergames.net/game/final-fantasy-ix"
+    },
+    {
+      "title": "FINAL FANTASY V",
+      "url": "https://ankergames.net/game/final-fantasy-v"
+    },
+    {
+      "title": "FINAL FANTASY VI",
+      "url": "https://ankergames.net/game/final-fantasy-vi"
+    },
+    {
+      "title": "FINAL FANTASY VII REBIRTH",
+      "url": "https://ankergames.net/game/final-fantasy-vii-rebirth"
+    },
+    {
+      "title": "FINAL FANTASY VIII - REMASTERED",
+      "url": "https://ankergames.net/game/final-fantasy-viii-remastered"
+    },
+    {
+      "title": "FINAL FANTASY X/X-2 HD Remaster",
+      "url": "https://ankergames.net/game/final-fantasy-x-x-2-hd-remaster"
+    },
+    {
+      "title": "FINAL FANTASY XII THE ZODIAC AGE",
+      "url": "https://ankergames.net/game/final-fantasy-xii-the-zodiac-age"
+    },
+    {
+      "title": "FINAL FANTASY XIII",
+      "url": "https://ankergames.net/game/final-fantasy-xiii"
+    },
+    {
+      "title": "FINAL FANTASY XIII-2",
+      "url": "https://ankergames.net/game/final-fantasy-xiii-2"
+    },
+    {
+      "title": "Final Fantasy XV: Windows Edition",
+      "url": "https://ankergames.net/game/final-fantasy-xv"
+    },
+    {
+      "title": "FINAL FANTASY XVI",
+      "url": "https://ankergames.net/game/final-fantasy-xvi"
+    },
+    {
+      "title": "Finding Frankie",
+      "url": "https://ankergames.net/game/finding-frankie"
+    },
+    {
       "title": "Finding Paradise",
       "url": "https://ankergames.net/game/finding-paradise"
+    },
+    {
+      "title": "Firefighting Simulator: Ignite",
+      "url": "https://ankergames.net/game/firefighting-simulator-ignite"
+    },
+    {
+      "title": "Firewatch",
+      "url": "https://ankergames.net/game/firewatch"
+    },
+    {
+      "title": "Fish to Dish: Idle Sushi",
+      "url": "https://ankergames.net/game/fish-to-dish-idle-sushi"
+    },
+    {
+      "title": "Fishing Inc",
+      "url": "https://ankergames.net/game/fishing-inc"
+    },
+    {
+      "title": "Five Hearts Under One Roof",
+      "url": "https://ankergames.net/game/five-hearts-under-one-roof"
+    },
+    {
+      "title": "Five Hearts Under One Roof season2",
+      "url": "https://ankergames.net/game/five-hearts-under-one-roof-season2"
+    },
+    {
+      "title": "Five Nights at Freddy's",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s"
+    },
+    {
+      "title": "Five Nights at Freddy's 2",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-2"
+    },
+    {
+      "title": "FIVE NIGHTS AT FREDDY'S HELP WANTED",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-help-wanted"
+    },
+    {
+      "title": "Five Nights at Freddy's Sister Location",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-sister-location"
+    },
+    {
+      "title": "Five Nights at Freddy's: Secret of the Mimic",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-secret-of-the-mimic"
+    },
+    {
+      "title": "Five Nights at Freddy’s 3",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-3"
+    },
+    {
+      "title": "Five Nights at Freddy’s 4",
+      "url": "https://ankergames.net/game/five-nights-at-freddy-s-4"
+    },
+    {
+      "title": "FlipWitch - Forbidden Sex Hex",
+      "url": "https://ankergames.net/game/flipwitch-forbidden-sex-hex"
+    },
+    {
+      "title": "Flotsam",
+      "url": "https://ankergames.net/game/flotsam"
+    },
+    {
+      "title": "FlyKnight",
+      "url": "https://ankergames.net/game/flyknight"
+    },
+    {
+      "title": "Food Truck Simulator",
+      "url": "https://ankergames.net/game/food-truck-simulator"
+    },
+    {
+      "title": "Football Life Simulator",
+      "url": "https://ankergames.net/game/football-life-simulator"
+    },
+    {
+      "title": "For The King II",
+      "url": "https://ankergames.net/game/for-the-king-ii"
+    },
+    {
+      "title": "Forensics: Crime Scene Detective",
+      "url": "https://ankergames.net/game/forensics-crime-scene-detective"
+    },
+    {
+      "title": "Forever Skies",
+      "url": "https://ankergames.net/game/forever-skies"
+    },
+    {
+      "title": "Forgive Me Father",
+      "url": "https://ankergames.net/game/forgive-me-father"
+    },
+    {
+      "title": "Forgive Me Father 2",
+      "url": "https://ankergames.net/game/forgive-me-father-2"
+    },
+    {
+      "title": "Forspoken",
+      "url": "https://ankergames.net/game/forspoken"
+    },
+    {
+      "title": "Forts",
+      "url": "https://ankergames.net/game/forts"
+    },
+    {
+      "title": "Fortune Mill",
+      "url": "https://ankergames.net/game/fortune-mill"
+    },
+    {
+      "title": "Forza Horizon 6",
+      "url": "https://ankergames.net/game/forza-horizon-6"
+    },
+    {
+      "title": "Forza Motorsport",
+      "url": "https://ankergames.net/game/forza-motorsport"
+    },
+    {
+      "title": "Foundation",
+      "url": "https://ankergames.net/game/foundation"
+    },
+    {
+      "title": "Foxhole",
+      "url": "https://ankergames.net/game/foxhole"
+    },
+    {
+      "title": "Fracture Field",
+      "url": "https://ankergames.net/game/fracture-field"
+    },
+    {
+      "title": "Fran Bow",
+      "url": "https://ankergames.net/game/fran-bow"
+    },
+    {
+      "title": "FreshWomen - Season 1",
+      "url": "https://ankergames.net/game/freshwomen-season-1"
+    },
+    {
+      "title": "FreshWomen - Season 2",
+      "url": "https://ankergames.net/game/freshwomen-season-2"
+    },
+    {
+      "title": "Friday the 13th: The Game",
+      "url": "https://ankergames.net/game/friday-the-13th-the-game"
+    },
+    {
+      "title": "Frostpunk",
+      "url": "https://ankergames.net/game/frostpunk"
+    },
+    {
+      "title": "Funnel Runners",
+      "url": "https://ankergames.net/game/funnel-runners"
+    },
+    {
+      "title": "Furnish Master",
+      "url": "https://ankergames.net/game/furnish-master"
+    },
+    {
+      "title": "FUSER",
+      "url": "https://ankergames.net/game/fuser"
+    },
+    {
+      "title": "Gamble With Your Friends",
+      "url": "https://ankergames.net/game/gamble-with-your-friends"
+    },
+    {
+      "title": "Gambonanza",
+      "url": "https://ankergames.net/game/gambonanza"
+    },
+    {
+      "title": "Game Dev Tycoon",
+      "url": "https://ankergames.net/game/game-dev-tycoon"
+    },
+    {
+      "title": "Gamer Stop Simulator",
+      "url": "https://ankergames.net/game/gamer-stop-simulator"
+    },
+    {
+      "title": "Garfield Kart",
+      "url": "https://ankergames.net/game/garfield-kart"
+    },
+    {
+      "title": "Gas Station Simulator",
+      "url": "https://ankergames.net/game/gas-station-simulator"
+    },
+    {
+      "title": "Gears 5",
+      "url": "https://ankergames.net/game/gears-5"
+    },
+    {
+      "title": "Gears of War: Reloaded",
+      "url": "https://ankergames.net/game/gears-of-war-reloaded"
+    },
+    {
+      "title": "GERONIMO",
+      "url": "https://ankergames.net/game/geronimo"
+    },
+    {
+      "title": "Getting Over It with Bennett Foddy",
+      "url": "https://ankergames.net/game/getting-over-it-with-bennett-foddy"
+    },
+    {
+      "title": "Ghost Janitors",
+      "url": "https://ankergames.net/game/ghost-janitors"
+    },
+    {
+      "title": "Ghostrunner",
+      "url": "https://ankergames.net/game/ghostrunner"
+    },
+    {
+      "title": "Ghostwire: Tokyo",
+      "url": "https://ankergames.net/game/ghostwire-tokyo"
+    },
+    {
+      "title": "Global Rescue",
+      "url": "https://ankergames.net/game/global-rescue"
+    },
+    {
+      "title": "Gnomes",
+      "url": "https://ankergames.net/game/gnomes"
+    },
+    {
+      "title": "Goat Simulator 3",
+      "url": "https://ankergames.net/game/goat-simulator-3"
+    },
+    {
+      "title": "Goat Simulator Remastered",
+      "url": "https://ankergames.net/game/goat-simulator-remastered"
+    },
+    {
+      "title": "Goblin Vyke: The Thief Tycoon",
+      "url": "https://ankergames.net/game/goblin-vyke-the-thief-tycoon"
+    },
+    {
+      "title": "God Of Weapons",
+      "url": "https://ankergames.net/game/god-of-weapons"
+    },
+    {
+      "title": "Going Medieval",
+      "url": "https://ankergames.net/game/going-medieval"
+    },
+    {
+      "title": "Gold Mining Simulator",
+      "url": "https://ankergames.net/game/gold-mining-simulator"
+    },
+    {
+      "title": "Golf With Your Friends",
+      "url": "https://ankergames.net/game/golf-with-your-friends"
+    },
+    {
+      "title": "Good Pizza Great Pizza",
+      "url": "https://ankergames.net/game/good-pizza-great-pizza"
+    },
+    {
+      "title": "Goodnight Universe",
+      "url": "https://ankergames.net/game/goodnight-universe"
+    },
+    {
+      "title": "GoreBox",
+      "url": "https://ankergames.net/game/gorebox"
+    },
+    {
+      "title": "GORN 2",
+      "url": "https://ankergames.net/game/gorn-2"
+    },
+    {
+      "title": "Gotham Knights",
+      "url": "https://ankergames.net/game/gotham-knights"
+    },
+    {
+      "title": "Gothic 1 Remake",
+      "url": "https://ankergames.net/game/gothic-1-remake"
+    },
+    {
+      "title": "GRAIN ROT",
+      "url": "https://ankergames.net/game/grain-rot"
+    },
+    {
+      "title": "Grand Theft Auto V Enhanced",
+      "url": "https://ankergames.net/game/grand-theft-auto-v-enhanced"
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "url": "https://ankergames.net/game/grand-theft-auto-san-andreas-2"
+    },
+    {
+      "title": "Granny",
+      "url": "https://ankergames.net/game/granny"
+    },
+    {
+      "title": "Granny 3",
+      "url": "https://ankergames.net/game/granny-3"
+    },
+    {
+      "title": "Granny Escape Together",
+      "url": "https://ankergames.net/game/granny-escape-together"
+    },
+    {
+      "title": "Granny: Chapter Two",
+      "url": "https://ankergames.net/game/granny-chapter-two"
+    },
+    {
+      "title": "Graveyard Keeper",
+      "url": "https://ankergames.net/game/graveyard-keeper"
+    },
+    {
+      "title": "Gravity Circuit",
+      "url": "https://ankergames.net/game/gravity-circuit"
+    },
+    {
+      "title": "Grim Dawn",
+      "url": "https://ankergames.net/game/grim-dawn-definitive-edition"
+    },
+    {
+      "title": "Grind Survivors",
+      "url": "https://ankergames.net/game/grind-survivors"
+    },
+    {
+      "title": "GRIS",
+      "url": "https://ankergames.net/game/gris"
+    },
+    {
+      "title": "Grounded 2",
+      "url": "https://ankergames.net/game/grounded-2"
+    },
+    {
+      "title": "Guilty as Sock!",
+      "url": "https://ankergames.net/game/guilty-as-sock"
+    },
+    {
+      "title": "GUILTY GEAR -STRIVE-",
+      "url": "https://ankergames.net/game/guilty-gear-strive"
     },
     {
       "title": "Gunner, HEAT, PC!",
       "url": "https://ankergames.net/game/gunner-heat-pc"
     },
     {
+      "title": "HackHub - Ultimate Hacker Simulator",
+      "url": "https://ankergames.net/game/hackhub-ultimate-hacker-simulator"
+    },
+    {
+      "title": "Hail to the Rainbow",
+      "url": "https://ankergames.net/game/hail-to-the-rainbow"
+    },
+    {
+      "title": "Half Life 2",
+      "url": "https://ankergames.net/game/half-life-2"
+    },
+    {
+      "title": "Half Sword",
+      "url": "https://ankergames.net/game/half-sword"
+    },
+    {
       "title": "Halloween: The Game",
       "url": "https://ankergames.net/game/halloween-the-game"
+    },
+    {
+      "title": "Halo The Master Chief Collection",
+      "url": "https://ankergames.net/game/halo-the-master-chief-collection"
+    },
+    {
+      "title": "Halo: Campaign Evolved",
+      "url": "https://ankergames.net/game/halo-campaign-evolved"
+    },
+    {
+      "title": "HARD BULLET",
+      "url": "https://ankergames.net/game/hard-bullet"
+    },
+    {
+      "title": "Haste",
+      "url": "https://ankergames.net/game/haste"
+    },
+    {
+      "title": "Hatred",
+      "url": "https://ankergames.net/game/hatred"
+    },
+    {
+      "title": "Have a Nice Death",
+      "url": "https://ankergames.net/game/have-a-nice-death"
+    },
+    {
+      "title": "Haydee 3",
+      "url": "https://ankergames.net/game/haydee-3"
+    },
+    {
+      "title": "He is Coming",
+      "url": "https://ankergames.net/game/he-is-coming"
+    },
+    {
+      "title": "Hearth and Hamlet",
+      "url": "https://ankergames.net/game/hearth-and-hamlet"
+    },
+    {
+      "title": "Hearts of Iron IV",
+      "url": "https://ankergames.net/game/hearts-of-iron-iv"
+    },
+    {
+      "title": "Heavy Rain",
+      "url": "https://ankergames.net/game/heavy-rain"
+    },
+    {
+      "title": "Hell is Us",
+      "url": "https://ankergames.net/game/hell-is-us"
+    },
+    {
+      "title": "Hellblade: Senua's Sacrifice",
+      "url": "https://ankergames.net/game/hellblade-senua-s-sacrifice"
+    },
+    {
+      "title": "HELLDIVERS Dive Harder Edition",
+      "url": "https://ankergames.net/game/helldivers-dive-harder-edition"
+    },
+    {
+      "title": "Hero Siege",
+      "url": "https://ankergames.net/game/hero-siege"
+    },
+    {
+      "title": "Heroes of Might and Magic: Olden Era",
+      "url": "https://ankergames.net/game/heroes-of-might-and-magic-olden-era"
+    },
+    {
+      "title": "Hi-Fi RUSH",
+      "url": "https://ankergames.net/game/hi-fi-rush"
+    },
+    {
+      "title": "High On Life",
+      "url": "https://ankergames.net/game/high-on-life"
+    },
+    {
+      "title": "High On Life 2",
+      "url": "https://ankergames.net/game/high-on-life-2"
+    },
+    {
+      "title": "Hitman 2: Silent Assassin",
+      "url": "https://ankergames.net/game/hitman-2-silent-assassin"
+    },
+    {
+      "title": "Hitman Blood Money",
+      "url": "https://ankergames.net/game/hitman-blood-money"
+    },
+    {
+      "title": "Hitman Codename 47",
+      "url": "https://ankergames.net/game/hitman-codename-47"
+    },
+    {
+      "title": "Hitman Contracts",
+      "url": "https://ankergames.net/game/hitman-contracts"
+    },
+    {
+      "title": "Hitman: Absolution",
+      "url": "https://ankergames.net/game/hitman-absolution"
+    },
+    {
+      "title": "Hollow Knight: Silksong",
+      "url": "https://ankergames.net/game/hollow-knight-silksong"
+    },
+    {
+      "title": "Hollywood Animal",
+      "url": "https://ankergames.net/game/hollywood-animal"
     },
     {
       "title": "Homefront: The Revolution",
@@ -68,112 +2216,3508 @@
       "url": "https://ankergames.net/game/honeycomb-the-world-beyond"
     },
     {
+      "title": "HoneyCome come come party",
+      "url": "https://ankergames.net/game/honeycome-come-come-party"
+    },
+    {
+      "title": "HoneySelect2Libido DX",
+      "url": "https://ankergames.net/game/honeyselect2libido-dx"
+    },
+    {
+      "title": "Hoop Land",
+      "url": "https://ankergames.net/game/hoop-land"
+    },
+    {
+      "title": "Horizon Chase Turbo",
+      "url": "https://ankergames.net/game/horizon-chase-turbo"
+    },
+    {
+      "title": "Horripilant",
+      "url": "https://ankergames.net/game/horripilant"
+    },
+    {
+      "title": "Horsey Game",
+      "url": "https://ankergames.net/game/horsey-game"
+    },
+    {
+      "title": "Hot Dogs, Horseshoes & Hand Grenades",
+      "url": "https://ankergames.net/game/hot-dogs-horseshoes-hand-grenades"
+    },
+    {
+      "title": "HOT WHEELS UNLEASHED",
+      "url": "https://ankergames.net/game/hot-wheels-unleashed"
+    },
+    {
+      "title": "Hotel Architect",
+      "url": "https://ankergames.net/game/hotel-architect"
+    },
+    {
+      "title": "Hotline Miami 2 Wrong Number",
+      "url": "https://ankergames.net/game/hotline-miami-2-wrong-number"
+    },
+    {
+      "title": "House Flipper",
+      "url": "https://ankergames.net/game/house-flipper"
+    },
+    {
+      "title": "House Flipper Remastered Collection",
+      "url": "https://ankergames.net/game/house-flipper-remastered-collection"
+    },
+    {
+      "title": "House of Legacy",
+      "url": "https://ankergames.net/game/house-of-legacy"
+    },
+    {
+      "title": "House Party",
+      "url": "https://ankergames.net/game/house-party"
+    },
+    {
+      "title": "How Many Dudes?",
+      "url": "https://ankergames.net/game/how-many-dudes"
+    },
+    {
+      "title": "How to Fish",
+      "url": "https://ankergames.net/game/how-to-fish"
+    },
+    {
+      "title": "How To Grow a Black Hole",
+      "url": "https://ankergames.net/game/how-to-grow-a-black-hole"
+    },
+    {
+      "title": "Hozy",
+      "url": "https://ankergames.net/game/hozy"
+    },
+    {
+      "title": "HumanitZ",
+      "url": "https://ankergames.net/game/humanitz"
+    },
+    {
+      "title": "HuniePop 2: Double Date",
+      "url": "https://ankergames.net/game/huniepop-2-double-date"
+    },
+    {
+      "title": "Hydroneer",
+      "url": "https://ankergames.net/game/hydroneer"
+    },
+    {
+      "title": "Hyper Light Drifter",
+      "url": "https://ankergames.net/game/hyper-light-drifter"
+    },
+    {
+      "title": "HYPERCHARGE: Unboxed",
+      "url": "https://ankergames.net/game/hypercharge-unboxed"
+    },
+    {
+      "title": "Hytale",
+      "url": "https://ankergames.net/game/hytale"
+    },
+    {
+      "title": "I Am Bread",
+      "url": "https://ankergames.net/game/i-am-bread"
+    },
+    {
+      "title": "I Am Fish",
+      "url": "https://ankergames.net/game/i-am-fish"
+    },
+    {
+      "title": "I Am Legion Stand Survivors",
+      "url": "https://ankergames.net/game/i-am-legion-stand-survivors"
+    },
+    {
+      "title": "I Expect You To Die",
+      "url": "https://ankergames.net/game/i-expect-you-to-die"
+    },
+    {
+      "title": "I Have No Mouth, and I Must Scream",
+      "url": "https://ankergames.net/game/i-have-no-mouth-and-i-must-scream"
+    },
+    {
+      "title": "ICARUS",
+      "url": "https://ankergames.net/game/icarus"
+    },
+    {
+      "title": "ICEY",
+      "url": "https://ankergames.net/game/icey"
+    },
+    {
+      "title": "iDigging",
+      "url": "https://ankergames.net/game/idigging"
+    },
+    {
+      "title": "Immortals of Aveum",
+      "url": "https://ankergames.net/game/immortals-of-aveum"
+    },
+    {
+      "title": "In Stars And Time",
+      "url": "https://ankergames.net/game/in-stars-and-time"
+    },
+    {
+      "title": "INAZUMA ELEVEN: Victory Road",
+      "url": "https://ankergames.net/game/inazuma-eleven-victory-road"
+    },
+    {
+      "title": "Indiana Jones and the Great Circle",
+      "url": "https://ankergames.net/game/indiana-jones-and-the-great-circle"
+    },
+    {
+      "title": "Infection Free Zone",
+      "url": "https://ankergames.net/game/infection-free-zone"
+    },
+    {
+      "title": "Injustice 2",
+      "url": "https://ankergames.net/game/injustice-2"
+    },
+    {
+      "title": "Injustice: Gods Among Us Ultimate Edition",
+      "url": "https://ankergames.net/game/injustice-gods-among-us-ultimate-edition"
+    },
+    {
+      "title": "INSIDE",
+      "url": "https://ankergames.net/game/inside"
+    },
+    {
+      "title": "Inside the Backrooms",
+      "url": "https://ankergames.net/game/inside-the-backrooms"
+    },
+    {
+      "title": "Insurgency: Sandstorm",
+      "url": "https://ankergames.net/game/insurgency-sandstorm"
+    },
+    {
+      "title": "Internet Cafe Simulator",
+      "url": "https://ankergames.net/game/internet-cafe-simulator"
+    },
+    {
+      "title": "Internet Cafe Simulator 2",
+      "url": "https://ankergames.net/game/internet-cafe-simulator-2"
+    },
+    {
+      "title": "Into the Breach",
+      "url": "https://ankergames.net/game/into-the-breach"
+    },
+    {
+      "title": "Into the Dead Our Darkest Days",
+      "url": "https://ankergames.net/game/into-the-dead-our-darkest-days"
+    },
+    {
+      "title": "Invincible VS",
+      "url": "https://ankergames.net/game/invincible-vs"
+    },
+    {
+      "title": "inZOI",
+      "url": "https://ankergames.net/game/inzoi"
+    },
+    {
+      "title": "Iron Lung",
+      "url": "https://ankergames.net/game/iron-lung"
+    },
+    {
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "url": "https://ankergames.net/game/iron-nest-heavy-turret-simulator"
+    },
+    {
+      "title": "Is This Seat Taken?",
+      "url": "https://ankergames.net/game/is-this-seat-taken"
+    },
+    {
+      "title": "Jacksmith: Weapons and Warriors",
+      "url": "https://ankergames.net/game/jacksmith-weapons-and-warriors"
+    },
+    {
+      "title": "Jazzpunk: Director's Cut",
+      "url": "https://ankergames.net/game/jazzpunk-directors-cut"
+    },
+    {
+      "title": "JDM: Japanese Drift Master",
+      "url": "https://ankergames.net/game/jdm-japanese-drift-master"
+    },
+    {
+      "title": "Job Simulator",
+      "url": "https://ankergames.net/game/job-simulator"
+    },
+    {
+      "title": "JoJo’s Bizarre Adventure All-Star Battle R",
+      "url": "https://ankergames.net/game/jojo-s-bizarre-adventure-all-star-battle-r"
+    },
+    {
+      "title": "Jotunnslayer Hordes of Hel",
+      "url": "https://ankergames.net/game/jotunnslayer-hordes-of-hel"
+    },
+    {
+      "title": "Journey",
+      "url": "https://ankergames.net/game/journey"
+    },
+    {
+      "title": "Judgment",
+      "url": "https://ankergames.net/game/judgment"
+    },
+    {
+      "title": "Jump King",
+      "url": "https://ankergames.net/game/jump-king"
+    },
+    {
+      "title": "Jump Space",
+      "url": "https://ankergames.net/game/jump-space"
+    },
+    {
+      "title": "Jurassic World Evolution 2",
+      "url": "https://ankergames.net/game/jurassic-world-evolution-2"
+    },
+    {
+      "title": "Just Cause 2",
+      "url": "https://ankergames.net/game/just-cause-2"
+    },
+    {
+      "title": "Just Shapes & Beats",
+      "url": "https://ankergames.net/game/just-shapes-beats"
+    },
+    {
+      "title": "Katamari Damacy REROLL",
+      "url": "https://ankergames.net/game/katamari-damacy-reroll"
+    },
+    {
+      "title": "Keep Driving",
+      "url": "https://ankergames.net/game/keep-driving"
+    },
+    {
+      "title": "KEEP GAMBLING",
+      "url": "https://ankergames.net/game/keep-gambling"
+    },
+    {
+      "title": "Keep on Mining!",
+      "url": "https://ankergames.net/game/keep-on-mining"
+    },
+    {
+      "title": "Keep on Mining! - Worlds",
+      "url": "https://ankergames.net/game/keep-on-mining-worlds"
+    },
+    {
+      "title": "Keep Talking and Nobody Explodes",
+      "url": "https://ankergames.net/game/keep-talking-and-nobody-explodes"
+    },
+    {
+      "title": "Keeper",
+      "url": "https://ankergames.net/game/keeper"
+    },
+    {
+      "title": "Kena: Bridge of Spirits",
+      "url": "https://ankergames.net/game/kena-bridge-of-spirits"
+    },
+    {
+      "title": "Kenshi",
+      "url": "https://ankergames.net/game/kenshi"
+    },
+    {
+      "title": "Kerbal Space Program",
+      "url": "https://ankergames.net/game/kerbal-space-program"
+    },
+    {
+      "title": "Kerbal Space Program 2",
+      "url": "https://ankergames.net/game/kerbal-space-program-2"
+    },
+    {
+      "title": "Kill It With Fire 2",
+      "url": "https://ankergames.net/game/kill-it-with-fire-2"
+    },
+    {
+      "title": "Killer Bean",
+      "url": "https://ankergames.net/game/killer-bean"
+    },
+    {
+      "title": "Killer Frequency",
+      "url": "https://ankergames.net/game/killer-frequency"
+    },
+    {
+      "title": "Killing Floor 3",
+      "url": "https://ankergames.net/game/killing-floor-3"
+    },
+    {
+      "title": "Kindergarten",
+      "url": "https://ankergames.net/game/kindergarten"
+    },
+    {
+      "title": "Kindergarten 2",
+      "url": "https://ankergames.net/game/kindergarten-2"
+    },
+    {
+      "title": "Kindergarten 3",
+      "url": "https://ankergames.net/game/kindergarten-3"
+    },
+    {
+      "title": "Kingdom Come: Deliverance",
+      "url": "https://ankergames.net/game/kingdom-come-deliverance"
+    },
+    {
+      "title": "Kingdom Come: Deliverance II",
+      "url": "https://ankergames.net/game/kingdom-come-deliverance-ii"
+    },
+    {
+      "title": "Kingdom Rush - Tower Defense",
+      "url": "https://ankergames.net/game/kingdom-rush-tower-defense"
+    },
+    {
+      "title": "Kingdom Rush Frontiers - Tower Defense",
+      "url": "https://ankergames.net/game/kingdom-rush-frontiers-tower-defense"
+    },
+    {
       "title": "Kingdom Rush Vengeance - Tower Defense",
       "url": "https://ankergames.net/game/kingdom-rush-vengeance-tower-defense"
+    },
+    {
+      "title": "Kingdoms of Amalur: Re-Reckoning",
+      "url": "https://ankergames.net/game/kingdoms-of-amalur-re-reckoning"
+    },
+    {
+      "title": "Kingdom’s Deck",
+      "url": "https://ankergames.net/game/kingdom-s-deck"
+    },
+    {
+      "title": "Kingspray Graffiti VR",
+      "url": "https://ankergames.net/game/kingspray-graffiti-vr"
+    },
+    {
+      "title": "KinitoPET",
+      "url": "https://ankergames.net/game/kinitopet"
+    },
+    {
+      "title": "Kitchen Sync Aloha!",
+      "url": "https://ankergames.net/game/kitchen-sync-aloha"
+    },
+    {
+      "title": "Knightica",
+      "url": "https://ankergames.net/game/knightica"
+    },
+    {
+      "title": "Knights in Tight Spaces",
+      "url": "https://ankergames.net/game/knights-in-tight-spaces"
+    },
+    {
+      "title": "Kotama and Academy Citadel",
+      "url": "https://ankergames.net/game/kotama-and-academy-citadel"
+    },
+    {
+      "title": "KOTAMON: My Sis Found A Super-Rare Card In Her Cereal Box, So I Became A Garbage Man To Find The Entire Collection And Earn $1,000,000",
+      "url": "https://ankergames.net/game/kotamon-my-sis-found-a-super-rare-card-in-her-cereal-box-so-i-became-a-garbage-man-to-find-the-entire-collection-and-earn-1000000"
+    },
+    {
+      "title": "Kynseed",
+      "url": "https://ankergames.net/game/kynseed"
+    },
+    {
+      "title": "L.A. Noire",
+      "url": "https://ankergames.net/game/l-a-noire"
+    },
+    {
+      "title": "Lab Rat",
+      "url": "https://ankergames.net/game/lab-rat"
+    },
+    {
+      "title": "Labyrinthine",
+      "url": "https://ankergames.net/game/labyrinthine"
+    },
+    {
+      "title": "Lay of the Land",
+      "url": "https://ankergames.net/game/lay-of-the-land"
+    },
+    {
+      "title": "Layers of Fear (2016)",
+      "url": "https://ankergames.net/game/layers-of-fear-2016"
+    },
+    {
+      "title": "Laysara: Summit Kingdom",
+      "url": "https://ankergames.net/game/laysara-summit-kingdom"
+    },
+    {
+      "title": "Leaf it Alone",
+      "url": "https://ankergames.net/game/leaf-it-alone"
+    },
+    {
+      "title": "Leafy Corner",
+      "url": "https://ankergames.net/game/leafy-corner"
+    },
+    {
+      "title": "Legends of Dragaea: Idle Dungeons",
+      "url": "https://ankergames.net/game/legends-of-dragaea-idle-dungeons"
+    },
+    {
+      "title": "Lego Batman 2 DC Super Heroes",
+      "url": "https://ankergames.net/game/lego-batman-2-dc-super-heroes"
+    },
+    {
+      "title": "Lego Batman 3 Beyond Gotham",
+      "url": "https://ankergames.net/game/lego-batman-3-beyond-gotham"
+    },
+    {
+      "title": "LEGO Batman: Legacy of the Dark Knight",
+      "url": "https://ankergames.net/game/lego-batman-legacy-of-the-dark-knight"
+    },
+    {
+      "title": "LEGO Batman: The Videogame",
+      "url": "https://ankergames.net/game/lego-batman-the-videogame"
+    },
+    {
+      "title": "LEGO City Undercover",
+      "url": "https://ankergames.net/game/lego-city-undercover-2"
+    },
+    {
+      "title": "LEGO DC Super-Villains",
+      "url": "https://ankergames.net/game/lego-dc-super-villains"
+    },
+    {
+      "title": "LEGO Harry Potter Collection",
+      "url": "https://ankergames.net/game/lego-harry-potter-collection"
+    },
+    {
+      "title": "LEGO Horizon Adventures",
+      "url": "https://ankergames.net/game/lego-horizon-adventures"
+    },
+    {
+      "title": "LEGO Jurassic World",
+      "url": "https://ankergames.net/game/lego-jurassic-world"
+    },
+    {
+      "title": "LEGO MARVEL Super Heroes",
+      "url": "https://ankergames.net/game/lego-marvel-super-heroes"
+    },
+    {
+      "title": "LEGO MARVEL Super Heroes 2",
+      "url": "https://ankergames.net/game/lego-marvel-super-heroes-2"
+    },
+    {
+      "title": "LEGO MARVEL’s Avengers",
+      "url": "https://ankergames.net/game/lego-marvel-s-avengers"
+    },
+    {
+      "title": "LEGO Party",
+      "url": "https://ankergames.net/game/lego-party"
+    },
+    {
+      "title": "LEGO Star Wars III - The Clone Wars",
+      "url": "https://ankergames.net/game/lego-star-wars-iii-the-clone-wars"
+    },
+    {
+      "title": "LEGO Star Wars The Skywalker Saga",
+      "url": "https://ankergames.net/game/lego-star-wars-the-skywalker-saga"
+    },
+    {
+      "title": "LEGO STAR WARS: The Force Awakens",
+      "url": "https://ankergames.net/game/lego-star-wars-the-force-awakens"
+    },
+    {
+      "title": "LEGO The Incredibles",
+      "url": "https://ankergames.net/game/lego-the-incredibles"
+    },
+    {
+      "title": "LEGO The Lord of the Rings",
+      "url": "https://ankergames.net/game/lego-the-lord-of-the-rings"
+    },
+    {
+      "title": "LEGO Worlds",
+      "url": "https://ankergames.net/game/lego-worlds"
+    },
+    {
+      "title": "Len's Island",
+      "url": "https://ankergames.net/game/len-s-island"
+    },
+    {
+      "title": "Librarian: Tidy Up the Arcane Library!",
+      "url": "https://ankergames.net/game/librarian-tidy-up-the-arcane-library"
+    },
+    {
+      "title": "Library Of Ruina",
+      "url": "https://ankergames.net/game/library-of-ruina"
+    },
+    {
+      "title": "Life is Strange 2",
+      "url": "https://ankergames.net/game/life-is-strange-2"
+    },
+    {
+      "title": "Life is Strange Remastered",
+      "url": "https://ankergames.net/game/life-is-strange-remastered"
+    },
+    {
+      "title": "Life is Strange: Before the Storm",
+      "url": "https://ankergames.net/game/life-is-strange-before-the-storm-2"
+    },
+    {
+      "title": "Life is Strange: Before the Storm",
+      "url": "https://ankergames.net/game/life-is-strange-before-the-storm"
+    },
+    {
+      "title": "Life is Strange: Double Exposure",
+      "url": "https://ankergames.net/game/life-is-strange-double-exposure"
+    },
+    {
+      "title": "Life is Strange: True Colors",
+      "url": "https://ankergames.net/game/life-is-strange-true-colors"
+    },
+    {
+      "title": "Liftoff: FPV Drone Racing",
+      "url": "https://ankergames.net/game/liftoff-fpv-drone-racing"
+    },
+    {
+      "title": "LIGHTNING RETURNS: FINAL FANTASY XIII",
+      "url": "https://ankergames.net/game/lightning-returns-final-fantasy-xiii"
+    },
+    {
+      "title": "Lightyear Frontier",
+      "url": "https://ankergames.net/game/lightyear-frontier"
+    },
+    {
+      "title": "LIMBO",
+      "url": "https://ankergames.net/game/limbo"
+    },
+    {
+      "title": "LISA: The Painful",
+      "url": "https://ankergames.net/game/lisa-the-painful"
+    },
+    {
+      "title": "Little Goody Two Shoes",
+      "url": "https://ankergames.net/game/little-goody-two-shoes"
+    },
+    {
+      "title": "Little Misfortune",
+      "url": "https://ankergames.net/game/little-misfortune"
+    },
+    {
+      "title": "Little Nightmares",
+      "url": "https://ankergames.net/game/little-nightmares"
+    },
+    {
+      "title": "Little Nightmares Enhanced Edition",
+      "url": "https://ankergames.net/game/little-nightmares-enhanced-edition"
+    },
+    {
+      "title": "Little Nightmares II",
+      "url": "https://ankergames.net/game/little-nightmares-ii"
+    },
+    {
+      "title": "Little Nightmares III",
+      "url": "https://ankergames.net/game/little-nightmares-iii"
+    },
+    {
+      "title": "Little Witch in the Woods",
+      "url": "https://ankergames.net/game/little-witch-in-the-woods"
+    },
+    {
+      "title": "LONESTAR",
+      "url": "https://ankergames.net/game/lonestar"
+    },
+    {
+      "title": "Look Outside",
+      "url": "https://ankergames.net/game/look-outside"
     },
     {
       "title": "Lootbound",
       "url": "https://ankergames.net/game/lootbound"
     },
     {
+      "title": "Lord of the Rings: War in the North",
+      "url": "https://ankergames.net/game/lord-of-the-rings-war-in-the-north"
+    },
+    {
+      "title": "Lords of the Fallen",
+      "url": "https://ankergames.net/game/lords-of-the-fallen"
+    },
+    {
+      "title": "LORT",
+      "url": "https://ankergames.net/game/lort"
+    },
+    {
+      "title": "Lossless Scaling",
+      "url": "https://ankergames.net/game/lossless-scaling"
+    },
+    {
+      "title": "Lost and Found Co.",
+      "url": "https://ankergames.net/game/lost-and-found-co"
+    },
+    {
+      "title": "Lost Records: Bloom & Rage",
+      "url": "https://ankergames.net/game/lost-records-bloom-rage"
+    },
+    {
+      "title": "Lost Skies",
+      "url": "https://ankergames.net/game/lost-skies"
+    },
+    {
+      "title": "Lost Soul Aside",
+      "url": "https://ankergames.net/game/lost-soul-aside"
+    },
+    {
+      "title": "Low-Budget Repairs",
+      "url": "https://ankergames.net/game/low-budget-repairs"
+    },
+    {
+      "title": "Lucid Blocks",
+      "url": "https://ankergames.net/game/lucid-blocks"
+    },
+    {
+      "title": "Lucky Tower Ultimate",
+      "url": "https://ankergames.net/game/lucky-tower-ultimate"
+    },
+    {
+      "title": "Luma Island",
+      "url": "https://ankergames.net/game/luma-island"
+    },
+    {
+      "title": "LumenTale: Memories of Trey",
+      "url": "https://ankergames.net/game/lumentale-memories-of-trey"
+    },
+    {
+      "title": "Lunacid",
+      "url": "https://ankergames.net/game/lunacid"
+    },
+    {
+      "title": "LUNAR Remastered Collection",
+      "url": "https://ankergames.net/game/lunar-remastered-collection"
+    },
+    {
+      "title": "Lushfoil Photography Sim",
+      "url": "https://ankergames.net/game/lushfoil-photography-sim"
+    },
+    {
+      "title": "Lust 'n Dead",
+      "url": "https://ankergames.net/game/lust-n-dead"
+    },
+    {
+      "title": "Machick 2",
+      "url": "https://ankergames.net/game/machick-2"
+    },
+    {
+      "title": "Machine Party",
+      "url": "https://ankergames.net/game/machine-party"
+    },
+    {
+      "title": "Mad Games Tycoon 2",
+      "url": "https://ankergames.net/game/mad-games-tycoon-2"
+    },
+    {
+      "title": "Mad Max",
+      "url": "https://ankergames.net/game/mad-max"
+    },
+    {
+      "title": "MADiSON",
+      "url": "https://ankergames.net/game/madison"
+    },
+    {
+      "title": "MADNESS: Project Nexus",
+      "url": "https://ankergames.net/game/madness-project-nexus"
+    },
+    {
+      "title": "Mafia",
+      "url": "https://ankergames.net/game/mafia"
+    },
+    {
+      "title": "Mafia II",
+      "url": "https://ankergames.net/game/mafia-ii"
+    },
+    {
+      "title": "Mafia II: Definitive Edition",
+      "url": "https://ankergames.net/game/mafia-ii-definitive-edition"
+    },
+    {
+      "title": "Mafia III",
+      "url": "https://ankergames.net/game/mafia-iii"
+    },
+    {
+      "title": "Mafia: Definitive Edition",
+      "url": "https://ankergames.net/game/mafia-definitive-edition"
+    },
+    {
+      "title": "Mafia: The Old Country",
+      "url": "https://ankergames.net/game/mafia-the-old-country"
+    },
+    {
+      "title": "Mage Arena",
+      "url": "https://ankergames.net/game/mage-arena"
+    },
+    {
+      "title": "Magical Princess",
+      "url": "https://ankergames.net/game/magical-princess"
+    },
+    {
+      "title": "Mall Simulator",
+      "url": "https://ankergames.net/game/mall-simulator"
+    },
+    {
+      "title": "Mall Together",
+      "url": "https://ankergames.net/game/mall-together"
+    },
+    {
+      "title": "Maltese's Fluffy Onsen",
+      "url": "https://ankergames.net/game/animal-spa"
+    },
+    {
+      "title": "Mandragora: Whispers of the Witch Tree",
+      "url": "https://ankergames.net/game/mandragora-whispers-of-the-witch-tree"
+    },
+    {
+      "title": "Maneater",
+      "url": "https://ankergames.net/game/maneater-2"
+    },
+    {
+      "title": "Manhunt",
+      "url": "https://ankergames.net/game/manhunt"
+    },
+    {
+      "title": "Mars First Logistics",
+      "url": "https://ankergames.net/game/mars-first-logistics"
+    },
+    {
+      "title": "MARVEL Cosmic Invasion",
+      "url": "https://ankergames.net/game/marvel-cosmic-invasion"
+    },
+    {
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "url": "https://ankergames.net/game/marvel-tokon-fighting-souls"
+    },
+    {
+      "title": "Marvel's Avengers - The Definitive Edition",
+      "url": "https://ankergames.net/game/marvel-s-avengers-the-definitive-edition"
+    },
+    {
+      "title": "Marvel's Guardians of the Galaxy",
+      "url": "https://ankergames.net/game/marvel-s-guardians-of-the-galaxy"
+    },
+    {
+      "title": "Marvel: Ultimate Alliance",
+      "url": "https://ankergames.net/game/marvel-ultimate-alliance"
+    },
+    {
+      "title": "Marvels Spider Man 2",
+      "url": "https://ankergames.net/game/marvels-spider-man-2"
+    },
+    {
+      "title": "Mass Effect (2007)",
+      "url": "https://ankergames.net/game/mass-effect-2007"
+    },
+    {
+      "title": "Mass Effect 3 N7 Digital Deluxe Edition (2012)",
+      "url": "https://ankergames.net/game/mass-effect-3-n7-digital-deluxe-edition-2012"
+    },
+    {
+      "title": "Mass Effect Legendary Edition",
+      "url": "https://ankergames.net/game/mass-effect-legendary-edition"
+    },
+    {
+      "title": "Master Healer Kale with useless party",
+      "url": "https://ankergames.net/game/master-healer-kale-with-useless-party"
+    },
+    {
+      "title": "Master of Command",
+      "url": "https://ankergames.net/game/master-of-command"
+    },
+    {
+      "title": "Max Payne",
+      "url": "https://ankergames.net/game/max-payne"
+    },
+    {
+      "title": "MECCHA CHAMELEON",
+      "url": "https://ankergames.net/game/meccha-chameleon"
+    },
+    {
+      "title": "MechWarrior 5: Mercenaries",
+      "url": "https://ankergames.net/game/mechwarrior-5-mercenaries"
+    },
+    {
+      "title": "Medal of Honor",
+      "url": "https://ankergames.net/game/medal-of-honor"
+    },
+    {
+      "title": "Medieval Dynasty",
+      "url": "https://ankergames.net/game/medieval-dynasty"
+    },
+    {
+      "title": "Mega Man Legacy Collection",
+      "url": "https://ankergames.net/game/mega-man-legacy-collection"
+    },
+    {
+      "title": "Mega Man X Legacy Collection",
+      "url": "https://ankergames.net/game/mega-man-x-legacy-collection"
+    },
+    {
+      "title": "Megabonk",
+      "url": "https://ankergames.net/game/megabonk"
+    },
+    {
+      "title": "Megastore Simulator",
+      "url": "https://ankergames.net/game/megastore-simulator"
+    },
+    {
+      "title": "Meltopia",
+      "url": "https://ankergames.net/game/meltopia"
+    },
+    {
+      "title": "MEMORIAPOLIS",
+      "url": "https://ankergames.net/game/memoriapolis"
+    },
+    {
+      "title": "MENACE",
+      "url": "https://ankergames.net/game/menace"
+    },
+    {
+      "title": "METAL GEAR SOLID 2: Sons of Liberty - Master Collection Version",
+      "url": "https://ankergames.net/game/metal-gear-solid-2-sons-of-liberty-master-collection-version"
+    },
+    {
+      "title": "METAL GEAR SOLID 3: Snake Eater - Master Collection Version",
+      "url": "https://ankergames.net/game/metal-gear-solid-3-snake-eater-master-collection"
+    },
+    {
+      "title": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+      "url": "https://ankergames.net/game/metal-gear-solid-4-guns-of-the-patriots-master-collection-version"
+    },
+    {
+      "title": "METAL GEAR SOLID V: GROUND ZEROES",
+      "url": "https://ankergames.net/game/metal-gear-solid-v-ground-zeroes"
+    },
+    {
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "url": "https://ankergames.net/game/metal-gear-solid-snake-eater"
+    },
+    {
+      "title": "METAL GEAR SOLID: Master Collection Version",
+      "url": "https://ankergames.net/game/metal-gear-solid-master-collection-version"
+    },
+    {
       "title": "METAL GEAR SOLID: Peace Walker - Master Collection Version",
       "url": "https://ankergames.net/game/metal-gear-solid-peace-walker-master-collection-version"
+    },
+    {
+      "title": "METAL SLUG 3",
+      "url": "https://ankergames.net/game/metal-slug-3"
+    },
+    {
+      "title": "Metro 2033 Redux",
+      "url": "https://ankergames.net/game/metro-2033-redux"
+    },
+    {
+      "title": "Metro Awakening VR",
+      "url": "https://ankergames.net/game/metro-awakening-vr"
+    },
+    {
+      "title": "Metro: Last Light Redux",
+      "url": "https://ankergames.net/game/metro-last-light-redux"
+    },
+    {
+      "title": "Mewgenics",
+      "url": "https://ankergames.net/game/mewgenics"
+    },
+    {
+      "title": "Microsoft Flight Simulator 2024",
+      "url": "https://ankergames.net/game/microsoft-flight-simulator-2024"
+    },
+    {
+      "title": "Middle-earth: Shadow of Mordor",
+      "url": "https://ankergames.net/game/middle-earth-shadow-of-mordor"
+    },
+    {
+      "title": "Middle-earth: Shadow of War",
+      "url": "https://ankergames.net/game/middle-earth-shadow-of-war-definitive-edition"
+    },
+    {
+      "title": "MIMESIS",
+      "url": "https://ankergames.net/game/mimesis"
+    },
+    {
+      "title": "Mina the Hollower",
+      "url": "https://ankergames.net/game/mina-the-hollower"
+    },
+    {
+      "title": "MindsEye",
+      "url": "https://ankergames.net/game/mindseye"
+    },
+    {
+      "title": "Mindustry",
+      "url": "https://ankergames.net/game/mindustry"
+    },
+    {
+      "title": "Minecraft Dungeons",
+      "url": "https://ankergames.net/game/minecraft-dungeons"
+    },
+    {
+      "title": "Minecraft Legends",
+      "url": "https://ankergames.net/game/minecraft-legends"
+    },
+    {
+      "title": "Minecraft Story Mode - Season Two",
+      "url": "https://ankergames.net/game/minecraft-story-mode-season-two"
+    },
+    {
+      "title": "MineMogul",
+      "url": "https://ankergames.net/game/minemogul"
     },
     {
       "title": "Mini Metro",
       "url": "https://ankergames.net/game/mini-metro"
     },
     {
+      "title": "MIO: Memories in Orbit",
+      "url": "https://ankergames.net/game/mio-memories-in-orbit"
+    },
+    {
+      "title": "Mirror's Edge",
+      "url": "https://ankergames.net/game/mirror-s-edge"
+    },
+    {
+      "title": "MISERY",
+      "url": "https://ankergames.net/game/misery"
+    },
+    {
+      "title": "MiSide",
+      "url": "https://ankergames.net/game/miside"
+    },
+    {
+      "title": "Mixtape",
+      "url": "https://ankergames.net/game/mixtape"
+    },
+    {
+      "title": "MONSTER HUNTER RISE",
+      "url": "https://ankergames.net/game/monster-hunter-rise"
+    },
+    {
+      "title": "Monster Hunter Stories",
+      "url": "https://ankergames.net/game/monster-hunter-stories"
+    },
+    {
+      "title": "Monster Hunter Stories 2: Wings of Ruin",
+      "url": "https://ankergames.net/game/monster-hunter-stories-2-wings-of-ruin"
+    },
+    {
+      "title": "Monster Prom 4: Monster Con",
+      "url": "https://ankergames.net/game/monster-prom-4-monster-con"
+    },
+    {
+      "title": "Monster Train 2",
+      "url": "https://ankergames.net/game/monster-train-2"
+    },
+    {
+      "title": "Moonlight Peaks",
+      "url": "https://ankergames.net/game/moonlight-peaks"
+    },
+    {
+      "title": "Moonlighter",
+      "url": "https://ankergames.net/game/moonlighter"
+    },
+    {
+      "title": "Moonlighter 2: The Endless Vault",
+      "url": "https://ankergames.net/game/moonlighter-2-the-endless-vault"
+    },
+    {
+      "title": "Morbid Metal",
+      "url": "https://ankergames.net/game/morbid-metal"
+    },
+    {
       "title": "Mortal Kombat 1",
       "url": "https://ankergames.net/game/mortal-kombat-1"
+    },
+    {
+      "title": "Mortal Kombat 11",
+      "url": "https://ankergames.net/game/mortal-kombat-11"
+    },
+    {
+      "title": "Mortal Kombat Komplete Edition",
+      "url": "https://ankergames.net/game/mortal-kombat-komplete-edition"
+    },
+    {
+      "title": "Mortal Kombat X",
+      "url": "https://ankergames.net/game/mortal-kombat-x"
+    },
+    {
+      "title": "Mortal Kombat: Legacy Kollection",
+      "url": "https://ankergames.net/game/mortal-kombat-legacy-kollection"
+    },
+    {
+      "title": "Mortal Shell",
+      "url": "https://ankergames.net/game/mortal-shell"
+    },
+    {
+      "title": "Mortal Shell II",
+      "url": "https://ankergames.net/game/mortal-shell-ii"
+    },
+    {
+      "title": "Mortal Sin",
+      "url": "https://ankergames.net/game/mortal-sin"
+    },
+    {
+      "title": "Motel Manager Simulator",
+      "url": "https://ankergames.net/game/motel-manager-simulator"
+    },
+    {
+      "title": "MotoGP™25",
+      "url": "https://ankergames.net/game/motogp-25"
+    },
+    {
+      "title": "Motor Town: Behind The Wheel",
+      "url": "https://ankergames.net/game/motor-town-behind-the-wheel"
+    },
+    {
+      "title": "MOTORSLICE",
+      "url": "https://ankergames.net/game/motorslice"
+    },
+    {
+      "title": "Mouse X",
+      "url": "https://ankergames.net/game/mouse-x"
+    },
+    {
+      "title": "MOUSE: P.I. For Hire",
+      "url": "https://ankergames.net/game/mouse-p-i-for-hire"
+    },
+    {
+      "title": "Mouthwashing",
+      "url": "https://ankergames.net/game/mouthwashing"
+    },
+    {
+      "title": "Mr.President!",
+      "url": "https://ankergames.net/game/mr-president"
+    },
+    {
+      "title": "MudRunner",
+      "url": "https://ankergames.net/game/mudrunner"
+    },
+    {
+      "title": "Murdered: Soul Suspect",
+      "url": "https://ankergames.net/game/murdered-soul-suspect"
+    },
+    {
+      "title": "Muse Dash",
+      "url": "https://ankergames.net/game/muse-dash"
+    },
+    {
+      "title": "My Card Is Better Than Your Card!",
+      "url": "https://ankergames.net/game/my-card-is-better-than-your-card"
+    },
+    {
+      "title": "My Friend Pedro",
+      "url": "https://ankergames.net/game/my-friend-pedro"
+    },
+    {
+      "title": "MY HERO ACADEMIA: All’s Justice",
+      "url": "https://ankergames.net/game/my-hero-academia-all-s-justice"
+    },
+    {
+      "title": "My Time at Sandrock",
+      "url": "https://ankergames.net/game/my-time-at-sandrock"
+    },
+    {
+      "title": "My Winter Car",
+      "url": "https://ankergames.net/game/my-winter-car"
+    },
+    {
+      "title": "Myst",
+      "url": "https://ankergames.net/game/myst"
+    },
+    {
+      "title": "MyVoiceZoo",
+      "url": "https://ankergames.net/game/myvoicezoo"
+    },
+    {
+      "title": "NARUTO SHIPPUDEN Ultimate Ninja STORM 2",
+      "url": "https://ankergames.net/game/naruto-shippuden-ultimate-ninja-storm-2"
+    },
+    {
+      "title": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst HD",
+      "url": "https://ankergames.net/game/naruto-shippuden-ultimate-ninja-storm-3-full-burst"
+    },
+    {
+      "title": "NARUTO TO BORUTO SHINOBI STRIKER",
+      "url": "https://ankergames.net/game/naruto-to-boruto-shinobi-striker"
+    },
+    {
+      "title": "NARUTO Ultimate Ninja STORM",
+      "url": "https://ankergames.net/game/naruto-ultimate-ninja-storm"
     },
     {
       "title": "NBA 2K27",
       "url": "https://ankergames.net/game/nba-2k27"
     },
     {
+      "title": "Necesse",
+      "url": "https://ankergames.net/game/necesse"
+    },
+    {
+      "title": "Need for Speed Hot Pursuit Remastered",
+      "url": "https://ankergames.net/game/need-for-speed-hot-pursuit-remastered"
+    },
+    {
+      "title": "Need for Speed Rivals",
+      "url": "https://ankergames.net/game/need-for-speed-rivals"
+    },
+    {
+      "title": "Neighbors: Suburban Warfare",
+      "url": "https://ankergames.net/game/neighbors-suburban-warfare"
+    },
+    {
+      "title": "Neighbours From Hell Compilation",
+      "url": "https://ankergames.net/game/neighbours-from-hell-compilation"
+    },
+    {
+      "title": "Neon Abyss 2",
+      "url": "https://ankergames.net/game/neon-abyss-2"
+    },
+    {
+      "title": "News Tower",
+      "url": "https://ankergames.net/game/news-tower-2"
+    },
+    {
+      "title": "Ni no Kuni Wrath of the White Witch Remastered",
+      "url": "https://ankergames.net/game/ni-no-kuni-wrath-of-the-white-witch-remastered"
+    },
+    {
+      "title": "Night in the Woods",
+      "url": "https://ankergames.net/game/night-in-the-woods"
+    },
+    {
+      "title": "NINJA GAIDEN 2 Black",
+      "url": "https://ankergames.net/game/ninja-gaiden-2-black"
+    },
+    {
+      "title": "Ninja Gaiden 4",
+      "url": "https://ankergames.net/game/ninja-gaiden-4"
+    },
+    {
+      "title": "NINJA GAIDEN Σ [NINJA GAIDEN: Master Collection]",
+      "url": "https://ankergames.net/game/ninja-gaiden-s-ninja-gaiden-master-collection"
+    },
+    {
+      "title": "NINJA GAIDEN: Ragebound",
+      "url": "https://ankergames.net/game/ninja-gaiden-ragebound"
+    },
+    {
+      "title": "Nioh",
+      "url": "https://ankergames.net/game/nioh"
+    },
+    {
+      "title": "Nioh 2 – The Complete Edition",
+      "url": "https://ankergames.net/game/nioh-2-the-complete-edition"
+    },
+    {
+      "title": "Nioh 3",
+      "url": "https://ankergames.net/game/nioh-3"
+    },
+    {
+      "title": "No, I'm not a Human",
+      "url": "https://ankergames.net/game/no-i-m-not-a-human"
+    },
+    {
+      "title": "NO-SKIN",
+      "url": "https://ankergames.net/game/no-skin"
+    },
+    {
+      "title": "Nomad Idle",
+      "url": "https://ankergames.net/game/nomad-idle"
+    },
+    {
+      "title": "Noobs Are Coming",
+      "url": "https://ankergames.net/game/noobs-are-coming"
+    },
+    {
+      "title": "Nordic Ashes: Survivors of Ragnarok",
+      "url": "https://ankergames.net/game/nordic-ashes-survivors-of-ragnarok"
+    },
+    {
+      "title": "NORSE: Oath of Blood",
+      "url": "https://ankergames.net/game/norse-oath-of-blood"
+    },
+    {
+      "title": "Nova Roma",
+      "url": "https://ankergames.net/game/nova-roma"
+    },
+    {
+      "title": "Nubby's Number Factory",
+      "url": "https://ankergames.net/game/nubbys-number-factory"
+    },
+    {
+      "title": "Nuclear Option",
+      "url": "https://ankergames.net/game/nuclear-option"
+    },
+    {
       "title": "Octodad: Dadliest Catch",
       "url": "https://ankergames.net/game/octodad-dadliest-catch"
+    },
+    {
+      "title": "OCTOPATH TRAVELER",
+      "url": "https://ankergames.net/game/octopath-traveler"
+    },
+    {
+      "title": "OCTOPATH TRAVELER 0",
+      "url": "https://ankergames.net/game/octopath-traveler-0"
+    },
+    {
+      "title": "OCTOPATH TRAVELER II",
+      "url": "https://ankergames.net/game/octopath-traveler-ii"
+    },
+    {
+      "title": "Oddsparks: An Automation Adventure",
+      "url": "https://ankergames.net/game/oddsparks-an-automation-adventure"
+    },
+    {
+      "title": "Of Ash and Steel",
+      "url": "https://ankergames.net/game/of-ash-and-steel"
+    },
+    {
+      "title": "Okami HD",
+      "url": "https://ankergames.net/game/okami-hd"
+    },
+    {
+      "title": "Once Upon A KATAMARI",
+      "url": "https://ankergames.net/game/once-upon-a-katamari"
+    },
+    {
+      "title": "One More Night",
+      "url": "https://ankergames.net/game/one-more-night"
+    },
+    {
+      "title": "ONE PIECE ODYSSEY",
+      "url": "https://ankergames.net/game/one-piece-odyssey"
+    },
+    {
+      "title": "ONE PIECE World Seeker",
+      "url": "https://ankergames.net/game/one-piece-world-seeker"
+    },
+    {
+      "title": "OneShot",
+      "url": "https://ankergames.net/game/oneshot"
+    },
+    {
+      "title": "OPERATOR",
+      "url": "https://ankergames.net/game/operator"
+    },
+    {
+      "title": "OPUS: Prism Peak",
+      "url": "https://ankergames.net/game/opus-prism-peak"
+    },
+    {
+      "title": "Orb of Creation",
+      "url": "https://ankergames.net/game/orb-of-creation"
+    },
+    {
+      "title": "ORDER 13",
+      "url": "https://ankergames.net/game/order-13"
+    },
+    {
+      "title": "Ore Factory Squad",
+      "url": "https://ankergames.net/game/ore-factory-squad"
+    },
+    {
+      "title": "Outbound",
+      "url": "https://ankergames.net/game/outbound"
+    },
+    {
+      "title": "Outer Wilds",
+      "url": "https://ankergames.net/game/outer-wilds"
+    },
+    {
+      "title": "Outlast",
+      "url": "https://ankergames.net/game/outlast"
+    },
+    {
+      "title": "Outlast 2",
+      "url": "https://ankergames.net/game/outlast-2"
+    },
+    {
+      "title": "Outward",
+      "url": "https://ankergames.net/game/outward"
+    },
+    {
+      "title": "Overcooked! 2",
+      "url": "https://ankergames.net/game/overcooked-2"
+    },
+    {
+      "title": "Overcooked! All You Can Eat",
+      "url": "https://ankergames.net/game/overcooked-all-you-can-eat"
+    },
+    {
+      "title": "Overgrowth",
+      "url": "https://ankergames.net/game/overgrowth"
+    },
+    {
+      "title": "Oxenfree",
+      "url": "https://ankergames.net/game/oxenfree"
+    },
+    {
+      "title": "OXENFREE II: Lost Signals",
+      "url": "https://ankergames.net/game/oxenfree-ii-lost-signals"
+    },
+    {
+      "title": "PAC-MAN Championship Edition DX+",
+      "url": "https://ankergames.net/game/pac-man-championship-edition-dx"
+    },
+    {
+      "title": "PAC-MAN WORLD 2 Re-PAC",
+      "url": "https://ankergames.net/game/pac-man-world-2-re-pac"
+    },
+    {
+      "title": "PAC-MAN WORLD Re-PAC",
+      "url": "https://ankergames.net/game/pac-man-world-re-pac"
+    },
+    {
+      "title": "Pacific Drive",
+      "url": "https://ankergames.net/game/pacific-drive"
+    },
+    {
+      "title": "Painkiller",
+      "url": "https://ankergames.net/game/painkiller"
+    },
+    {
+      "title": "Papa's Freezeria Deluxe",
+      "url": "https://ankergames.net/game/papa-s-freezeria-deluxe"
+    },
+    {
+      "title": "Papa's Mocharia Deluxe",
+      "url": "https://ankergames.net/game/papa-s-mocharia-deluxe"
+    },
+    {
+      "title": "Papa's Pizzeria Deluxe",
+      "url": "https://ankergames.net/game/papa-s-pizzeria-deluxe"
+    },
+    {
+      "title": "Papers Please",
+      "url": "https://ankergames.net/game/papers-please"
+    },
+    {
+      "title": "Paralives",
+      "url": "https://ankergames.net/game/paralives"
+    },
+    {
+      "title": "PARANORMASIGHT: The Mermaid's Curse",
+      "url": "https://ankergames.net/game/paranormasight-the-mermaid-s-curse"
+    },
+    {
+      "title": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "url": "https://ankergames.net/game/paranormasight-the-seven-mysteries-of-honjo"
+    },
+    {
+      "title": "Parcel Simulator",
+      "url": "https://ankergames.net/game/parcel-simulator"
+    },
+    {
+      "title": "Parkitect",
+      "url": "https://ankergames.net/game/parkitect"
+    },
+    {
+      "title": "Party Club",
+      "url": "https://ankergames.net/game/party-club"
+    },
+    {
+      "title": "Pass the Fear",
+      "url": "https://ankergames.net/game/pass-the-fear"
+    },
+    {
+      "title": "PATAPON 1+2 REPLAY",
+      "url": "https://ankergames.net/game/patapon-1-2-replay"
+    },
+    {
+      "title": "Pathogenic",
+      "url": "https://ankergames.net/game/pathogenic"
+    },
+    {
+      "title": "Pathologic 3",
+      "url": "https://ankergames.net/game/pathologic-3"
+    },
+    {
+      "title": "Pax Autocratica",
+      "url": "https://ankergames.net/game/pax-autocratica"
+    },
+    {
+      "title": "PC Building Simulator",
+      "url": "https://ankergames.net/game/pc-building-simulator"
+    },
+    {
+      "title": "PEAK",
+      "url": "https://ankergames.net/game/peak"
+    },
+    {
+      "title": "Pentiment",
+      "url": "https://ankergames.net/game/pentiment"
+    },
+    {
+      "title": "Perfect Heist 2",
+      "url": "https://ankergames.net/game/perfect-heist-2"
     },
     {
       "title": "Persona 3 Reload",
       "url": "https://ankergames.net/game/persona-3-reload"
     },
     {
+      "title": "Persona 4 Golden",
+      "url": "https://ankergames.net/game/persona-4-golden"
+    },
+    {
+      "title": "Persona 5 Royal",
+      "url": "https://ankergames.net/game/persona-5-royal"
+    },
+    {
+      "title": "Persona 5 Strikers",
+      "url": "https://ankergames.net/game/persona-5-strikers"
+    },
+    {
+      "title": "Photomaly",
+      "url": "https://ankergames.net/game/photomaly"
+    },
+    {
+      "title": "PICO PARK",
+      "url": "https://ankergames.net/game/pico-park"
+    },
+    {
+      "title": "Pikuniku",
+      "url": "https://ankergames.net/game/pikuniku"
+    },
+    {
       "title": "Pizza House Simulator",
       "url": "https://ankergames.net/game/pizza-house-simulator"
+    },
+    {
+      "title": "Pizza Tower",
+      "url": "https://ankergames.net/game/pizza-tower"
+    },
+    {
+      "title": "Plague Inc Evolved",
+      "url": "https://ankergames.net/game/plague-inc-evolved"
+    },
+    {
+      "title": "Planet of Lana",
+      "url": "https://ankergames.net/game/planet-of-lana"
+    },
+    {
+      "title": "Planet of Lana II",
+      "url": "https://ankergames.net/game/planet-of-lana-ii"
+    },
+    {
+      "title": "Planet Zoo",
+      "url": "https://ankergames.net/game/planet-zoo"
+    },
+    {
+      "title": "Plants VS Zombies",
+      "url": "https://ankergames.net/game/plants-vs-zombies"
+    },
+    {
+      "title": "Plants vs. Zombies Garden Warfare 2",
+      "url": "https://ankergames.net/game/plants-vs-zombies-garden-warfare-2"
+    },
+    {
+      "title": "Plants vs. Zombies: Replanted",
+      "url": "https://ankergames.net/game/plants-vs-zombies-replanted"
+    },
+    {
+      "title": "PlateUp!",
+      "url": "https://ankergames.net/game/plateup"
+    },
+    {
+      "title": "Poker Night at the Inventory",
+      "url": "https://ankergames.net/game/poker-night-at-the-inventory"
+    },
+    {
+      "title": "Police Simulator Patrol Officers",
+      "url": "https://ankergames.net/game/police-simulator-patrol-officers"
+    },
+    {
+      "title": "Poly Bridge",
+      "url": "https://ankergames.net/game/poly-bridge"
+    },
+    {
+      "title": "Poly Bridge 2",
+      "url": "https://ankergames.net/game/poly-bridge-2"
+    },
+    {
+      "title": "Poly Bridge 3",
+      "url": "https://ankergames.net/game/poly-bridge-3"
+    },
+    {
+      "title": "Poppy Playtime",
+      "url": "https://ankergames.net/game/poppy-playtime"
+    },
+    {
+      "title": "POPUCOM",
+      "url": "https://ankergames.net/game/popucom"
+    },
+    {
+      "title": "Potion Craft: Alchemist Simulator",
+      "url": "https://ankergames.net/game/potion-craft-alchemist-simulator"
+    },
+    {
+      "title": "PowerWash Simulator",
+      "url": "https://ankergames.net/game/powerwash-simulator"
+    },
+    {
+      "title": "PowerWash Simulator 2",
+      "url": "https://ankergames.net/game/powerwash-simulator-2"
+    },
+    {
+      "title": "PRAGMATA",
+      "url": "https://ankergames.net/game/pragmata"
+    },
+    {
+      "title": "Pratfall",
+      "url": "https://ankergames.net/game/pratfall"
+    },
+    {
+      "title": "Prey",
+      "url": "https://ankergames.net/game/prey"
+    },
+    {
+      "title": "Prince of Persia The Forgotten Sands",
+      "url": "https://ankergames.net/game/prince-of-persia-the-forgotten-sands"
     },
     {
       "title": "Prince of Persia The Lost Crown",
       "url": "https://ankergames.net/game/prince-of-persia-the-lost-crown"
     },
     {
+      "title": "Prison Escape Simulator: Dig Out",
+      "url": "https://ankergames.net/game/prison-escape-simulator-dig-out"
+    },
+    {
+      "title": "Prison Simulator",
+      "url": "https://ankergames.net/game/prison-simulator"
+    },
+    {
       "title": "Project Hospital",
       "url": "https://ankergames.net/game/project-hospital"
+    },
+    {
+      "title": "Project P.I.T.T.",
+      "url": "https://ankergames.net/game/project-pitt"
+    },
+    {
+      "title": "Project Wingman",
+      "url": "https://ankergames.net/game/project-wingman"
+    },
+    {
+      "title": "Promise Mascot Agency",
+      "url": "https://ankergames.net/game/promise-mascot-agency"
+    },
+    {
+      "title": "Pseudoregalia",
+      "url": "https://ankergames.net/game/pseudoregalia"
+    },
+    {
+      "title": "Psychic Kung Fu Master",
+      "url": "https://ankergames.net/game/psychic-kung-fu-master"
+    },
+    {
+      "title": "Pull Stay",
+      "url": "https://ankergames.net/game/pull-stay"
+    },
+    {
+      "title": "Quantum Break",
+      "url": "https://ankergames.net/game/quantum-break"
+    },
+    {
+      "title": "Quarantine Zone: The Last Check",
+      "url": "https://ankergames.net/game/quarantine-zone-the-last-check"
+    },
+    {
+      "title": "Quasimorph",
+      "url": "https://ankergames.net/game/quasimorph"
+    },
+    {
+      "title": "R.E.P.O",
+      "url": "https://ankergames.net/game/r-e-p-o"
+    },
+    {
+      "title": "R.I.P. - Reincarnation Insurance Program",
+      "url": "https://ankergames.net/game/r-i-p-reincarnation-insurance-program"
+    },
+    {
+      "title": "Rabbit and Steel",
+      "url": "https://ankergames.net/game/rabbit-and-steel"
+    },
+    {
+      "title": "RACCOIN: Coin Pusher Roguelike",
+      "url": "https://ankergames.net/game/raccoin-coin-pusher-roguelike"
+    },
+    {
+      "title": "Rain World",
+      "url": "https://ankergames.net/game/rain-world"
+    },
+    {
+      "title": "Ranch Simulator",
+      "url": "https://ankergames.net/game/ranch-simulator-build-farm-hunt"
+    },
+    {
+      "title": "Ratatan",
+      "url": "https://ankergames.net/game/ratatan"
+    },
+    {
+      "title": "Ratchet & Clank: Rift Apart",
+      "url": "https://ankergames.net/game/ratchet-clank-rift-apart"
+    },
+    {
+      "title": "Ratopia",
+      "url": "https://ankergames.net/game/ratopia"
+    },
+    {
+      "title": "Rayman Legends",
+      "url": "https://ankergames.net/game/rayman-legends"
+    },
+    {
+      "title": "Rayman Origins",
+      "url": "https://ankergames.net/game/rayman-origins"
+    },
+    {
+      "title": "REANIMAL",
+      "url": "https://ankergames.net/game/reanimal"
+    },
+    {
+      "title": "Rebellion GODSOUL: Awakening",
+      "url": "https://ankergames.net/game/rebellion-godsoul-awakening"
+    },
+    {
+      "title": "REMATCH",
+      "url": "https://ankergames.net/game/rematch"
+    },
+    {
+      "title": "REPLACED",
+      "url": "https://ankergames.net/game/replaced"
+    },
+    {
+      "title": "Resident Evil",
+      "url": "https://ankergames.net/game/resident-evil"
+    },
+    {
+      "title": "Resident Evil (1996)",
+      "url": "https://ankergames.net/game/resident-evil-1996"
+    },
+    {
+      "title": "Resident Evil 0",
+      "url": "https://ankergames.net/game/resident-evil-0"
+    },
+    {
+      "title": "Resident Evil 2 (1998)",
+      "url": "https://ankergames.net/game/resident-evil-2-1998"
+    },
+    {
+      "title": "Resident Evil 3 Nemesis (1999)",
+      "url": "https://ankergames.net/game/resident-evil-3-nemesis-1999"
+    },
+    {
+      "title": "Resident Evil 4",
+      "url": "https://ankergames.net/game/resident-evil-4"
+    },
+    {
+      "title": "Resident Evil 5",
+      "url": "https://ankergames.net/game/resident-evil-5"
+    },
+    {
+      "title": "Resident Evil 6",
+      "url": "https://ankergames.net/game/resident-evil-6"
+    },
+    {
+      "title": "Resident Evil Requiem",
+      "url": "https://ankergames.net/game/resident-evil-requiem"
+    },
+    {
+      "title": "Resident Evil Revelations",
+      "url": "https://ankergames.net/game/resident-evil-revelations"
+    },
+    {
+      "title": "Resident Evil Revelations 2",
+      "url": "https://ankergames.net/game/resident-evil-revelations-2"
+    },
+    {
+      "title": "Resident Evil: Operation Raccoon City",
+      "url": "https://ankergames.net/game/resident-evil-operation-raccoon-city"
+    },
+    {
+      "title": "Resonance: A Plague Tale Legacy",
+      "url": "https://ankergames.net/game/resonance-a-plague-tale-legacy"
+    },
+    {
+      "title": "Restaurats",
+      "url": "https://ankergames.net/game/restaurats"
+    },
+    {
+      "title": "ReStory: Chill Electronics Repairs",
+      "url": "https://ankergames.net/game/restory-chill-electronics-repairs"
+    },
+    {
+      "title": "Retro Rewind - Video Store Simulator",
+      "url": "https://ankergames.net/game/retro-rewind-video-store-simulator"
+    },
+    {
+      "title": "Return of the Obra Dinn",
+      "url": "https://ankergames.net/game/return-of-the-obra-dinn"
+    },
+    {
+      "title": "Returnal",
+      "url": "https://ankergames.net/game/returnal"
+    },
+    {
+      "title": "Revenge of the Savage Planet",
+      "url": "https://ankergames.net/game/revenge-of-the-savage-planet"
+    },
+    {
+      "title": "Rick and Morty: Virtual Rick-ality",
+      "url": "https://ankergames.net/game/rick-and-morty-virtual-rick-ality"
+    },
+    {
+      "title": "Ride 5",
+      "url": "https://ankergames.net/game/ride-5"
+    },
+    {
+      "title": "Riders Republic",
+      "url": "https://ankergames.net/game/riders-republic"
+    },
+    {
+      "title": "Rift of the NecroDancer",
+      "url": "https://ankergames.net/game/rift-of-the-necrodancer"
+    },
+    {
+      "title": "Rise of the Ronin",
+      "url": "https://ankergames.net/game/rise-of-the-ronin"
+    },
+    {
+      "title": "Risk of Rain Returns",
+      "url": "https://ankergames.net/game/risk-of-rain-returns"
+    },
+    {
+      "title": "Rivals of Aether",
+      "url": "https://ankergames.net/game/rivals-of-aether"
+    },
+    {
+      "title": "Rivals of Aether II",
+      "url": "https://ankergames.net/game/rivals-of-aether-ii"
+    },
+    {
+      "title": "Riven",
+      "url": "https://ankergames.net/game/riven"
+    },
+    {
+      "title": "Road 96",
+      "url": "https://ankergames.net/game/road-96"
+    },
+    {
+      "title": "Road Redemption",
+      "url": "https://ankergames.net/game/road-redemption"
+    },
+    {
+      "title": "Road to Vostok",
+      "url": "https://ankergames.net/game/road-to-vostok"
+    },
+    {
+      "title": "RoadCraft",
+      "url": "https://ankergames.net/game/roadcraft"
+    },
+    {
+      "title": "Roadside Research",
+      "url": "https://ankergames.net/game/roadside-research"
+    },
+    {
+      "title": "RoboCop Rogue City",
+      "url": "https://ankergames.net/game/robocop-rogue-city"
+    },
+    {
+      "title": "RoboCop: Rogue City - Unfinished Business",
+      "url": "https://ankergames.net/game/robocop-rogue-city-unfinished-business"
+    },
+    {
+      "title": "Roboquest",
+      "url": "https://ankergames.net/game/roboquest"
+    },
+    {
+      "title": "Rocket League",
+      "url": "https://ankergames.net/game/rocket-league"
+    },
+    {
+      "title": "Rocksmith 2014 Edition Remastered",
+      "url": "https://ankergames.net/game/rocksmith-2014-edition-remastered"
+    },
+    {
+      "title": "Rogue: Genesia",
+      "url": "https://ankergames.net/game/rogue-genesia"
+    },
+    {
+      "title": "RollerCoaster Tycoon 3",
+      "url": "https://ankergames.net/game/rollercoaster-tycoon-3"
+    },
+    {
+      "title": "ROMEO IS A DEAD MAN",
+      "url": "https://ankergames.net/game/romeo-is-a-dead-man"
+    },
+    {
+      "title": "Romestead",
+      "url": "https://ankergames.net/game/romestead"
+    },
+    {
+      "title": "Rooftops & Alleys The Parkour Game",
+      "url": "https://ankergames.net/game/rooftops-alleys-the-parkour-game"
+    },
+    {
+      "title": "ROUTINE",
+      "url": "https://ankergames.net/game/routine"
+    },
+    {
+      "title": "Ruins of Dawn",
+      "url": "https://ankergames.net/game/ruins-of-dawn"
+    },
+    {
+      "title": "Rune Dice",
+      "url": "https://ankergames.net/game/rune-dice"
+    },
+    {
+      "title": "Rune Factory: Guardians of Azuma",
+      "url": "https://ankergames.net/game/rune-factory-guardians-of-azuma"
+    },
+    {
+      "title": "RuneScape: Dragonwilds",
+      "url": "https://ankergames.net/game/runescape-dragonwilds"
+    },
+    {
+      "title": "RUNNING TRAIN | 走ル列車！",
+      "url": "https://ankergames.net/game/running-train"
+    },
+    {
+      "title": "RV There Yet",
+      "url": "https://ankergames.net/game/rv-there-yet"
+    },
+    {
+      "title": "Ryse: Son of Rome",
+      "url": "https://ankergames.net/game/ryse-son-of-rome"
+    },
+    {
+      "title": "s&box",
+      "url": "https://ankergames.net/game/s-box"
+    },
+    {
+      "title": "S.T.A.L.K.E.R 2 Heart of Chornobyl",
+      "url": "https://ankergames.net/game/s-t-a-l-k-e-r-2-heart-of-chornobyl"
+    },
+    {
+      "title": "S.T.A.L.K.E.R. Shadow of Chornobyl - Enhanced Edition",
+      "url": "https://ankergames.net/game/s-t-a-l-k-e-r-shadow-of-chornobyl-enhanced-edition"
+    },
+    {
+      "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+      "url": "https://ankergames.net/game/s-t-a-l-k-e-r-shadow-of-chernobyl"
+    },
+    {
+      "title": "Sackboy A Big Adventure",
+      "url": "https://ankergames.net/game/sackboy-a-big-adventure"
+    },
+    {
+      "title": "Saints Row 2",
+      "url": "https://ankergames.net/game/saints-row-2"
+    },
+    {
+      "title": "Saints Row IV Re-Elected",
+      "url": "https://ankergames.net/game/saints-row-iv-re-elected"
+    },
+    {
+      "title": "Saints Row: The Third",
+      "url": "https://ankergames.net/game/saints-row-the-third"
+    },
+    {
+      "title": "Saints Row: The Third Remastered",
+      "url": "https://ankergames.net/game/saints-row-the-third-remastered"
+    },
+    {
+      "title": "Samson",
+      "url": "https://ankergames.net/game/samson"
+    },
+    {
+      "title": "SAND LAND",
+      "url": "https://ankergames.net/game/sand-land"
+    },
+    {
+      "title": "Sandustry",
+      "url": "https://ankergames.net/game/sandustry"
+    },
+    {
+      "title": "Scale the Depths",
+      "url": "https://ankergames.net/game/scale-the-depths"
     },
     {
       "title": "Scarlet Skips",
       "url": "https://ankergames.net/game/scarlet-skips"
     },
     {
+      "title": "Schedule I",
+      "url": "https://ankergames.net/game/schedule-i"
+    },
+    {
+      "title": "SchoolBoy Runaway",
+      "url": "https://ankergames.net/game/schoolboy-runaway"
+    },
+    {
+      "title": "Scorn",
+      "url": "https://ankergames.net/game/scorn"
+    },
+    {
+      "title": "Scott Pilgrim EX",
+      "url": "https://ankergames.net/game/scott-pilgrim-ex"
+    },
+    {
+      "title": "SCP 5K",
+      "url": "https://ankergames.net/game/scps-5k"
+    },
+    {
+      "title": "Scrap Mechanic",
+      "url": "https://ankergames.net/game/scrap-mechanic"
+    },
+    {
+      "title": "Screamer",
+      "url": "https://ankergames.net/game/screamer"
+    },
+    {
+      "title": "Scribblenauts Unlimited",
+      "url": "https://ankergames.net/game/scribblenauts-unlimited"
+    },
+    {
+      "title": "Scritchy Scratchy",
+      "url": "https://ankergames.net/game/scritchy-scratchy"
+    },
+    {
+      "title": "SCUM",
+      "url": "https://ankergames.net/game/scum"
+    },
+    {
+      "title": "Sea of Stars",
+      "url": "https://ankergames.net/game/sea-of-stars"
+    },
+    {
+      "title": "Sea Power : Naval Combat in the Missile Age",
+      "url": "https://ankergames.net/game/sea-power-naval-combat-in-the-missile-age"
+    },
+    {
+      "title": "Secret Of Magia",
+      "url": "https://ankergames.net/game/secret-of-magia"
+    },
+    {
+      "title": "Sengoku Dynasty",
+      "url": "https://ankergames.net/game/sengoku-dynasty"
+    },
+    {
+      "title": "Senua’s Saga: Hellblade II Enhanced",
+      "url": "https://ankergames.net/game/senua-s-saga-hellblade-ii"
+    },
+    {
+      "title": "Sephiria",
+      "url": "https://ankergames.net/game/sephiria"
+    },
+    {
       "title": "Serious Sam: Shatterverse",
       "url": "https://ankergames.net/game/serious-sam-shatterverse"
+    },
+    {
+      "title": "Servant of the Lake",
+      "url": "https://ankergames.net/game/servant-of-the-lake"
+    },
+    {
+      "title": "Session: Skate Sim",
+      "url": "https://ankergames.net/game/session-skate-sim"
+    },
+    {
+      "title": "Sex, Secrets & Used Tech",
+      "url": "https://ankergames.net/game/sex-secrets-used-tech"
+    },
+    {
+      "title": "Shadow Dungeon",
+      "url": "https://ankergames.net/game/shadow-dungeon"
+    },
+    {
+      "title": "Shape of Dreams",
+      "url": "https://ankergames.net/game/shape-of-dreams"
+    },
+    {
+      "title": "shapez",
+      "url": "https://ankergames.net/game/shapez"
+    },
+    {
+      "title": "Shelldiver",
+      "url": "https://ankergames.net/game/shelldiver"
+    },
+    {
+      "title": "Sherlock Holmes The Awakened",
+      "url": "https://ankergames.net/game/sherlock-holmes-the-awakened"
+    },
+    {
+      "title": "Shieldwall",
+      "url": "https://ankergames.net/game/shieldwall"
+    },
+    {
+      "title": "Shift At Midnight",
+      "url": "https://ankergames.net/game/shift-at-midnight"
+    },
+    {
+      "title": "Shin Megami Tensei III Nocturne HD Remaster",
+      "url": "https://ankergames.net/game/shin-megami-tensei-iii-nocturne-hd-remaster"
+    },
+    {
+      "title": "Ship Graveyard Simulator 2",
+      "url": "https://ankergames.net/game/ship-graveyard-simulator-2"
+    },
+    {
+      "title": "Shovel Knight: Treasure Trove",
+      "url": "https://ankergames.net/game/shovel-knight-treasure-trove"
+    },
+    {
+      "title": "SIGNALIS",
+      "url": "https://ankergames.net/game/signalis"
+    },
+    {
+      "title": "SILENT HILL f",
+      "url": "https://ankergames.net/game/silent-hill-f"
+    },
+    {
+      "title": "SimCity 4",
+      "url": "https://ankergames.net/game/simcity-4"
+    },
+    {
+      "title": "SIMULACRA",
+      "url": "https://ankergames.net/game/simulacra"
+    },
+    {
+      "title": "Sir, We Have an Orc Problem",
+      "url": "https://ankergames.net/game/sir-we-have-an-orc-problem"
+    },
+    {
+      "title": "Six Days in Fallujah",
+      "url": "https://ankergames.net/game/six-days-in-fallujah"
+    },
+    {
+      "title": "Skul: The Hero Slayer",
+      "url": "https://ankergames.net/game/skul-the-hero-slayer"
+    },
+    {
+      "title": "Skull Horde",
+      "url": "https://ankergames.net/game/skull-horde"
+    },
+    {
+      "title": "Skullgirls 2nd Encore",
+      "url": "https://ankergames.net/game/skullgirls-2nd-encore"
+    },
+    {
+      "title": "Slay the Princess — The Pristine Cut",
+      "url": "https://ankergames.net/game/slay-the-princess"
+    },
+    {
+      "title": "Slay the Spire 2",
+      "url": "https://ankergames.net/game/slay-the-spire-2"
     },
     {
       "title": "Slayblade",
       "url": "https://ankergames.net/game/slayblade"
     },
     {
+      "title": "Sledders",
+      "url": "https://ankergames.net/game/sledders"
+    },
+    {
+      "title": "Sledding Game",
+      "url": "https://ankergames.net/game/sledding-game"
+    },
+    {
+      "title": "Sleeping Dogs",
+      "url": "https://ankergames.net/game/sleeping-dogs"
+    },
+    {
+      "title": "Slots & Daggers",
+      "url": "https://ankergames.net/game/slots-daggers"
+    },
+    {
+      "title": "Sludgineers",
+      "url": "https://ankergames.net/game/sludgineers"
+    },
+    {
+      "title": "Sniper Elite 3",
+      "url": "https://ankergames.net/game/sniper-elite-3"
+    },
+    {
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "url": "https://ankergames.net/game/sniper-ghost-warrior-contracts-2"
+    },
+    {
+      "title": "Sol Cesto",
+      "url": "https://ankergames.net/game/sol-cesto"
+    },
+    {
+      "title": "Solar Expanse - Space Exploration Manager",
+      "url": "https://ankergames.net/game/solar-expanse-space-exploration-manager"
+    },
+    {
+      "title": "Solarpunk",
+      "url": "https://ankergames.net/game/solarpunk"
+    },
+    {
+      "title": "Solasta II",
+      "url": "https://ankergames.net/game/solasta-ii"
+    },
+    {
+      "title": "Solo Leveling: ARISE OVERDRIVE",
+      "url": "https://ankergames.net/game/solo-leveling-arise-overdrive"
+    },
+    {
+      "title": "SOMA",
+      "url": "https://ankergames.net/game/soma"
+    },
+    {
+      "title": "Songs of Syx",
+      "url": "https://ankergames.net/game/songs-of-syx"
+    },
+    {
+      "title": "Sonic & All-Stars Racing Transformed Collection",
+      "url": "https://ankergames.net/game/sonic-all-stars-racing-transformed-collection"
+    },
+    {
+      "title": "Sonic Adventure 2",
+      "url": "https://ankergames.net/game/sonic-adventure-2"
+    },
+    {
+      "title": "Sonic Colors: Ultimate",
+      "url": "https://ankergames.net/game/sonic-colors-ultimate"
+    },
+    {
+      "title": "Sonic Frontiers",
+      "url": "https://ankergames.net/game/sonic-frontiers"
+    },
+    {
+      "title": "Sonic Generations Collection",
+      "url": "https://ankergames.net/game/sonic-generations"
+    },
+    {
+      "title": "Sonic Lost World",
+      "url": "https://ankergames.net/game/sonic-lost-world"
+    },
+    {
+      "title": "Sonic Mania",
+      "url": "https://ankergames.net/game/sonic-mania"
+    },
+    {
+      "title": "Sort Them Ducks",
+      "url": "https://ankergames.net/game/sort-them-ducks"
+    },
+    {
       "title": "SOULCALIBUR VI",
       "url": "https://ankergames.net/game/soulcalibur-vi"
+    },
+    {
+      "title": "Soulstone Survivors",
+      "url": "https://ankergames.net/game/soulstone-survivors"
+    },
+    {
+      "title": "South of Midnight",
+      "url": "https://ankergames.net/game/south-of-midnight"
+    },
+    {
+      "title": "South Park The Fractured But Whole",
+      "url": "https://ankergames.net/game/south-park-the-fractured-but-whole-gold"
+    },
+    {
+      "title": "Sovereign Tower",
+      "url": "https://ankergames.net/game/sovereign-tower"
+    },
+    {
+      "title": "Space Haven",
+      "url": "https://ankergames.net/game/space-haven"
+    },
+    {
+      "title": "Space Rock Breaker",
+      "url": "https://ankergames.net/game/space-rock-breaker"
+    },
+    {
+      "title": "SpaceEngine",
+      "url": "https://ankergames.net/game/spaceengine"
+    },
+    {
+      "title": "Spaceflight Simulator",
+      "url": "https://ankergames.net/game/spaceflight-simulator"
+    },
+    {
+      "title": "Spec Ops The Line",
+      "url": "https://ankergames.net/game/spec-ops-the-line"
     },
     {
       "title": "SpeedRunners 2: King of Speed",
       "url": "https://ankergames.net/game/speedrunners-2-king-of-speed"
     },
     {
+      "title": "Spelunky",
+      "url": "https://ankergames.net/game/spelunky"
+    },
+    {
+      "title": "Spelunky 2",
+      "url": "https://ankergames.net/game/spelunky-2"
+    },
+    {
+      "title": "Spider-Man: Shattered Dimensions",
+      "url": "https://ankergames.net/game/spider-man-shattered-dimensions"
+    },
+    {
+      "title": "SpiderHeck",
+      "url": "https://ankergames.net/game/spiderheck"
+    },
+    {
+      "title": "Spirit of the North",
+      "url": "https://ankergames.net/game/spirit-of-the-north"
+    },
+    {
+      "title": "Spiritfarer Farewell Edition",
+      "url": "https://ankergames.net/game/spiritfarer-farewell-edition"
+    },
+    {
+      "title": "Split Fiction",
+      "url": "https://ankergames.net/game/split-fiction"
+    },
+    {
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "url": "https://ankergames.net/game/spongebob-squarepants-battle-for-bikini-bottom-rehydrated"
+    },
+    {
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "url": "https://ankergames.net/game/spongebob-squarepants-the-cosmic-shake"
+    },
+    {
+      "title": "SpongeBob SquarePants: Titans of the Tide",
+      "url": "https://ankergames.net/game/spongebob-squarepants-titans-of-the-tide"
+    },
+    {
+      "title": "SPORE",
+      "url": "https://ankergames.net/game/spore"
+    },
+    {
+      "title": "Sprocket",
+      "url": "https://ankergames.net/game/sprocket"
+    },
+    {
+      "title": "Spyro Reignited Trilogy",
+      "url": "https://ankergames.net/game/spyro-reignited-trilogy"
+    },
+    {
+      "title": "Star Birds",
+      "url": "https://ankergames.net/game/star-birds"
+    },
+    {
+      "title": "STAR OCEAN THE SECOND STORY R",
+      "url": "https://ankergames.net/game/star-ocean-the-second-story-r"
+    },
+    {
+      "title": "Star Trek: Voyager - Across the Unknown",
+      "url": "https://ankergames.net/game/star-trek-voyager-across-the-unknown"
+    },
+    {
+      "title": "STAR WARS Battlefront II",
+      "url": "https://ankergames.net/game/star-wars-battlefront-ii"
+    },
+    {
       "title": "Star Wars Outlaws",
       "url": "https://ankergames.net/game/star-wars-outlaws"
+    },
+    {
+      "title": "STAR WARS Zero Company",
+      "url": "https://ankergames.net/game/star-wars-zero-company"
+    },
+    {
+      "title": "STAR WARS: Squadrons",
+      "url": "https://ankergames.net/game/star-wars-squadrons"
+    },
+    {
+      "title": "Starminer",
+      "url": "https://ankergames.net/game/starminer"
+    },
+    {
+      "title": "StarRupture",
+      "url": "https://ankergames.net/game/starrupture"
+    },
+    {
+      "title": "Starsand Island",
+      "url": "https://ankergames.net/game/starsand-island"
+    },
+    {
+      "title": "STARSEEKER: Astroneer Expeditions",
+      "url": "https://ankergames.net/game/starseeker-astroneer-expeditions"
+    },
+    {
+      "title": "Starship Troopers: Ultimate Bug War!",
+      "url": "https://ankergames.net/game/starship-troopers-ultimate-bug-war"
+    },
+    {
+      "title": "Starvester",
+      "url": "https://ankergames.net/game/starvester"
+    },
+    {
+      "title": "State of Decay: YOSE",
+      "url": "https://ankergames.net/game/state-of-decay-yose"
+    },
+    {
+      "title": "SteamWorld Dig",
+      "url": "https://ankergames.net/game/steamworld-dig"
+    },
+    {
+      "title": "SteamWorld Dig 2",
+      "url": "https://ankergames.net/game/steamworld-dig-2"
+    },
+    {
+      "title": "STEINS;GATE RE:BOOT",
+      "url": "https://ankergames.net/game/steins-gate-re-boot"
+    },
+    {
+      "title": "Stellar Blade",
+      "url": "https://ankergames.net/game/stellar-blade"
+    },
+    {
+      "title": "Stellaris",
+      "url": "https://ankergames.net/game/stellaris"
+    },
+    {
+      "title": "Stick Fight: The Game",
+      "url": "https://ankergames.net/game/stick-fight-the-game"
+    },
+    {
+      "title": "Stick It to the Stickman",
+      "url": "https://ankergames.net/game/stick-it-to-the-stickman"
+    },
+    {
+      "title": "Still Wakes the Deep",
+      "url": "https://ankergames.net/game/still-wakes-the-deep"
+    },
+    {
+      "title": "Stonemachia",
+      "url": "https://ankergames.net/game/stonemachia"
+    },
+    {
+      "title": "Stoneshard",
+      "url": "https://ankergames.net/game/stoneshard"
     },
     {
       "title": "Storage Hunter Simulator",
       "url": "https://ankergames.net/game/storage-hunter-simulator"
     },
     {
+      "title": "STORROR Parkour Pro",
+      "url": "https://ankergames.net/game/storror-parkour-pro"
+    },
+    {
+      "title": "STORY OF SEASONS: Grand Bazaar",
+      "url": "https://ankergames.net/game/story-of-seasons-grand-bazaar"
+    },
+    {
+      "title": "Storyteller",
+      "url": "https://ankergames.net/game/storyteller"
+    },
+    {
+      "title": "Stranded Deep",
+      "url": "https://ankergames.net/game/stranded-deep"
+    },
+    {
+      "title": "Streamer Life Simulator 2",
+      "url": "https://ankergames.net/game/streamer-life-simulator-2"
+    },
+    {
+      "title": "Street Fighter V",
+      "url": "https://ankergames.net/game/street-fighter-v"
+    },
+    {
+      "title": "Streets of Rage 4",
+      "url": "https://ankergames.net/game/streets-of-rage-4"
+    },
+    {
+      "title": "Stronghold Crusader: Definitive Edition",
+      "url": "https://ankergames.net/game/stronghold-crusader-definitive-edition"
+    },
+    {
+      "title": "Styx: Blades of Greed",
+      "url": "https://ankergames.net/game/styx-blades-of-greed"
+    },
+    {
+      "title": "Subliminal",
+      "url": "https://ankergames.net/game/subliminal"
+    },
+    {
+      "title": "Subnautica 2",
+      "url": "https://ankergames.net/game/subnautica-2"
+    },
+    {
+      "title": "Suicide Squad Kill the Justice League",
+      "url": "https://ankergames.net/game/suicide-squad-kill-the-justice-league"
+    },
+    {
+      "title": "Suikoden I&II HD Remaster Gate Rune and DUW",
+      "url": "https://ankergames.net/game/suikoden-i-and-ii-hd-remaster-gate-rune-and-duw"
+    },
+    {
+      "title": "SULFUR",
+      "url": "https://ankergames.net/game/sulfur"
+    },
+    {
+      "title": "Sultan's Game",
+      "url": "https://ankergames.net/game/sultans-game"
+    },
+    {
+      "title": "Sun Haven",
+      "url": "https://ankergames.net/game/sun-haven"
+    },
+    {
+      "title": "Sunset Overdrive",
+      "url": "https://ankergames.net/game/sunset-overdrive"
+    },
+    {
+      "title": "Super Battle Golf",
+      "url": "https://ankergames.net/game/super-battle-golf"
+    },
+    {
+      "title": "Super Fantasy Kingdom",
+      "url": "https://ankergames.net/game/super-fantasy-kingdom"
+    },
+    {
+      "title": "Super Meat Boy",
+      "url": "https://ankergames.net/game/super-meat-boy"
+    },
+    {
+      "title": "Super Meat Boy 3D",
+      "url": "https://ankergames.net/game/super-meat-boy-3d"
+    },
+    {
+      "title": "SUPER ROBOT WARS Y",
+      "url": "https://ankergames.net/game/super-robot-wars-y"
+    },
+    {
+      "title": "Super Woden: Rally Edge",
+      "url": "https://ankergames.net/game/super-woden-rally-edge"
+    },
+    {
+      "title": "Supercar Collection Simulator",
+      "url": "https://ankergames.net/game/supercar-collection-simulator"
+    },
+    {
+      "title": "SUPERHOT",
+      "url": "https://ankergames.net/game/superhot"
+    },
+    {
+      "title": "Superliminal",
+      "url": "https://ankergames.net/game/superliminal"
+    },
+    {
+      "title": "Supermarket Chaos",
+      "url": "https://ankergames.net/game/supermarket-chaos"
+    },
+    {
+      "title": "Supraworld",
+      "url": "https://ankergames.net/game/supraworld"
+    },
+    {
+      "title": "Surgeon Simulator",
+      "url": "https://ankergames.net/game/surgeon-simulator"
+    },
+    {
+      "title": "SurrounDead",
+      "url": "https://ankergames.net/game/surroundead"
+    },
+    {
+      "title": "Survival Log",
+      "url": "https://ankergames.net/game/survival-log"
+    },
+    {
+      "title": "Survivalist: Invisible Strain",
+      "url": "https://ankergames.net/game/survivalist-invisible-strain"
+    },
+    {
+      "title": "Surviving Mars: Relaunched",
+      "url": "https://ankergames.net/game/surviving-mars-relaunched"
+    },
+    {
+      "title": "SWORD ART ONLINE Alicization Lycoris",
+      "url": "https://ankergames.net/game/sword-art-online-alicization-lycoris"
+    },
+    {
+      "title": "Sword Art Online Fatal Bullet",
+      "url": "https://ankergames.net/game/sword-art-online-fatal-bullet"
+    },
+    {
+      "title": "SWORD ART ONLINE Last Recollection",
+      "url": "https://ankergames.net/game/sword-art-online-last-recollection"
+    },
+    {
+      "title": "Sword of the Sea",
+      "url": "https://ankergames.net/game/sword-of-the-sea"
+    },
+    {
+      "title": "SWORN",
+      "url": "https://ankergames.net/game/sworn"
+    },
+    {
+      "title": "Tactics Ogre Reborn",
+      "url": "https://ankergames.net/game/tactics-ogre-reborn"
+    },
+    {
+      "title": "Tails of Iron",
+      "url": "https://ankergames.net/game/tails-of-iron"
+    },
+    {
+      "title": "Tails of Iron 2: Whiskers of Winter",
+      "url": "https://ankergames.net/game/tails-of-iron-2-whiskers-of-winter"
+    },
+    {
+      "title": "Tainted Grail: The Fall of Avalon",
+      "url": "https://ankergames.net/game/tainted-grail-the-fall-of-avalon"
+    },
+    {
+      "title": "Tales of Arise",
+      "url": "https://ankergames.net/game/tales-of-arise"
+    },
+    {
+      "title": "Tales of Berseria Remastered",
+      "url": "https://ankergames.net/game/tales-of-berseria-remastered"
+    },
+    {
+      "title": "Tales of Xillia Remastered",
+      "url": "https://ankergames.net/game/tales-of-xillia-remastered"
+    },
+    {
+      "title": "Tap Tap Loot",
+      "url": "https://ankergames.net/game/tap-tap-loot"
+    },
+    {
+      "title": "Tape to Tape",
+      "url": "https://ankergames.net/game/tape-to-tape"
+    },
+    {
+      "title": "Tavern Keeper",
+      "url": "https://ankergames.net/game/tavern-keeper"
+    },
+    {
+      "title": "TBH: Task Bar Hero",
+      "url": "https://ankergames.net/game/tbh-task-bar-hero"
+    },
+    {
+      "title": "Tears of Metal",
+      "url": "https://ankergames.net/game/tears-of-metal"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles Shredder’s Revenge",
+      "url": "https://ankergames.net/game/teenage-mutant-ninja-turtles-shredder-s-revenge"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles Splintered Fate",
+      "url": "https://ankergames.net/game/teenage-mutant-ninja-turtles-splintered-fate"
+    },
+    {
+      "title": "Tempest Rising",
+      "url": "https://ankergames.net/game/tempest-rising"
+    },
+    {
+      "title": "Terminator 2D: NO FATE",
+      "url": "https://ankergames.net/game/terminator-2d-no-fate"
+    },
+    {
+      "title": "Terra Nil",
+      "url": "https://ankergames.net/game/terra-nil"
+    },
+    {
+      "title": "TerraTech Legion",
+      "url": "https://ankergames.net/game/terratech-legion"
+    },
+    {
+      "title": "Tetris Effect: Connected",
+      "url": "https://ankergames.net/game/tetris-effect-connected"
+    },
+    {
+      "title": "Thank Goodness You're Here!",
+      "url": "https://ankergames.net/game/thank-goodness-you-re-here"
+    },
+    {
+      "title": "Thank You For Your Application",
+      "url": "https://ankergames.net/game/thank-you-for-your-application"
+    },
+    {
+      "title": "That's not my Neighbor",
+      "url": "https://ankergames.net/game/that-s-not-my-neighbor"
+    },
+    {
+      "title": "The Alters",
+      "url": "https://ankergames.net/game/the-alters"
+    },
+    {
+      "title": "The Amazing Spider-Man",
+      "url": "https://ankergames.net/game/the-amazing-spider-man"
+    },
+    {
+      "title": "The Amazing Spider-Man 2",
+      "url": "https://ankergames.net/game/the-amazing-spider-man-2"
+    },
+    {
       "title": "The Blood of Dawnwalker",
       "url": "https://ankergames.net/game/the-blood-of-dawnwalker"
+    },
+    {
+      "title": "The Callisto Protocol",
+      "url": "https://ankergames.net/game/the-callisto-protocol"
+    },
+    {
+      "title": "The Case of the Golden Idol",
+      "url": "https://ankergames.net/game/the-case-of-the-golden-idol"
+    },
+    {
+      "title": "The Classrooms",
+      "url": "https://ankergames.net/game/the-classrooms"
+    },
+    {
+      "title": "The Coffin of Andy and Leyley",
+      "url": "https://ankergames.net/game/the-coffin-of-andy-and-leyley"
+    },
+    {
+      "title": "The Crew",
+      "url": "https://ankergames.net/game/the-crew"
+    },
+    {
+      "title": "The Crew 2",
+      "url": "https://ankergames.net/game/the-crew-2"
+    },
+    {
+      "title": "The Dark Pictures Anthology: House of Ashes",
+      "url": "https://ankergames.net/game/the-dark-pictures-anthology-house-of-ashes"
+    },
+    {
+      "title": "The Dark Pictures Anthology: Little Hope",
+      "url": "https://ankergames.net/game/the-dark-pictures-anthology-little-hope"
+    },
+    {
+      "title": "The Dark Pictures Anthology: The Devil in Me",
+      "url": "https://ankergames.net/game/the-dark-pictures-anthology-the-devil-in-me"
+    },
+    {
+      "title": "The Dark Rites of Arkham",
+      "url": "https://ankergames.net/game/the-dark-rites-of-arkham"
+    },
+    {
+      "title": "The Elder Scrolls IV Oblivion GOTY",
+      "url": "https://ankergames.net/game/the-elder-scrolls-iv-oblivion-goty"
+    },
+    {
+      "title": "The Elder Scrolls IV Oblivion Remastered",
+      "url": "https://ankergames.net/game/the-elder-scrolls-iv-oblivion-remastered"
+    },
+    {
+      "title": "The Escapists",
+      "url": "https://ankergames.net/game/the-escapists"
+    },
+    {
+      "title": "The Evil Within",
+      "url": "https://ankergames.net/game/the-evil-within"
+    },
+    {
+      "title": "The Executive - Movie Industry Tycoon",
+      "url": "https://ankergames.net/game/the-executive-movie-industry-tycoon"
+    },
+    {
+      "title": "The Exit 8",
+      "url": "https://ankergames.net/game/the-exit-8-2"
+    },
+    {
+      "title": "The Farmer Was Replaced",
+      "url": "https://ankergames.net/game/the-farmer-was-replaced"
+    },
+    {
+      "title": "The First Berserker: Khazan",
+      "url": "https://ankergames.net/game/the-first-berserker-khazan"
+    },
+    {
+      "title": "The Genesis Order",
+      "url": "https://ankergames.net/game/the-genesis-order"
+    },
+    {
+      "title": "The Headliners",
+      "url": "https://ankergames.net/game/the-headliners"
+    },
+    {
+      "title": "The House Always Wins",
+      "url": "https://ankergames.net/game/the-house-always-wins"
+    },
+    {
+      "title": "The House in Fata Morgana: A Requiem for Innocence",
+      "url": "https://ankergames.net/game/the-house-in-fata-morgana-a-requiem-for-innocence"
+    },
+    {
+      "title": "The Hundred Line -Last Defense Academy-",
+      "url": "https://ankergames.net/game/the-hundred-line-last-defense-academy"
+    },
+    {
+      "title": "The Hungry Lamb: Traveling in the Late Ming Dynasty",
+      "url": "https://ankergames.net/game/the-hungry-lamb-traveling-in-the-late-ming-dynasty"
+    },
+    {
+      "title": "The Incident at Galley House",
+      "url": "https://ankergames.net/game/the-incident-at-galley-house"
+    },
+    {
+      "title": "The Infected",
+      "url": "https://ankergames.net/game/the-infected"
+    },
+    {
+      "title": "The Invincible",
+      "url": "https://ankergames.net/game/the-invincible"
+    },
+    {
+      "title": "The Jackbox Party Pack 11",
+      "url": "https://ankergames.net/game/the-jackbox-party-pack-11"
     },
     {
       "title": "The Jackbox Party Pack 6",
       "url": "https://ankergames.net/game/the-jackbox-party-pack-6"
     },
     {
+      "title": "The Killing Antidote",
+      "url": "https://ankergames.net/game/the-killing-antidote"
+    },
+    {
+      "title": "The King is Watching",
+      "url": "https://ankergames.net/game/the-king-is-watching"
+    },
+    {
+      "title": "THE KING OF FIGHTERS XV",
+      "url": "https://ankergames.net/game/the-king-of-fighters-xv"
+    },
+    {
+      "title": "The Last Caretaker",
+      "url": "https://ankergames.net/game/the-last-caretaker"
+    },
+    {
+      "title": "The Last Faith",
+      "url": "https://ankergames.net/game/the-last-faith"
+    },
+    {
+      "title": "The Last of Us Part II Remastered",
+      "url": "https://ankergames.net/game/the-last-of-us-part-ii-remastered"
+    },
+    {
+      "title": "The Last Spell",
+      "url": "https://ankergames.net/game/the-last-spell"
+    },
+    {
+      "title": "The Last Starship",
+      "url": "https://ankergames.net/game/the-last-starship"
+    },
+    {
+      "title": "The Legend of Heroes: Trails beyond the Horizon",
+      "url": "https://ankergames.net/game/the-legend-of-heroes-trails-beyond-the-horizon"
+    },
+    {
+      "title": "The Legend of Khiimori",
+      "url": "https://ankergames.net/game/the-legend-of-khiimori"
+    },
+    {
+      "title": "The LEGO NINJAGO Movie Video Game",
+      "url": "https://ankergames.net/game/the-lego-ninjago-movie-video-game"
+    },
+    {
+      "title": "The Liar Princess and the Blind Prince",
+      "url": "https://ankergames.net/game/the-liar-princess-and-the-blind-prince"
+    },
+    {
+      "title": "The Life and Suffering of Prince Jerian",
+      "url": "https://ankergames.net/game/the-life-and-suffering-of-prince-jerian"
+    },
+    {
+      "title": "The Life and Suffering of Sir Brante",
+      "url": "https://ankergames.net/game/the-life-and-suffering-of-sir-brante"
+    },
+    {
+      "title": "The Long Dark",
+      "url": "https://ankergames.net/game/the-long-dark"
+    },
+    {
       "title": "The Lord of the Rings: War in the North",
       "url": "https://ankergames.net/game/the-lord-of-the-rings-war-in-the-north"
+    },
+    {
+      "title": "The Mermaid Mask",
+      "url": "https://ankergames.net/game/the-mermaid-mask"
+    },
+    {
+      "title": "The Messenger",
+      "url": "https://ankergames.net/game/the-messenger"
+    },
+    {
+      "title": "The Midnight Walk",
+      "url": "https://ankergames.net/game/the-midnight-walk"
+    },
+    {
+      "title": "The Mobius Machine",
+      "url": "https://ankergames.net/game/the-mobius-machine"
+    },
+    {
+      "title": "The Mortuary Assistant",
+      "url": "https://ankergames.net/game/the-mortuary-assistant"
+    },
+    {
+      "title": "The Mound: Omen of Cthulhu",
+      "url": "https://ankergames.net/game/the-mound-omen-of-cthulhu"
+    },
+    {
+      "title": "The NOexistenceN of Lilith",
+      "url": "https://ankergames.net/game/the-noexistencen-of-lilith"
+    },
+    {
+      "title": "The NOexistenceN of you AND me",
+      "url": "https://ankergames.net/game/the-noexistencen-of-you-and-me"
+    },
+    {
+      "title": "The Outer Worlds 2",
+      "url": "https://ankergames.net/game/the-outer-worlds-2"
+    },
+    {
+      "title": "The Precinct",
+      "url": "https://ankergames.net/game/the-precinct"
+    },
+    {
+      "title": "The Quarry",
+      "url": "https://ankergames.net/game/the-quarry"
+    },
+    {
+      "title": "The Riftbreaker",
+      "url": "https://ankergames.net/game/the-riftbreaker"
+    },
+    {
+      "title": "The Rise of the Golden Idol",
+      "url": "https://ankergames.net/game/the-rise-of-the-golden-idol"
+    },
+    {
+      "title": "The Roottrees are Dead",
+      "url": "https://ankergames.net/game/the-roottrees-are-dead"
+    },
+    {
+      "title": "The Sapling",
+      "url": "https://ankergames.net/game/the-sapling"
+    },
+    {
+      "title": "The Scroll of Taiwu : Beyond The Dome",
+      "url": "https://ankergames.net/game/the-scroll-of-taiwu-beyond-the-dome"
+    },
+    {
+      "title": "The Sims 2 Legacy Collection",
+      "url": "https://ankergames.net/game/the-sims-2-legacy-collection"
+    },
+    {
+      "title": "The Sinking City 2",
+      "url": "https://ankergames.net/game/the-sinking-city-2"
+    },
+    {
+      "title": "The Slormancer",
+      "url": "https://ankergames.net/game/the-slormancer"
+    },
+    {
+      "title": "The Spell Brigade",
+      "url": "https://ankergames.net/game/the-spell-brigade"
+    },
+    {
+      "title": "The Spotter: Dig or Die",
+      "url": "https://ankergames.net/game/the-spotter-dig-or-die"
+    },
+    {
+      "title": "The Stanley Parable Ultra Deluxe",
+      "url": "https://ankergames.net/game/the-stanley-parable-ultra-deluxe"
+    },
+    {
+      "title": "The Séance of Blake Manor",
+      "url": "https://ankergames.net/game/the-seance-of-blake-manor"
+    },
+    {
+      "title": "The Walking Dead",
+      "url": "https://ankergames.net/game/the-walking-dead"
+    },
+    {
+      "title": "The Walking Dead: A New Frontier",
+      "url": "https://ankergames.net/game/the-walking-dead-a-new-frontier"
+    },
+    {
+      "title": "The Walking Dead: The Final Season",
+      "url": "https://ankergames.net/game/the-walking-dead-the-final-season"
+    },
+    {
+      "title": "The Walking Trade",
+      "url": "https://ankergames.net/game/the-walking-trade"
+    },
+    {
+      "title": "The Weeping Swan: Ten Days of the City's Fall",
+      "url": "https://ankergames.net/game/the-weeping-swan-ten-days-of-the-city-s-fall"
+    },
+    {
+      "title": "The Witcher 2 Assassins of Kings Enhanced Edition",
+      "url": "https://ankergames.net/game/the-witcher-2-assassins-of-kings-enhanced-edition"
+    },
+    {
+      "title": "The Witcher Enhanced Edition Director's Cut",
+      "url": "https://ankergames.net/game/the-witcher-enhanced-edition-director-s-cut"
+    },
+    {
+      "title": "TheoTown",
+      "url": "https://ankergames.net/game/theotown"
+    },
+    {
+      "title": "They Are Billions",
+      "url": "https://ankergames.net/game/they-are-billions"
+    },
+    {
+      "title": "They Killed Your Cat",
+      "url": "https://ankergames.net/game/they-killed-your-cat"
+    },
+    {
+      "title": "Thick As Thieves",
+      "url": "https://ankergames.net/game/thick-as-thieves"
+    },
+    {
+      "title": "Third Crisis: Neon Nights",
+      "url": "https://ankergames.net/game/third-crisis-neon-nights"
+    },
+    {
+      "title": "This War of Mine",
+      "url": "https://ankergames.net/game/this-war-of-mine"
+    },
+    {
+      "title": "Thomas & Friends Wonders of Sodor",
+      "url": "https://ankergames.net/game/thomas-friends-wonders-of-sodor"
+    },
+    {
+      "title": "THRESHOLD",
+      "url": "https://ankergames.net/game/threshold"
+    },
+    {
+      "title": "Thronefall",
+      "url": "https://ankergames.net/game/thronefall"
+    },
+    {
+      "title": "Timberborn",
+      "url": "https://ankergames.net/game/timberborn"
+    },
+    {
+      "title": "Tinkerlands",
+      "url": "https://ankergames.net/game/tinkerlands"
+    },
+    {
+      "title": "Tiny Aquarium: Social Fishkeeping",
+      "url": "https://ankergames.net/game/tiny-aquarium-social-fishkeeping"
+    },
+    {
+      "title": "Tiny Bookshop",
+      "url": "https://ankergames.net/game/tiny-bookshop"
+    },
+    {
+      "title": "Tiny Bunny",
+      "url": "https://ankergames.net/game/tiny-bunny"
+    },
+    {
+      "title": "Tiny Pasture",
+      "url": "https://ankergames.net/game/tiny-pasture"
+    },
+    {
+      "title": "Tiny Rogues",
+      "url": "https://ankergames.net/game/tiny-rogues"
+    },
+    {
+      "title": "Titan Quest Anniversary Edition",
+      "url": "https://ankergames.net/game/titan-quest-anniversary-edition"
+    },
+    {
+      "title": "Titan Quest II",
+      "url": "https://ankergames.net/game/titan-quest-ii"
+    },
+    {
+      "title": "Titan Souls",
+      "url": "https://ankergames.net/game/titan-souls"
+    },
+    {
+      "title": "Titanfall 2",
+      "url": "https://ankergames.net/game/titanfall-2"
+    },
+    {
+      "title": "To Pixelia",
+      "url": "https://ankergames.net/game/to-pixelia"
+    },
+    {
+      "title": "Tokyo Xtreme Racer",
+      "url": "https://ankergames.net/game/tokyo-xtreme-racer"
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon: Future Soldier",
+      "url": "https://ankergames.net/game/tom-clancy-s-ghost-recon-future-soldier"
+    },
+    {
+      "title": "Tom Clancy’s Ghost Recon Wildlands",
+      "url": "https://ankergames.net/game/tom-clancy-s-ghost-recon-wildlands"
+    },
+    {
+      "title": "Tom Clancy’s Splinter Cell Blacklist",
+      "url": "https://ankergames.net/game/tom-clancy-s-splinter-cell-blacklist"
+    },
+    {
+      "title": "Tomb Raider IV-VI Remastered",
+      "url": "https://ankergames.net/game/tomb-raider-iv-vi-remastered"
+    },
+    {
+      "title": "Tomb Raider: Underworld",
+      "url": "https://ankergames.net/game/tomb-raider-underworld"
+    },
+    {
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "url": "https://ankergames.net/game/tony-hawk-s-pro-skater-3-4"
+    },
+    {
+      "title": "Tony Hawks Pro Skater 1+2",
+      "url": "https://ankergames.net/game/tony-hawks-pro-skater-1-2"
+    },
+    {
+      "title": "Tormented Souls 2",
+      "url": "https://ankergames.net/game/tormented-souls-2"
+    },
+    {
+      "title": "Total War ROME II",
+      "url": "https://ankergames.net/game/total-war-rome-ii"
+    },
+    {
+      "title": "Total War: NAPOLEON",
+      "url": "https://ankergames.net/game/total-war-napoleon"
+    },
+    {
+      "title": "Total War: THREE KINGDOMS",
+      "url": "https://ankergames.net/game/total-war-three-kingdoms"
     },
     {
       "title": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
       "url": "https://ankergames.net/game/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil"
     },
     {
+      "title": "Tower Dominion",
+      "url": "https://ankergames.net/game/tower-dominion"
+    },
+    {
+      "title": "Tower of Babel: Survivors of Chaos",
+      "url": "https://ankergames.net/game/tower-of-babel-survivors-of-chaos"
+    },
+    {
+      "title": "Tower Wizard",
+      "url": "https://ankergames.net/game/tower-wizard"
+    },
+    {
+      "title": "Towerborne",
+      "url": "https://ankergames.net/game/towerborne"
+    },
+    {
+      "title": "Towers of Aghasba",
+      "url": "https://ankergames.net/game/towers-of-aghasba"
+    },
+    {
+      "title": "Town to City",
+      "url": "https://ankergames.net/game/town-to-city"
+    },
+    {
+      "title": "Trailmakers",
+      "url": "https://ankergames.net/game/trailmakers"
+    },
+    {
+      "title": "Trails in the Sky 1st Chapter",
+      "url": "https://ankergames.net/game/trails-in-the-sky-1st-chapter"
+    },
+    {
+      "title": "Travellers Rest",
+      "url": "https://ankergames.net/game/travellers-rest"
+    },
+    {
+      "title": "Trepang2",
+      "url": "https://ankergames.net/game/trepang2"
+    },
+    {
+      "title": "TRIANGLE STRATEGY",
+      "url": "https://ankergames.net/game/triangle-strategy"
+    },
+    {
       "title": "Tricky Towers",
       "url": "https://ankergames.net/game/tricky-towers"
+    },
+    {
+      "title": "Truck-kun is Supporting Me from Another World?!",
+      "url": "https://ankergames.net/game/truck-kun-is-supporting-me-from-another-world"
+    },
+    {
+      "title": "TUNIC",
+      "url": "https://ankergames.net/game/tunic"
+    },
+    {
+      "title": "Turbo Dismount 2",
+      "url": "https://ankergames.net/game/turbo-dismount-2"
+    },
+    {
+      "title": "Twisted Tower",
+      "url": "https://ankergames.net/game/twisted-tower"
+    },
+    {
+      "title": "UFO 50",
+      "url": "https://ankergames.net/game/ufo-50"
+    },
+    {
+      "title": "Ugoku Sushi Bar",
+      "url": "https://ankergames.net/game/ugoku-sushi-bar"
+    },
+    {
+      "title": "Ultimate Chicken Horse",
+      "url": "https://ankergames.net/game/ultimate-chicken-horse"
+    },
+    {
+      "title": "Ultimate Epic Battle Simulator 2",
+      "url": "https://ankergames.net/game/ultimate-epic-battle-simulator-2"
+    },
+    {
+      "title": "ULTIMATE MARVEL VS. CAPCOM 3",
+      "url": "https://ankergames.net/game/ultimate-marvel-vs-capcom-3"
+    },
+    {
+      "title": "Ultimate Theater Simulator",
+      "url": "https://ankergames.net/game/ultimate-theater-simulator"
+    },
+    {
+      "title": "Ultra Street Fighter IV",
+      "url": "https://ankergames.net/game/ultra-street-fighter-iv"
+    },
+    {
+      "title": "UNBEATABLE",
+      "url": "https://ankergames.net/game/unbeatable"
+    },
+    {
+      "title": "Uncrashed : FPV Drone Simulator",
+      "url": "https://ankergames.net/game/uncrashed-fpv-drone-simulator"
+    },
+    {
+      "title": "UnderRail",
+      "url": "https://ankergames.net/game/underrail"
+    },
+    {
+      "title": "Undertale",
+      "url": "https://ankergames.net/game/undertale"
+    },
+    {
+      "title": "Unfair Flips",
+      "url": "https://ankergames.net/game/unfair-flips"
+    },
+    {
+      "title": "Universe Sandbox",
+      "url": "https://ankergames.net/game/universe-sandbox"
+    },
+    {
+      "title": "UNO",
+      "url": "https://ankergames.net/game/uno"
+    },
+    {
+      "title": "Unpacking",
+      "url": "https://ankergames.net/game/unpacking"
+    },
+    {
+      "title": "Unravel Two",
+      "url": "https://ankergames.net/game/unravel-two"
+    },
+    {
+      "title": "Untitled Goose Game",
+      "url": "https://ankergames.net/game/untitled-goose-game"
     },
     {
       "title": "Vacation Cafe Simulator",
       "url": "https://ankergames.net/game/vacation-cafe-simulator"
     },
     {
+      "title": "Valiant Hearts The Great War",
+      "url": "https://ankergames.net/game/valiant-hearts-the-great-war"
+    },
+    {
+      "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+      "url": "https://ankergames.net/game/vampire-crawlers-the-turbo-wildcard-from-vampire-survivors"
+    },
+    {
+      "title": "Vampire: The Masquerade - Bloodlines",
+      "url": "https://ankergames.net/game/vampire-the-masquerade-bloodlines"
+    },
+    {
+      "title": "Vampire: The Masquerade - Bloodlines 2",
+      "url": "https://ankergames.net/game/vampire-the-masquerade-bloodlines-2"
+    },
+    {
+      "title": "Vampires: Bloodlord Rising",
+      "url": "https://ankergames.net/game/vampires-bloodlord-rising"
+    },
+    {
+      "title": "VEIN",
+      "url": "https://ankergames.net/game/vein"
+    },
+    {
+      "title": "Vertigo 2",
+      "url": "https://ankergames.net/game/vertigo-2"
+    },
+    {
+      "title": "Victoria 3",
+      "url": "https://ankergames.net/game/victoria-3"
+    },
+    {
+      "title": "Viewfinder",
+      "url": "https://ankergames.net/game/viewfinder"
+    },
+    {
+      "title": "Visage",
+      "url": "https://ankergames.net/game/visage"
+    },
+    {
+      "title": "Viscera Cleanup Detail",
+      "url": "https://ankergames.net/game/viscera-cleanup-detail"
+    },
+    {
+      "title": "Void Crew",
+      "url": "https://ankergames.net/game/void-crew"
+    },
+    {
+      "title": "Voidling Bound",
+      "url": "https://ankergames.net/game/voidling-bound"
+    },
+    {
+      "title": "Voidtrain",
+      "url": "https://ankergames.net/game/voidtrain"
+    },
+    {
       "title": "Wanderburg",
       "url": "https://ankergames.net/game/wanderburg"
+    },
+    {
+      "title": "Wandering Sword",
+      "url": "https://ankergames.net/game/wandering-sword"
+    },
+    {
+      "title": "Wanderstop",
+      "url": "https://ankergames.net/game/wanderstop"
+    },
+    {
+      "title": "Wargroove 2",
+      "url": "https://ankergames.net/game/wargroove-2"
+    },
+    {
+      "title": "Warhammer 40,000 Boltgun",
+      "url": "https://ankergames.net/game/warhammer-40-000-boltgun"
+    },
+    {
+      "title": "Warhammer 40,000: Dawn of War - Definitive Edition",
+      "url": "https://ankergames.net/game/warhammer-40-000-dawn-of-war-definitive-edition"
+    },
+    {
+      "title": "Warhammer 40,000: Mechanicus II",
+      "url": "https://ankergames.net/game/warhammer-40-000-mechanicus-ii"
+    },
+    {
+      "title": "Warhammer 40,000: Rogue Trader",
+      "url": "https://ankergames.net/game/warhammer-40-000-rogue-trader"
+    },
+    {
+      "title": "Wartales",
+      "url": "https://ankergames.net/game/wartales"
+    },
+    {
+      "title": "Waterpark Simulator",
+      "url": "https://ankergames.net/game/waterpark-simulator"
+    },
+    {
+      "title": "We Love Katamari REROLL+ Royal Reverie",
+      "url": "https://ankergames.net/game/we-love-katamari-reroll-royal-reverie"
+    },
+    {
+      "title": "Webbed",
+      "url": "https://ankergames.net/game/webbed"
+    },
+    {
+      "title": "WEBFISHING",
+      "url": "https://ankergames.net/game/webfishing"
+    },
+    {
+      "title": "Welcome to the Game III",
+      "url": "https://ankergames.net/game/welcome-to-the-game-iii"
+    },
+    {
+      "title": "What Remains of Edith Finch",
+      "url": "https://ankergames.net/game/what-remains-of-edith-finch-2"
     },
     {
       "title": "Whiskerwood",
       "url": "https://ankergames.net/game/whiskerwood"
     },
     {
+      "title": "Whisper of the House",
+      "url": "https://ankergames.net/game/whisper-of-the-house"
+    },
+    {
+      "title": "White Knuckle",
+      "url": "https://ankergames.net/game/white-knuckle"
+    },
+    {
+      "title": "Who's at the door?",
+      "url": "https://ankergames.net/game/who-s-at-the-door"
+    },
+    {
+      "title": "Wicked Seed",
+      "url": "https://ankergames.net/game/wicked-seed"
+    },
+    {
+      "title": "Windrose",
+      "url": "https://ankergames.net/game/windrose"
+    },
+    {
+      "title": "Witchfire",
+      "url": "https://ankergames.net/game/witchfire"
+    },
+    {
+      "title": "Witchspire",
+      "url": "https://ankergames.net/game/witchspire"
+    },
+    {
+      "title": "Wizard of Legend",
+      "url": "https://ankergames.net/game/wizard-of-legend"
+    },
+    {
+      "title": "Wo Long Fallen Dynasty",
+      "url": "https://ankergames.net/game/wo-long-fallen-dynasty"
+    },
+    {
+      "title": "Wolfenstein II The New Colossus",
+      "url": "https://ankergames.net/game/wolfenstein-ii-the-new-colossus"
+    },
+    {
+      "title": "Wolfenstein The New Order",
+      "url": "https://ankergames.net/game/wolfenstein-the-new-order"
+    },
+    {
+      "title": "Wolfenstein: The Old Blood",
+      "url": "https://ankergames.net/game/wolfenstein-the-old-blood"
+    },
+    {
+      "title": "World War Z",
+      "url": "https://ankergames.net/game/world-war-z"
+    },
+    {
+      "title": "Worms W.M.D",
+      "url": "https://ankergames.net/game/worms-w-m-d"
+    },
+    {
+      "title": "Wreckfest 2",
+      "url": "https://ankergames.net/game/wreckfest-2"
+    },
+    {
+      "title": "WUCHANG: Fallen Feathers",
+      "url": "https://ankergames.net/game/wuchang-fallen-feathers"
+    },
+    {
+      "title": "WWE 2K25",
+      "url": "https://ankergames.net/game/wwe-2k25"
+    },
+    {
+      "title": "XCOM 2",
+      "url": "https://ankergames.net/game/xcom-2"
+    },
+    {
+      "title": "Xenonauts 2",
+      "url": "https://ankergames.net/game/xenonauts-2"
+    },
+    {
+      "title": "XIII - Classic",
+      "url": "https://ankergames.net/game/xiii-classic"
+    },
+    {
+      "title": "Yakuza 0",
+      "url": "https://ankergames.net/game/yakuza-0"
+    },
+    {
+      "title": "Yakuza 0 Director's Cut",
+      "url": "https://ankergames.net/game/yakuza-0-directors-cut"
+    },
+    {
+      "title": "Yakuza 3 Remastered",
+      "url": "https://ankergames.net/game/yakuza-3-remastered"
+    },
+    {
+      "title": "Yakuza 4 Remastered",
+      "url": "https://ankergames.net/game/yakuza-4-remastered"
+    },
+    {
+      "title": "Yakuza 5 Remastered",
+      "url": "https://ankergames.net/game/yakuza-5-remastered"
+    },
+    {
+      "title": "Yakuza 6 The Song of Life",
+      "url": "https://ankergames.net/game/yakuza-6-the-song-of-life"
+    },
+    {
+      "title": "Yakuza Kiwami",
+      "url": "https://ankergames.net/game/yakuza-kiwami"
+    },
+    {
+      "title": "Yakuza Kiwami 2",
+      "url": "https://ankergames.net/game/yakuza-kiwami-2"
+    },
+    {
+      "title": "Yakuza: Like a Dragon",
+      "url": "https://ankergames.net/game/yakuza-like-a-dragon"
+    },
+    {
+      "title": "YAPYAP",
+      "url": "https://ankergames.net/game/yapyap"
+    },
+    {
+      "title": "YEAH! YOU WANT “THOSE GAMES,” RIGHT?",
+      "url": "https://ankergames.net/game/those-games"
+    },
+    {
+      "title": "Yes, Your Grace",
+      "url": "https://ankergames.net/game/yes-your-grace"
+    },
+    {
+      "title": "Yes, Your Grace 2: Snowfall",
+      "url": "https://ankergames.net/game/yes-your-grace-2-snowfall"
+    },
+    {
+      "title": "Yet Another Zombie Survivors",
+      "url": "https://ankergames.net/game/yet-another-zombie-survivors"
+    },
+    {
+      "title": "Yooka-Replaylee",
+      "url": "https://ankergames.net/game/yooka-replaylee"
+    },
+    {
+      "title": "Your Only Move Is HUSTLE",
+      "url": "https://ankergames.net/game/your-only-move-is-hustle"
+    },
+    {
+      "title": "Youtubers Life",
+      "url": "https://ankergames.net/game/youtubers-life"
+    },
+    {
+      "title": "Youtubers Life 2",
+      "url": "https://ankergames.net/game/youtubers-life-2"
+    },
+    {
+      "title": "Ys X: Proud Nordics",
+      "url": "https://ankergames.net/game/ys-x-proud-nordics"
+    },
+    {
       "title": "Yu-Gi-Oh! Legacy of the Duelist",
       "url": "https://ankergames.net/game/yu-gi-oh-legacy-of-the-duelist"
+    },
+    {
+      "title": "Yunyun Syndrome!? Rhythm Psychosis",
+      "url": "https://ankergames.net/game/yunyun-syndrome-rhythm-psychosis"
+    },
+    {
+      "title": "Zero Escape: The Nonary Games",
+      "url": "https://ankergames.net/game/zero-escape-the-nonary-games"
+    },
+    {
+      "title": "Zero Hour",
+      "url": "https://ankergames.net/game/zero-hour"
+    },
+    {
+      "title": "ZERO PARADES: For Dead Spies",
+      "url": "https://ankergames.net/game/zero-parades-for-dead-spies"
+    },
+    {
+      "title": "ZERO Sievert",
+      "url": "https://ankergames.net/game/zero-sievert"
+    },
+    {
+      "title": "Zombieville USA 3D",
+      "url": "https://ankergames.net/game/zombieville-usa-3d"
+    },
+    {
+      "title": "コイカツ！ / Koikatsu Party",
+      "url": "https://ankergames.net/game/koikatsu-party"
     }
   ]
 }
