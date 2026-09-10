@@ -1,118 +1,97 @@
-from playwright.sync_api import sync_playwright
+import requests
+from bs4 import BeautifulSoup
 
 URL = "https://ankergames.net/games-list"
 
-with sync_playwright() as p:
-
-    browser = p.chromium.launch(
-        headless=True
+headers = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/140.0 Safari/537.36"
     )
+}
 
-    page = browser.new_page()
+response = requests.get(
+    URL,
+    headers=headers,
+    timeout=30
+)
 
-    print("Opening page...")
+print("HTTP:", response.status_code)
+print("HTML:", len(response.text))
 
-    page.goto(
-        URL,
-        wait_until="networkidle",
-        timeout=120000
+soup = BeautifulSoup(
+    response.text,
+    "html.parser"
+)
+
+print()
+print("BUTTONS:")
+
+buttons = soup.find_all("button")
+
+print(
+    "Number of buttons:",
+    len(buttons)
+)
+
+for i, button in enumerate(buttons):
+
+    text = button.get_text(
+        " ",
+        strip=True
     )
-
-    print("Page loaded.")
-
-    print()
-    print("PAGE TITLE:")
-    print(page.title())
-
-    print()
-    print("BUTTONS:")
-
-    buttons = page.locator("button")
 
     print(
-        "Number of buttons:",
-        buttons.count()
+        f"BUTTON {i}: {text!r}"
     )
 
-    for i in range(
-        min(buttons.count(), 100)
-    ):
+print()
+print("LOAD MORE SEARCH:")
 
-        try:
+text = soup.get_text(
+    " ",
+    strip=True
+)
 
-            text = buttons.nth(i).inner_text(
-                timeout=2000
-            )
+position = text.lower().find(
+    "load more"
+)
 
-            print(
-                f"BUTTON {i}: {text!r}"
-            )
+if position >= 0:
 
-        except:
-            pass
-
-    print()
-    print("LINKS CONTAINING GAME:")
-
-    links = page.locator("a")
-
-    found = 0
-
-    for i in range(
-        min(links.count(), 500)
-    ):
-
-        try:
-
-            href = links.nth(i).get_attribute(
-                "href"
-            )
-
-            if href and "/game/" in href:
-
-                text = links.nth(i).inner_text(
-                    timeout=1000
-                )
-
-                print(
-                    f"{href} -> {text[:100]!r}"
-                )
-
-                found += 1
-
-        except:
-            pass
-
-    print()
     print(
-        "GAME LINKS FOUND:",
-        found
+        text[
+            max(0, position - 500):
+            position + 1000
+        ]
     )
 
-    print()
-    print("TEXT AROUND LOAD MORE:")
+else:
 
-    body_text = page.locator(
-        "body"
-    ).inner_text()
-
-    position = body_text.lower().find(
-        "load more"
+    print(
+        "Load More not found"
     )
 
-    if position >= 0:
+print()
+print("LIVEWIRE ELEMENTS:")
 
-        print(
-            body_text[
-                max(0, position - 300):
-                position + 500
-            ]
-        )
+for element in soup.find_all(
+    attrs={"wire:click": True}
+):
 
-    else:
+    print(
+        "wire:click =",
+        element.get("wire:click")
+    )
 
-        print(
-            "Load More text not found."
-        )
+    print(
+        "text =",
+        element.get_text(
+            " ",
+            strip=True
+        )[:200]
+    )
 
-    browser.close()
+print()
+print("DONE")
