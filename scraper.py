@@ -1,14 +1,8 @@
-import json
-import re
-from datetime import datetime, timezone
-from urllib.parse import urljoin
-
 import requests
 from bs4 import BeautifulSoup
 
 
-BASE_URL = "https://ankergames.net"
-GAMES_URL = f"{BASE_URL}/games-list"
+URL = "https://ankergames.net/games-list"
 
 HEADERS = {
     "User-Agent": (
@@ -19,159 +13,186 @@ HEADERS = {
 }
 
 
-def clean(text):
-    if not text:
-        return ""
+def main():
 
-    return re.sub(
-        r"\s+",
-        " ",
-        text
-    ).strip()
+    session = requests.Session()
 
+    response = session.get(
+        URL,
+        headers=HEADERS,
+        timeout=60
+    )
 
-def extract_games(html):
+    print("HTTP:", response.status_code)
+    print("HTML:", len(response.text))
+
+    response.raise_for_status()
 
     soup = BeautifulSoup(
-        html,
+        response.text,
         "html.parser"
     )
 
-    games = {}
+    print()
+    print("=" * 60)
+    print("LIVEWIRE COMPONENTS")
+    print("=" * 60)
 
-    # Buscar cualquier enlace que contenga /game/
+    components = soup.find_all(
+        attrs={"wire:id": True}
+    )
+
+    print(
+        "Components:",
+        len(components)
+    )
+
+    for i, component in enumerate(
+        components
+    ):
+
+        print()
+        print(
+            f"COMPONENT {i}"
+        )
+
+        print(
+            "wire:id:",
+            component.get("wire:id")
+        )
+
+        print(
+            "wire:snapshot:",
+            bool(
+                component.get(
+                    "wire:snapshot"
+                )
+            )
+        )
+
+        print(
+            "HTML tag:",
+            component.name
+        )
+
+    print()
+    print("=" * 60)
+    print("LOAD MORE")
+    print("=" * 60)
+
+    # Buscar cualquier elemento que contenga
+    # "Load More Games".
+    for element in soup.find_all():
+
+        text = element.get_text(
+            " ",
+            strip=True
+        )
+
+        if (
+            "Load More Games"
+            in text
+        ):
+
+            print()
+            print(
+                "TAG:",
+                element.name
+            )
+
+            print(
+                "TEXT:",
+                text[:300]
+            )
+
+            print(
+                "ATTRIBUTES:"
+            )
+
+            for key, value in (
+                element.attrs.items()
+            ):
+
+                print(
+                    f"  {key}: {value}"
+                )
+
+            print("-" * 40)
+
+    print()
+    print("=" * 60)
+    print("WIRE:CLICK")
+    print("=" * 60)
+
+    clickable = soup.find_all(
+        attrs={"wire:click": True}
+    )
+
+    print(
+        "wire:click elements:",
+        len(clickable)
+    )
+
+    for element in clickable:
+
+        print()
+        print(
+            "TAG:",
+            element.name
+        )
+
+        print(
+            "wire:click:",
+            element.get(
+                "wire:click"
+            )
+        )
+
+        print(
+            "TEXT:",
+            element.get_text(
+                " ",
+                strip=True
+            )[:200]
+        )
+
+    print()
+    print("=" * 60)
+    print("GAME LINKS")
+    print("=" * 60)
+
+    game_links = []
+
     for link in soup.find_all(
         "a",
         href=True
     ):
 
-        href = link["href"].strip()
+        href = link["href"]
 
-        if "/game/" not in href:
-            continue
+        if "/game/" in href:
 
-        url = urljoin(
-            BASE_URL,
-            href
-        )
-
-        title = clean(
-            link.get_text(
-                " ",
-                strip=True
-            )
-        )
-
-        # Intentar obtener título desde imagen
-        if not title:
-
-            image = link.find("img")
-
-            if image:
-
-                title = clean(
-                    image.get("alt")
-                    or image.get("title")
-                    or ""
-                )
-
-        if not title:
-            continue
-
-        game = {
-            "title": title,
-            "url": url
-        }
-
-        image = link.find("img")
-
-        if image:
-
-            image_url = (
-                image.get("src")
-                or image.get("data-src")
-                or image.get("data-lazy-src")
+            game_links.append(
+                href
             )
 
-            if image_url:
-
-                game["image"] = urljoin(
-                    BASE_URL,
-                    image_url
-                )
-
-        games[url] = game
-
-    return list(games.values())
-
-
-def main():
-
-    print(
-        "Downloading initial page..."
-    )
-
-    response = requests.get(
-        GAMES_URL,
-        headers=HEADERS,
-        timeout=60
-    )
-
-    print(
-        "HTTP:",
-        response.status_code
-    )
-
-    print(
-        "Downloaded:",
-        len(response.text),
-        "bytes"
-    )
-
-    response.raise_for_status()
-
-    games = extract_games(
-        response.text
-    )
-
-    print(
-        "Games found:",
-        len(games)
-    )
-
-    result = {
-        "source": {
-            "name": "AnkerGames",
-            "url": BASE_URL,
-            "catalog_url": GAMES_URL,
-            "updated_at": datetime.now(
-                timezone.utc
-            ).isoformat()
-        },
-        "total": len(games),
-        "games": sorted(
-            games,
-            key=lambda game:
-                game["title"].lower()
+    # Eliminar duplicados.
+    game_links = list(
+        dict.fromkeys(
+            game_links
         )
-    }
-
-    with open(
-        "games.json",
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            result,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
+    )
 
     print(
-        "games.json created successfully."
+        "Game links:",
+        len(game_links)
     )
+
+    for link in game_links[:35]:
+
+        print(
+            link
+        )
 
 
 if __name__ == "__main__":
