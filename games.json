@@ -3,9 +3,9 @@
     "name": "AnkerGames",
     "url": "https://ankergames.net",
     "catalog_url": "https://ankergames.net/games-list",
-    "updated_at": "2026-09-10T22:49:30.670453+00:00"
+    "updated_at": "2026-09-10T22:59:20.633810+00:00"
   },
-  "total": 28,
+  "total": 42,
   "games": [
     {
       "title": "Banishers: Ghosts of New Eden",
@@ -24,6 +24,10 @@
       "url": "https://ankergames.net/game/biomutant"
     },
     {
+      "title": "BOMBANANA!",
+      "url": "https://ankergames.net/game/bombanana"
+    },
+    {
       "title": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
       "url": "https://ankergames.net/game/bravely-default-flying-fairy-hd-remaster"
     },
@@ -36,8 +40,20 @@
       "url": "https://ankergames.net/game/code-vein-ii"
     },
     {
+      "title": "Crimson Moon",
+      "url": "https://ankergames.net/game/crimson-moon"
+    },
+    {
       "title": "Endoparasitic",
       "url": "https://ankergames.net/game/endoparasitic"
+    },
+    {
+      "title": "Finding Paradise",
+      "url": "https://ankergames.net/game/finding-paradise"
+    },
+    {
+      "title": "Gunner, HEAT, PC!",
+      "url": "https://ankergames.net/game/gunner-heat-pc"
     },
     {
       "title": "Halloween: The Game",
@@ -52,8 +68,20 @@
       "url": "https://ankergames.net/game/honeycomb-the-world-beyond"
     },
     {
+      "title": "Kingdom Rush Vengeance - Tower Defense",
+      "url": "https://ankergames.net/game/kingdom-rush-vengeance-tower-defense"
+    },
+    {
       "title": "Lootbound",
       "url": "https://ankergames.net/game/lootbound"
+    },
+    {
+      "title": "METAL GEAR SOLID: Peace Walker - Master Collection Version",
+      "url": "https://ankergames.net/game/metal-gear-solid-peace-walker-master-collection-version"
+    },
+    {
+      "title": "Mini Metro",
+      "url": "https://ankergames.net/game/mini-metro"
     },
     {
       "title": "Mortal Kombat 1",
@@ -72,12 +100,24 @@
       "url": "https://ankergames.net/game/persona-3-reload"
     },
     {
+      "title": "Pizza House Simulator",
+      "url": "https://ankergames.net/game/pizza-house-simulator"
+    },
+    {
       "title": "Prince of Persia The Lost Crown",
       "url": "https://ankergames.net/game/prince-of-persia-the-lost-crown"
     },
     {
+      "title": "Project Hospital",
+      "url": "https://ankergames.net/game/project-hospital"
+    },
+    {
       "title": "Scarlet Skips",
       "url": "https://ankergames.net/game/scarlet-skips"
+    },
+    {
+      "title": "Serious Sam: Shatterverse",
+      "url": "https://ankergames.net/game/serious-sam-shatterverse"
     },
     {
       "title": "Slayblade",
@@ -100,6 +140,10 @@
       "url": "https://ankergames.net/game/storage-hunter-simulator"
     },
     {
+      "title": "The Blood of Dawnwalker",
+      "url": "https://ankergames.net/game/the-blood-of-dawnwalker"
+    },
+    {
       "title": "The Jackbox Party Pack 6",
       "url": "https://ankergames.net/game/the-jackbox-party-pack-6"
     },
@@ -112,12 +156,24 @@
       "url": "https://ankergames.net/game/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil"
     },
     {
+      "title": "Tricky Towers",
+      "url": "https://ankergames.net/game/tricky-towers"
+    },
+    {
+      "title": "Vacation Cafe Simulator",
+      "url": "https://ankergames.net/game/vacation-cafe-simulator"
+    },
+    {
       "title": "Wanderburg",
       "url": "https://ankergames.net/game/wanderburg"
     },
     {
       "title": "Whiskerwood",
       "url": "https://ankergames.net/game/whiskerwood"
+    },
+    {
+      "title": "Yu-Gi-Oh! Legacy of the Duelist",
+      "url": "https://ankergames.net/game/yu-gi-oh-legacy-of-the-duelist"
     }
   ]
 }
