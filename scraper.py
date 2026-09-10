@@ -11,6 +11,7 @@ BASE_URL = "https://ankergames.net"
 GAMES_URL = f"{BASE_URL}/games-list"
 LIVEWIRE_URL = f"{BASE_URL}/livewire-be923db6/update"
 
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -38,9 +39,6 @@ def clean(text):
 
 
 def extract_games(html):
-    """
-    Extrae los juegos encontrados en un fragmento HTML.
-    """
 
     soup = BeautifulSoup(
         html,
@@ -64,7 +62,6 @@ def extract_games(html):
             href
         )
 
-        # Intentar encontrar el título
         title = clean(
             link.get_text(
                 " ",
@@ -72,7 +69,6 @@ def extract_games(html):
             )
         )
 
-        # Si no hay texto, buscarlo en la imagen
         if not title:
 
             image = link.find("img")
@@ -85,17 +81,18 @@ def extract_games(html):
                     or ""
                 )
 
-        # Si seguimos sin título, guardar igualmente
-        # la URL para poder analizarla.
         if not title:
-            title = url.rstrip("/").split("/")[-1]
+
+            title = (
+                url.rstrip("/")
+                .split("/")[-1]
+            )
 
         game = {
             "title": title,
             "url": url
         }
 
-        # Buscar imagen
         image = link.find("img")
 
         if image:
@@ -118,7 +115,7 @@ def extract_games(html):
     return games
 
 
-def get_livewire_component(html):
+def find_component(html):
 
     soup = BeautifulSoup(
         html,
@@ -134,23 +131,16 @@ def get_livewire_component(html):
     if not component:
 
         raise RuntimeError(
-            "No se encontró el componente "
-            "Livewire games-list"
+            "No se encontró games-list"
         )
-
-    snapshot = component.get(
-        "wire:snapshot"
-    )
 
     component_id = component.get(
         "wire:id"
     )
 
-    if not snapshot:
-
-        raise RuntimeError(
-            "No se encontró wire:snapshot"
-        )
+    snapshot = component.get(
+        "wire:snapshot"
+    )
 
     if not component_id:
 
@@ -158,17 +148,22 @@ def get_livewire_component(html):
             "No se encontró wire:id"
         )
 
+    if not snapshot:
+
+        raise RuntimeError(
+            "No se encontró wire:snapshot"
+        )
+
     return component_id, snapshot
 
 
-def extract_csrf_token(html):
+def get_csrf(html):
 
     soup = BeautifulSoup(
         html,
         "html.parser"
     )
 
-    # Método 1: meta csrf-token
     meta = soup.find(
         "meta",
         attrs={
@@ -185,50 +180,159 @@ def extract_csrf_token(html):
         if token:
             return token
 
-    # Método 2: input _token
-    input_token = soup.find(
+    token_input = soup.find(
         "input",
         attrs={
             "name": "_token"
         }
     )
 
-    if input_token:
+    if token_input:
 
-        token = input_token.get(
+        token = token_input.get(
             "value"
         )
 
         if token:
             return token
 
-    # Método 3: buscar _token en scripts/HTML
     match = re.search(
         r'"_token"\s*:\s*"([^"]+)"',
         html
     )
 
     if match:
+
         return match.group(1)
 
     return ""
 
 
-def extract_livewire_html(data):
+def inspect_response(data):
 
-    """
-    Livewire normalmente devuelve el HTML actualizado
-    dentro de effects.html.
-    """
+    print()
+    print(
+        "Livewire response structure:"
+    )
 
     if not isinstance(
         data,
         dict
     ):
-        return None
+
+        print(
+            "Response is not a dictionary"
+        )
+
+        return
 
     components = data.get(
         "components"
+    )
+
+    if not components:
+
+        print(
+            "No components found"
+        )
+
+        return
+
+    print(
+        "Components:",
+        len(components)
+    )
+
+    for index, component in enumerate(
+        components
+    ):
+
+        print()
+        print(
+            f"Component {index}"
+        )
+
+        if not isinstance(
+            component,
+            dict
+        ):
+
+            print(
+                "Not a dictionary"
+            )
+
+            continue
+
+        print(
+            "Keys:",
+            list(component.keys())
+        )
+
+        print(
+            "Snapshot:",
+            bool(
+                component.get(
+                    "snapshot"
+                )
+            )
+        )
+
+        print(
+            "Effects:",
+            bool(
+                component.get(
+                    "effects"
+                )
+            )
+        )
+
+        snapshot = component.get(
+            "snapshot"
+        )
+
+        if snapshot:
+
+            print(
+                "Snapshot length:",
+                len(snapshot)
+            )
+
+            try:
+
+                snapshot_data = json.loads(
+                    snapshot
+                )
+
+                data_section = (
+                    snapshot_data.get(
+                        "data",
+                        {}
+                    )
+                )
+
+                paginators = (
+                    data_section.get(
+                        "paginators"
+                    )
+                )
+
+                print(
+                    "Paginators:",
+                    paginators
+                )
+
+            except Exception:
+
+                print(
+                    "Could not decode snapshot"
+                )
+
+
+def get_html_from_response(data):
+
+    components = data.get(
+        "components",
+        []
     )
 
     if not components:
@@ -252,75 +356,38 @@ def extract_livewire_html(data):
     ):
         return None
 
-    html = effects.get(
+    return effects.get(
         "html"
     )
 
-    return html
 
+def get_snapshot_from_response(data):
 
-def extract_new_snapshot(html):
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
+    components = data.get(
+        "components",
+        []
     )
 
-    component = soup.find(
-        attrs={
-            "wire:name": "games-list"
-        }
-    )
-
-    if not component:
+    if not components:
         return None
 
-    return component.get(
-        "wire:snapshot"
-    )
+    component = components[0]
 
-
-def print_game_links(
-    html,
-    maximum=35
-):
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
-    links = []
-
-    for link in soup.find_all(
-        "a",
-        href=True
+    if not isinstance(
+        component,
+        dict
     ):
+        return None
 
-        href = link["href"]
-
-        if "/game/" not in href:
-            continue
-
-        href = urljoin(
-            BASE_URL,
-            href
-        )
-
-        if href not in links:
-            links.append(href)
-
-    print(
-        "Game links returned by Livewire:",
-        len(links)
+    snapshot = component.get(
+        "snapshot"
     )
 
-    for link in links[:maximum]:
+    if snapshot:
 
-        print(
-            "  ",
-            link
-        )
+        return snapshot
+
+    return None
 
 
 def main():
@@ -349,9 +416,9 @@ def main():
 
     response.raise_for_status()
 
-    # --------------------------------------------------
+    # -----------------------------------------
     # JUEGOS INICIALES
-    # --------------------------------------------------
+    # -----------------------------------------
 
     games = extract_games(
         response.text
@@ -362,12 +429,12 @@ def main():
         len(games)
     )
 
-    # --------------------------------------------------
-    # LIVEWIRE COMPONENT
-    # --------------------------------------------------
+    # -----------------------------------------
+    # LIVEWIRE
+    # -----------------------------------------
 
     component_id, snapshot = (
-        get_livewire_component(
+        find_component(
             response.text
         )
     )
@@ -377,28 +444,28 @@ def main():
         component_id
     )
 
-    # --------------------------------------------------
+    # -----------------------------------------
     # CSRF
-    # --------------------------------------------------
+    # -----------------------------------------
 
-    csrf_token = extract_csrf_token(
+    csrf = get_csrf(
         response.text
     )
 
     print(
         "CSRF token found:",
-        bool(csrf_token)
+        bool(csrf)
     )
 
-    if csrf_token:
+    if csrf:
 
         HEADERS[
             "X-CSRF-TOKEN"
-        ] = csrf_token
+        ] = csrf
 
-    # --------------------------------------------------
-    # PAGINACIÓN LIVEWIRE
-    # --------------------------------------------------
+    # -----------------------------------------
+    # LOAD MORE
+    # -----------------------------------------
 
     for request_number in range(
         1,
@@ -421,7 +488,7 @@ def main():
 
         payload = {
 
-            "_token": csrf_token,
+            "_token": csrf,
 
             "components": [
 
@@ -454,7 +521,7 @@ def main():
 
         try:
 
-            livewire_response = session.post(
+            lw = session.post(
                 LIVEWIRE_URL,
                 headers=HEADERS,
                 json=payload,
@@ -472,32 +539,20 @@ def main():
 
         print(
             "Livewire HTTP:",
-            livewire_response.status_code
+            lw.status_code
         )
 
-        # --------------------------------------------------
-        # ERROR HTTP
-        # --------------------------------------------------
-
-        if livewire_response.status_code != 200:
+        if lw.status_code != 200:
 
             print(
-                "Response:"
-            )
-
-            print(
-                livewire_response.text[:3000]
+                lw.text[:3000]
             )
 
             break
 
-        # --------------------------------------------------
-        # JSON
-        # --------------------------------------------------
-
         try:
 
-            data = livewire_response.json()
+            data = lw.json()
 
         except Exception as error:
 
@@ -507,40 +562,31 @@ def main():
             )
 
             print(
-                livewire_response.text[:3000]
+                lw.text[:3000]
             )
 
             break
 
-        print(
-            "Response keys:",
-            list(data.keys())
+        # -----------------------------------------
+        # INSPECCIÓN
+        # -----------------------------------------
+
+        inspect_response(
+            data
         )
 
-        # --------------------------------------------------
-        # HTML DEVUELTO
-        # --------------------------------------------------
+        # -----------------------------------------
+        # HTML
+        # -----------------------------------------
 
-        new_html = extract_livewire_html(
+        new_html = get_html_from_response(
             data
         )
 
         if not new_html:
 
             print(
-                "No se encontró effects.html"
-            )
-
-            print(
-                "Full response:"
-            )
-
-            print(
-                json.dumps(
-                    data,
-                    ensure_ascii=False,
-                    indent=2
-                )[:5000]
+                "No effects.html found."
             )
 
             break
@@ -551,43 +597,15 @@ def main():
             "bytes"
         )
 
-        # --------------------------------------------------
-        # INSPECCIÓN
-        # --------------------------------------------------
-
-        soup = BeautifulSoup(
-            new_html,
-            "html.parser"
-        )
-
-        all_links = soup.find_all(
-            "a",
-            href=True
-        )
-
-        print(
-            "Links returned by Livewire:",
-            len(all_links)
-        )
-
-        print_game_links(
-            new_html
-        )
-
-        # --------------------------------------------------
-        # EXTRAER JUEGOS
-        # --------------------------------------------------
-
-        before = len(games)
+        # -----------------------------------------
+        # JUEGOS
+        # -----------------------------------------
 
         new_games = extract_games(
             new_html
         )
 
-        print(
-            "Games extracted from response:",
-            len(new_games)
-        )
+        before = len(games)
 
         for url, game in new_games.items():
 
@@ -596,7 +614,12 @@ def main():
         added = len(games) - before
 
         print(
-            "New games added:",
+            "Games in response:",
+            len(new_games)
+        )
+
+        print(
+            "New games:",
             added
         )
 
@@ -605,12 +628,14 @@ def main():
             len(games)
         )
 
-        # --------------------------------------------------
-        # ACTUALIZAR SNAPSHOT
-        # --------------------------------------------------
+        # -----------------------------------------
+        # SNAPSHOT NUEVO
+        # -----------------------------------------
 
-        new_snapshot = extract_new_snapshot(
-            new_html
+        new_snapshot = (
+            get_snapshot_from_response(
+                data
+            )
         )
 
         if new_snapshot:
@@ -627,26 +652,60 @@ def main():
                 "Snapshot updated: False"
             )
 
-        # --------------------------------------------------
-        # FINAL
-        # --------------------------------------------------
+            print(
+                "Cannot continue pagination "
+                "without a new snapshot."
+            )
+
+            break
+
+        # -----------------------------------------
+        # COMPROBAR PÁGINA
+        # -----------------------------------------
+
+        try:
+
+            snapshot_data = json.loads(
+                snapshot
+            )
+
+            current_data = (
+                snapshot_data.get(
+                    "data",
+                    {}
+                )
+            )
+
+            paginators = (
+                current_data.get(
+                    "paginators"
+                )
+            )
+
+            print(
+                "Current paginator:",
+                paginators
+            )
+
+        except Exception:
+
+            pass
+
+        # -----------------------------------------
+        # FIN
+        # -----------------------------------------
 
         if added == 0:
 
-            print()
             print(
                 "No new games found."
             )
 
-            # No terminamos inmediatamente.
-            # Guardamos información para analizar
-            # qué está ocurriendo.
-
             break
 
-    # ------------------------------------------------------
-    # RESULTADO FINAL
-    # ------------------------------------------------------
+    # -----------------------------------------
+    # RESULTADO
+    # -----------------------------------------
 
     print()
     print(
@@ -661,10 +720,6 @@ def main():
     print(
         "=" * 50
     )
-
-    # ------------------------------------------------------
-    # JSON
-    # ------------------------------------------------------
 
     result = {
 
