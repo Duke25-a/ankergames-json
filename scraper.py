@@ -4,95 +4,42 @@ import time
 from datetime import datetime, timezone
 from urllib.parse import urljoin
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 
 BASE_URL = "https://ankergames.net"
 GAMES_URL = f"{BASE_URL}/games-list"
-LIVEWIRE_URL = f"{BASE_URL}/livewire-be923db6/update"
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/140.0 Safari/537.36"
-    ),
-    "Accept": (
-        "text/html,application/xhtml+xml,"
-        "application/xml;q=0.9,*/*;q=0.8"
-    )
-}
 
 
 def clean(value):
     if not value:
         return None
 
-    return re.sub(r"\s+", " ", str(value)).strip()
+    return re.sub(
+        r"\s+",
+        " ",
+        str(value)
+    ).strip()
 
 
-def get_initial_page(session):
-    response = session.get(
-        GAMES_URL,
-        headers=HEADERS,
-        timeout=30
+def extract_games(html):
+
+    soup = BeautifulSoup(
+        html,
+        "html.parser"
     )
 
-    print("Initial HTTP:", response.status_code)
-    print("Initial HTML:", len(response.text), "bytes")
-
-    response.raise_for_status()
-
-    return response.text
-
-
-def find_csrf_token(soup):
-    # Laravel normalmente proporciona el token aquí.
-    meta = soup.find(
-        "meta",
-        attrs={"name": "csrf-token"}
-    )
-
-    if meta and meta.get("content"):
-        return meta["content"]
-
-    # Fallback: input hidden
-    token_input = soup.find(
-        "input",
-        attrs={"name": "_token"}
-    )
-
-    if token_input and token_input.get("value"):
-        return token_input["value"]
-
-    return None
-
-
-def find_livewire_component(soup):
-    element = soup.find(
-        attrs={"wire:snapshot": True}
-    )
-
-    if not element:
-        return None, None
-
-    return (
-        element.get("wire:snapshot"),
-        element.get("wire:id")
-    )
-
-
-def extract_games(soup):
     games = {}
 
-    # Buscar /game/ independientemente de la
-    # estructura exacta de la tarjeta.
-    for a in soup.find_all("a", href=True):
+    for a in soup.find_all(
+        "a",
+        href=True
+    ):
 
-        href = a.get("href", "").strip()
+        href = a["href"].strip()
 
-        match = re.search(
+        match = re.match(
             r"^/game/([^/?#]+)",
             href
         )
@@ -100,13 +47,18 @@ def extract_games(soup):
         if not match:
             continue
 
-        url = urljoin(BASE_URL, href)
-
-        title = clean(
-            a.get_text(" ", strip=True)
+        url = urljoin(
+            BASE_URL,
+            href
         )
 
-        # Si el enlace no tiene texto, utilizar alt/title.
+        title = clean(
+            a.get_text(
+                " ",
+                strip=True
+            )
+        )
+
         if not title:
 
             img = a.find("img")
@@ -146,226 +98,136 @@ def extract_games(soup):
     return games
 
 
-def load_more(
-    session,
-    snapshot,
-    csrf_token
-):
-
-    payload = {
-        "_token": csrf_token,
-        "components": [
-            {
-                "snapshot": snapshot,
-                "updates": {},
-                "calls": [
-                    {
-                        "method": "loadMoreGames",
-                        "params": [],
-                        "metadata": {}
-                    }
-                ]
-            }
-        ]
-    }
-
-    headers = {
-        **HEADERS,
-        "Accept": "*/*",
-        "Content-Type": "application/json",
-        "X-Livewire": "1",
-        "Referer": GAMES_URL,
-        "Origin": BASE_URL,
-        "X-Requested-With": "XMLHttpRequest"
-    }
-
-    response = session.post(
-        LIVEWIRE_URL,
-        headers=headers,
-        json=payload,
-        timeout=30
-    )
-
-    print(
-        "Livewire HTTP:",
-        response.status_code
-    )
-
-    if response.status_code != 200:
-
-        print(
-            "Response:",
-            response.text[:500]
-        )
-
-    response.raise_for_status()
-
-    return response.json()
-
-
-def parse_response(data):
-
-    games = {}
-    new_snapshot = None
-
-    if not isinstance(data, dict):
-        return games, new_snapshot
-
-    components = data.get(
-        "components",
-        []
-    )
-
-    for component in components:
-
-        effects = component.get(
-            "effects",
-            {}
-        )
-
-        html = effects.get("html")
-
-        if html:
-
-            soup = BeautifulSoup(
-                html,
-                "html.parser"
-            )
-
-            found = extract_games(
-                soup
-            )
-
-            games.update(found)
-
-        if component.get("snapshot"):
-            new_snapshot = component[
-                "snapshot"
-            ]
-
-    return games, new_snapshot
-
-
 def main():
 
-    session = requests.Session()
+    print("Starting browser...")
 
-    print("Downloading initial page...")
+    with sync_playwright() as p:
 
-    html = get_initial_page(session)
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
-    csrf_token = find_csrf_token(
-        soup
-    )
-
-    print(
-        "CSRF token found:",
-        bool(csrf_token)
-    )
-
-    if not csrf_token:
-
-        raise RuntimeError(
-            "CSRF token was not found."
+        browser = p.chromium.launch(
+            headless=True
         )
 
-    snapshot, component_id = (
-        find_livewire_component(soup)
-    )
-
-    print(
-        "Livewire snapshot found:",
-        bool(snapshot)
-    )
-
-    print(
-        "Component ID:",
-        component_id
-    )
-
-    if not snapshot:
-
-        raise RuntimeError(
-            "Livewire snapshot was not found."
-        )
-
-    games = extract_games(soup)
-
-    print(
-        "Initial games:",
-        len(games)
-    )
-
-    max_requests = 100
-
-    for number in range(
-        max_requests
-    ):
-
-        print()
-        print(
-            f"Loading more "
-            f"({number + 1}/{max_requests})..."
-        )
-
-        try:
-
-            data = load_more(
-                session,
-                snapshot,
-                csrf_token
-            )
-
-            new_games, new_snapshot = (
-                parse_response(data)
-            )
-
-        except Exception as exc:
-
-            print(
-                "Livewire error:",
-                exc
-            )
-
-            break
-
-        before = len(games)
-
-        games.update(
-            new_games
-        )
-
-        added = (
-            len(games) - before
+        page = browser.new_page(
+            viewport={
+                "width": 1440,
+                "height": 1000
+            }
         )
 
         print(
-            "New games:",
-            added
+            "Opening:",
+            GAMES_URL
+        )
+
+        page.goto(
+            GAMES_URL,
+            wait_until="networkidle",
+            timeout=120000
         )
 
         print(
-            "Total games:",
+            "Page loaded."
+        )
+
+        games = extract_games(
+            page.content()
+        )
+
+        print(
+            "Initial games:",
             len(games)
         )
 
-        if new_snapshot:
-            snapshot = new_snapshot
+        # Intentamos hasta 100 cargas.
+        for i in range(100):
 
-        if added == 0:
-
-            print(
-                "No new games returned."
+            # Buscar botón por texto.
+            button = page.get_by_text(
+                "Load More Games",
+                exact=True
             )
 
-            break
+            count = button.count()
 
-        time.sleep(1)
+            if count == 0:
+
+                print(
+                    "Load More Games button "
+                    "not found."
+                )
+
+                break
+
+            if not button.first.is_visible():
+
+                print(
+                    "Load More Games button "
+                    "is not visible."
+                )
+
+                break
+
+            before = len(games)
+
+            print()
+            print(
+                f"Loading more "
+                f"({i + 1}/100)..."
+            )
+
+            try:
+
+                button.first.click(
+                    timeout=30000
+                )
+
+            except Exception as exc:
+
+                print(
+                    "Click error:",
+                    exc
+                )
+
+                break
+
+            # Esperar a que Livewire termine.
+            page.wait_for_timeout(
+                2500
+            )
+
+            # Extraer todo el DOM actual.
+            current = extract_games(
+                page.content()
+            )
+
+            games.update(
+                current
+            )
+
+            added = (
+                len(games) - before
+            )
+
+            print(
+                "New games:",
+                added
+            )
+
+            print(
+                "Total games:",
+                len(games)
+            )
+
+            if added == 0:
+
+                print(
+                    "No new games."
+                )
+
+                break
+
+        browser.close()
 
     result = {
         "source": {
@@ -379,8 +241,8 @@ def main():
         "total": len(games),
         "games": sorted(
             games.values(),
-            key=lambda game:
-                game["title"].lower()
+            key=lambda x:
+                x["title"].lower()
         )
     }
 
@@ -388,11 +250,11 @@ def main():
         "games.json",
         "w",
         encoding="utf-8"
-    ) as file:
+    ) as f:
 
         json.dump(
             result,
-            file,
+            f,
             ensure_ascii=False,
             indent=2
         )
