@@ -3,8 +3,121 @@
     "name": "AnkerGames",
     "url": "https://ankergames.net",
     "catalog_url": "https://ankergames.net/games-list",
-    "updated_at": "2026-09-10T21:54:10.799878+00:00"
+    "updated_at": "2026-09-10T21:58:39.606395+00:00"
   },
-  "total": 0,
-  "games": []
+  "total": 28,
+  "games": [
+    {
+      "title": "Banishers: Ghosts of New Eden",
+      "url": "https://ankergames.net/game/banishers-ghosts-of-new-eden"
+    },
+    {
+      "title": "Beholder 3",
+      "url": "https://ankergames.net/game/beholder-3"
+    },
+    {
+      "title": "Being a DIK",
+      "url": "https://ankergames.net/game/being-a-dik"
+    },
+    {
+      "title": "BIOMUTANT",
+      "url": "https://ankergames.net/game/biomutant"
+    },
+    {
+      "title": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+      "url": "https://ankergames.net/game/bravely-default-flying-fairy-hd-remaster"
+    },
+    {
+      "title": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "url": "https://ankergames.net/game/captain-tsubasa-2-world-fighters"
+    },
+    {
+      "title": "CODE VEIN II",
+      "url": "https://ankergames.net/game/code-vein-ii"
+    },
+    {
+      "title": "Endoparasitic",
+      "url": "https://ankergames.net/game/endoparasitic"
+    },
+    {
+      "title": "Halloween: The Game",
+      "url": "https://ankergames.net/game/halloween-the-game"
+    },
+    {
+      "title": "Homefront: The Revolution",
+      "url": "https://ankergames.net/game/homefront-the-revolution"
+    },
+    {
+      "title": "Honeycomb: The World Beyond",
+      "url": "https://ankergames.net/game/honeycomb-the-world-beyond"
+    },
+    {
+      "title": "Lootbound",
+      "url": "https://ankergames.net/game/lootbound"
+    },
+    {
+      "title": "Mortal Kombat 1",
+      "url": "https://ankergames.net/game/mortal-kombat-1"
+    },
+    {
+      "title": "NBA 2K27",
+      "url": "https://ankergames.net/game/nba-2k27"
+    },
+    {
+      "title": "Octodad: Dadliest Catch",
+      "url": "https://ankergames.net/game/octodad-dadliest-catch"
+    },
+    {
+      "title": "Persona 3 Reload",
+      "url": "https://ankergames.net/game/persona-3-reload"
+    },
+    {
+      "title": "Prince of Persia The Lost Crown",
+      "url": "https://ankergames.net/game/prince-of-persia-the-lost-crown"
+    },
+    {
+      "title": "Scarlet Skips",
+      "url": "https://ankergames.net/game/scarlet-skips"
+    },
+    {
+      "title": "Slayblade",
+      "url": "https://ankergames.net/game/slayblade"
+    },
+    {
+      "title": "SOULCALIBUR VI",
+      "url": "https://ankergames.net/game/soulcalibur-vi"
+    },
+    {
+      "title": "SpeedRunners 2: King of Speed",
+      "url": "https://ankergames.net/game/speedrunners-2-king-of-speed"
+    },
+    {
+      "title": "Star Wars Outlaws",
+      "url": "https://ankergames.net/game/star-wars-outlaws"
+    },
+    {
+      "title": "Storage Hunter Simulator",
+      "url": "https://ankergames.net/game/storage-hunter-simulator"
+    },
+    {
+      "title": "The Jackbox Party Pack 6",
+      "url": "https://ankergames.net/game/the-jackbox-party-pack-6"
+    },
+    {
+      "title": "The Lord of the Rings: War in the North",
+      "url": "https://ankergames.net/game/the-lord-of-the-rings-war-in-the-north"
+    },
+    {
+      "title": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
+      "url": "https://ankergames.net/game/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil"
+    },
+    {
+      "title": "Wanderburg",
+      "url": "https://ankergames.net/game/wanderburg"
+    },
+    {
+      "title": "Whiskerwood",
+      "url": "https://ankergames.net/game/whiskerwood"
+    }
+  ]
 }
