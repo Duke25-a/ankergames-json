@@ -1,0 +1,21 @@
+
+{
+  "source": {
+    "name": "AnkerGames",
+    "url": "https://ankergames.net/",
+    "updated_at": "2026-09-10"
+  },
+  "games": [
+    {
+      "title": "Prince of Persia The Lost Crown",
+      "slug": "prince-of-persia-the-lost-crown",
+      "platform": "PC",
+      "release_year": 2024,
+      "version": "1.4.3",
+      "genre": ["Action"],
+      "size": null,
+      "image": null,
+      "url": null
+    }
+  ]
+}
