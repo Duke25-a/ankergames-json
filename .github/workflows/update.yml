@@ -1,45 +1,50 @@
-name: Update AnkerGames JSON
+name: Actualizar ankergames.json diariamente
 
 on:
   schedule:
-    - cron: "0 6 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    # Se ejecuta todos los días a las 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña "Actions" en GitHub
 
 jobs:
-  update:
+  update-data:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Necesario para poder guardar los cambios en el repositorio
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v6
+      - name: Configurar entorno de Node.js o Python (opcional si necesitas procesar datos)
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: '20'
 
-      - name: Install dependencies
+      - name: Ejecutar script de actualización
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          # Aquí puedes poner un script en Node.js, Python o comandos bash para modificar tu ankergames.json
+          # Ejemplo rápido usando Node.js para actualizar una fecha o contenido:
+          node -e '
+            const fs = require("fs");
+            const file = "ankergames.json";
+            
+            let data = {};
+            if (fs.existsSync(file)) {
+              data = JSON.parse(fs.readFileSync(file, "utf8"));
+            }
+            
+            // MODIFICA AQUÍ LOS DATOS QUE NECESITES:
+            data.ultimaActualizacion = new Date().toISOString();
+            
+            fs.writeFileSync(file, JSON.stringify(data, null, 2));
+          '
 
-      - name: Run scraper
+      - name: Guardar y subir cambios al repositorio
         run: |
-          python scraper.py
-
-      - name: Commit JSON changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
           git add ankergames.json
-
-          if git diff --cached --quiet; then
-            echo "No changes detected."
-          else
-            git commit -m "Update AnkerGames JSON"
-            git push
-          fi
+          git commit -m "Actualización automática diaria: ankergames.json" || echo "No hay cambios para confirmar"
+          git push
