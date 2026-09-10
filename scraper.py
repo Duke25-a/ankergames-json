@@ -18,67 +18,97 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    "Accept": (
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,*/*;q=0.8"
+    )
 }
 
 
 def clean(value):
     if not value:
         return None
+
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
-def get_page(session):
+def get_initial_page(session):
     response = session.get(
         GAMES_URL,
         headers=HEADERS,
         timeout=30
     )
 
+    print("Initial HTTP:", response.status_code)
+    print("Initial HTML:", len(response.text), "bytes")
+
     response.raise_for_status()
 
     return response.text
 
 
-def find_livewire_component(html):
-    soup = BeautifulSoup(html, "html.parser")
+def find_csrf_token(soup):
+    # Laravel normalmente proporciona el token aquí.
+    meta = soup.find(
+        "meta",
+        attrs={"name": "csrf-token"}
+    )
 
-    # Livewire 3/4 normalmente coloca el snapshot
-    # en wire:snapshot.
-    element = soup.find(attrs={"wire:snapshot": True})
+    if meta and meta.get("content"):
+        return meta["content"]
 
-    if element:
-        snapshot = element.get("wire:snapshot")
-        component_id = element.get("wire:id")
+    # Fallback: input hidden
+    token_input = soup.find(
+        "input",
+        attrs={"name": "_token"}
+    )
 
-        return snapshot, component_id
+    if token_input and token_input.get("value"):
+        return token_input["value"]
 
-    # Compatibilidad con versiones/variantes que usan wire:initial-data
-    element = soup.find(attrs={"wire:initial-data": True})
-
-    if element:
-        return element.get("wire:initial-data"), element.get("wire:id")
-
-    return None, None
+    return None
 
 
-def extract_games_from_html(html):
-    soup = BeautifulSoup(html, "html.parser")
+def find_livewire_component(soup):
+    element = soup.find(
+        attrs={"wire:snapshot": True}
+    )
 
+    if not element:
+        return None, None
+
+    return (
+        element.get("wire:snapshot"),
+        element.get("wire:id")
+    )
+
+
+def extract_games(soup):
     games = {}
 
+    # Buscar /game/ independientemente de la
+    # estructura exacta de la tarjeta.
     for a in soup.find_all("a", href=True):
 
         href = a.get("href", "").strip()
 
-        if not re.match(r"^/game/[^/]+/?$", href):
+        match = re.search(
+            r"^/game/([^/?#]+)",
+            href
+        )
+
+        if not match:
             continue
 
         url = urljoin(BASE_URL, href)
 
-        title = clean(a.get_text(" ", strip=True))
+        title = clean(
+            a.get_text(" ", strip=True)
+        )
 
+        # Si el enlace no tiene texto, utilizar alt/title.
         if not title:
+
             img = a.find("img")
 
             if img:
@@ -98,6 +128,7 @@ def extract_games_from_html(html):
         img = a.find("img")
 
         if img:
+
             src = (
                 img.get("src")
                 or img.get("data-src")
@@ -105,43 +136,24 @@ def extract_games_from_html(html):
             )
 
             if src:
-                game["image"] = urljoin(BASE_URL, src)
+                game["image"] = urljoin(
+                    BASE_URL,
+                    src
+                )
 
         games[url] = game
 
     return games
 
 
-def extract_games_from_response(data):
-    """
-    Livewire devuelve efectos HTML.
-    Intentamos localizar HTML nuevo dentro
-    de los efectos de la respuesta.
-    """
+def load_more(
+    session,
+    snapshot,
+    csrf_token
+):
 
-    games = {}
-
-    if not isinstance(data, dict):
-        return games
-
-    components = data.get("components", [])
-
-    for component in components:
-
-        effects = component.get("effects", {})
-
-        html = effects.get("html")
-
-        if html:
-            found = extract_games_from_html(html)
-            games.update(found)
-
-    return games
-
-
-def load_more(session, snapshot, component_id):
     payload = {
-        "_token": None,
+        "_token": csrf_token,
         "components": [
             {
                 "snapshot": snapshot,
@@ -157,39 +169,79 @@ def load_more(session, snapshot, component_id):
         ]
     }
 
+    headers = {
+        **HEADERS,
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "X-Livewire": "1",
+        "Referer": GAMES_URL,
+        "Origin": BASE_URL,
+        "X-Requested-With": "XMLHttpRequest"
+    }
+
     response = session.post(
         LIVEWIRE_URL,
-        headers={
-            **HEADERS,
-            "Accept": "*/*",
-            "Content-Type": "application/json",
-            "X-Livewire": "1",
-            "Referer": GAMES_URL,
-            "Origin": BASE_URL
-        },
+        headers=headers,
         json=payload,
         timeout=30
     )
 
-    print("Livewire HTTP:", response.status_code)
+    print(
+        "Livewire HTTP:",
+        response.status_code
+    )
+
+    if response.status_code != 200:
+
+        print(
+            "Response:",
+            response.text[:500]
+        )
 
     response.raise_for_status()
 
     return response.json()
 
 
-def parse_livewire_response(data):
-    games = extract_games_from_response(data)
+def parse_response(data):
 
+    games = {}
     new_snapshot = None
 
-    components = data.get("components", [])
+    if not isinstance(data, dict):
+        return games, new_snapshot
+
+    components = data.get(
+        "components",
+        []
+    )
 
     for component in components:
-        new_snapshot = component.get("snapshot")
 
-        if new_snapshot:
-            break
+        effects = component.get(
+            "effects",
+            {}
+        )
+
+        html = effects.get("html")
+
+        if html:
+
+            soup = BeautifulSoup(
+                html,
+                "html.parser"
+            )
+
+            found = extract_games(
+                soup
+            )
+
+            games.update(found)
+
+        if component.get("snapshot"):
+            new_snapshot = component[
+                "snapshot"
+            ]
 
     return games, new_snapshot
 
@@ -200,34 +252,65 @@ def main():
 
     print("Downloading initial page...")
 
-    html = get_page(session)
+    html = get_initial_page(session)
 
-    print("Initial HTML:", len(html), "bytes")
+    soup = BeautifulSoup(
+        html,
+        "html.parser"
+    )
 
-    games = extract_games_from_html(html)
+    csrf_token = find_csrf_token(
+        soup
+    )
 
-    print("Initial games:", len(games))
+    print(
+        "CSRF token found:",
+        bool(csrf_token)
+    )
 
-    snapshot, component_id = find_livewire_component(html)
+    if not csrf_token:
 
-    if not snapshot:
         raise RuntimeError(
-            "Could not find Livewire snapshot."
+            "CSRF token was not found."
         )
 
-    print("Livewire snapshot found.")
+    snapshot, component_id = (
+        find_livewire_component(soup)
+    )
 
-    print("Component ID:", component_id)
+    print(
+        "Livewire snapshot found:",
+        bool(snapshot)
+    )
 
-    # Repetimos hasta que Livewire deje de devolver juegos.
+    print(
+        "Component ID:",
+        component_id
+    )
+
+    if not snapshot:
+
+        raise RuntimeError(
+            "Livewire snapshot was not found."
+        )
+
+    games = extract_games(soup)
+
+    print(
+        "Initial games:",
+        len(games)
+    )
+
     max_requests = 100
 
-    for i in range(max_requests):
+    for number in range(
+        max_requests
+    ):
 
         print()
         print(
-            f"Loading more games "
-            f"(request {i + 1}/{max_requests})..."
+            f"Loading more "
+            f"({number + 1}/{max_requests})..."
         )
 
         try:
@@ -235,33 +318,51 @@ def main():
             data = load_more(
                 session,
                 snapshot,
-                component_id
+                csrf_token
+            )
+
+            new_games, new_snapshot = (
+                parse_response(data)
             )
 
         except Exception as exc:
 
-            print("Livewire error:", exc)
-            break
+            print(
+                "Livewire error:",
+                exc
+            )
 
-        new_games, new_snapshot = parse_livewire_response(data)
+            break
 
         before = len(games)
 
-        games.update(new_games)
+        games.update(
+            new_games
+        )
 
-        added = len(games) - before
+        added = (
+            len(games) - before
+        )
 
-        print("New games:", added)
-        print("Total games:", len(games))
+        print(
+            "New games:",
+            added
+        )
+
+        print(
+            "Total games:",
+            len(games)
+        )
 
         if new_snapshot:
             snapshot = new_snapshot
 
         if added == 0:
+
             print(
-                "No more games returned. "
-                "Stopping."
+                "No new games returned."
             )
+
             break
 
         time.sleep(1)
@@ -278,7 +379,8 @@ def main():
         "total": len(games),
         "games": sorted(
             games.values(),
-            key=lambda x: x["title"].lower()
+            key=lambda game:
+                game["title"].lower()
         )
     }
 
@@ -297,8 +399,13 @@ def main():
 
     print()
     print("=" * 50)
-    print(f"FINAL TOTAL: {len(games)}")
-    print("games.json created.")
+    print(
+        "FINAL TOTAL:",
+        len(games)
+    )
+    print(
+        "games.json created."
+    )
     print("=" * 50)
 
 
