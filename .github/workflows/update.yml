@@ -1,8 +1,10 @@
-name: Update games JSON
+name: Update AnkerGames JSON
 
 on:
   schedule:
+    # Todos los días a las 06:00 UTC
     - cron: "0 6 * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -15,10 +17,10 @@ jobs:
     steps:
 
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -31,13 +33,16 @@ jobs:
         run: |
           python scraper.py
 
-      - name: Save changes
+      - name: Commit updated JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add games.json
+          git add ankergames.json
 
-          git diff --cached --quiet || git commit -m "Update games.json"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "Update AnkerGames JSON"
+            git push
+          fi
